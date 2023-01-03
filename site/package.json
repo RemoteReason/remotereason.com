@@ -11,6 +11,7 @@
 	},
 	"dependencies": {
 		"@elegantstack/gatsby-theme-flexiblocks": "*",
+		"@elegantstack/gatsby-theme-flexiblog-minimal-v2": "*",
 		"gatsby": "^4.14.1",
 		"gatsby-plugin-manifest": "^5.3.1",
 		"react": "^18.1.0",

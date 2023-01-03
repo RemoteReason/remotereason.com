@@ -23,6 +23,7 @@ import Footer from '@solid-ui-blocks/Footer/Block01'
 import { normalizeBlockContentNodes } from '@blocks-helpers'
 import theme from './_theme'
 import styles from './_styles'
+import WithRecentPosts from '@solid-ui-blocks/WithRecentPosts'
 
 const IndexPage = props => {
   const { allBlockContent } = props.data
@@ -73,7 +74,9 @@ const IndexPage = props => {
       </Container>
       <Divider space='5' />
       <Divider space='5' />
-      <Blog content={content['latest-blogs']} />
+      <WithRecentPosts>
+        <Blog content={content['latest-blogs']} />
+      </WithRecentPosts>
       <Divider space='5' />
       <Footer content={content['footer']} />
     </Layout>

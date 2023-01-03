@@ -76,7 +76,7 @@
           ]
         },
         {
-          "text": "Pages",
+          "text": "Services",
           "variant": "links.nav-dark",
           "type": "SUB",
           "collection": [
@@ -291,6 +291,12 @@
               }
             }
           ]
+        },
+        {
+          "text": "Blog",
+          "type": "PAGE",
+          "link": "/blog",
+          "variant": "links.nav-dark"
         }
       ]
     },
