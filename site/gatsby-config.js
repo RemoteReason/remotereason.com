@@ -26,15 +26,10 @@ module.exports = {
       resolve: '@elegantstack/gatsby-theme-flexiblog-minimal-v2',
       options: {
         // Add theme options here. Check documentation for available options.
-        siteUrl: process.env.URL || process.env.VERCEL_URL
-      }
-    },
-    {
-      // ATTENTION: Match the theme name with the theme you installed
-      resolve: '@elegantstack/gatsby-theme-flexiblog-minimal-v2',
-      options: {
+        siteUrl: process.env.URL || process.env.VERCEL_URL,
         // ATTENTION: Blog will be created on this path
         basePath: '/blog/'
+
       }
     },
     "gatsby-plugin-image",
