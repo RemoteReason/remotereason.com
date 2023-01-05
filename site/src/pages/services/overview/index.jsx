@@ -9,6 +9,8 @@ import Gallery from '@solid-ui-blocks/Blog/Block01'
 import Contact from '@solid-ui-blocks/CallToAction/Block02'
 import Footer from '@solid-ui-blocks/Footer/Block01'
 import { normalizeBlockContentNodes } from '@blocks-helpers'
+import { Container } from 'theme-ui'
+import styles from './_styles'
 
 const Services03 = props => {
   const { allBlockContent } = props.data
@@ -20,8 +22,10 @@ const Services03 = props => {
       {/* Blocks */}
       <Header content={content['header']} />
       <Divider space='5' />
-      <Content content={content['services-intro']} />
-      <Gallery content={content['services']} />
+      <Container sx={styles.heroContainer}>
+        <Content content={content['services-intro']} />
+        <Gallery content={content['services']} />
+      </Container>
       <Divider space='4' />
       <Contact content={content['cta']} />
       <Divider space='5' />

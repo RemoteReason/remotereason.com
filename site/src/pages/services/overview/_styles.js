@@ -5,7 +5,7 @@
  *
  */
 
-import tornado from './assets/tornado-pattern.svg'
+import pattern from "../../../../content/assets/shared/dot-pattern.svg"
 
 export default {
   heroContainer: {
@@ -15,7 +15,7 @@ export default {
       position: `absolute`,
       content: `" "`,
       width: `full`,
-      height: `8/12`,
+      height: `full`,
       top: 0,
       right: 0,
       borderRadius: t => `0 0 ${t.radii.xl} ${t.radii.xl}`,
@@ -28,14 +28,9 @@ export default {
     },
     '::after': {
       zIndex: -2,
-      background: `url(${tornado}) no-repeat left top`,
+      background: `url(${pattern}) no-repeat left top`,
       backgroundSize: `cover`,
       opacity: 0.25
-    }
-  },
-  teamContainer: {
-    'img, .block-overlay': {
-      borderRadius: `xl`
     }
   }
 }

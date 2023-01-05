@@ -8,7 +8,7 @@
         null,
         {
           "text": "Build product",
-          "color": "omegaDarker",
+          "color": "betaDark",
           "variant": "h4"
         },
         {
@@ -38,7 +38,7 @@
         null,
         {
           "text": "Team extension",
-          "color": "omegaDarker",
+          "color": "betaDark",
           "variant": "h4"
         },
         {
@@ -55,7 +55,7 @@
         {
           "text": "Expand   ➜",
           "type": "PAGE",
-          "link": "/services/team-extension",
+          "link": "/services/team-extension/",
           "variant": "primary-light"
         }
       ]
@@ -68,7 +68,7 @@
         null,
         {
           "text": "Maintainance",
-          "color": "omegaDarker",
+          "color": "betaDark",
           "variant": "h4"
         },
         {

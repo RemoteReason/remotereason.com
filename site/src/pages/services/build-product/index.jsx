@@ -24,8 +24,8 @@ const Services03 = props => {
       <FeatureOne content={content['service-steps']} />
       <Divider space='4' />
       <Contact content={content['cta']} />
-      <Divider space='5' />
-      <Features content={content['service-value']} />
+      <Divider space='3' />
+        <Features content={content['service-value']} />
       <Divider space='5' />
 
       <Footer content={content['footer']} />
