@@ -3,16 +3,17 @@
     {
       "text": [
         {
-          "text": "We Guarantee a Stable Work Process",
-          "color": "omegaDark",
-          "variant": "h4"
-        },
-        {
-          "text": "Listening, Planning, Making.",
+          "text": "Services",
           "color": "beta",
           "variant": "h2",
           "space": 0
+        },
+        {
+          "text": "Flexible technology partner commited to innovation & long term team work.",
+          "color": "omegaDark",
+          "variant": "h5"
         }
+        
       ]
     }
   ]

@@ -7,12 +7,12 @@
       "text": [
         null,
         {
-          "text": "Marketing solutions for startups & businesses",
+          "text": "Build product",
           "color": "omegaDarker",
           "variant": "h4"
         },
         {
-          "text": "As an Internet marketing strategy, SEO considers how search engines work, the computer-programmed algorithms that dictate search engine behavior."
+          "text": "We take full responsability for end to end delivery. Our team follows your project vision & constraints."
         }
       ],
       "images": [
@@ -23,7 +23,7 @@
       ],
       "buttons": [
         {
-          "text": "Learn More   ➜",
+          "text": "Build   ➜",
           "type": "PAGE",
           "link": "",
           "variant": "primary-light"
@@ -37,12 +37,12 @@
       "text": [
         null,
         {
-          "text": "Lead generation & customer experience",
+          "text": "Team extension",
           "color": "omegaDarker",
           "variant": "h4"
         },
         {
-          "text": "As an Internet marketing strategy, SEO considers how search engines work, the computer-programmed algorithms that dictate search engine behavior."
+          "text": "Your delivery capacity grows in a flexible way. Our team works alongside your existing team."
         }
       ],
       "images": [
@@ -53,7 +53,7 @@
       ],
       "buttons": [
         {
-          "text": "Learn More   ➜",
+          "text": "Expand   ➜",
           "type": "PAGE",
           "link": "",
           "variant": "primary-light"
@@ -67,12 +67,12 @@
       "text": [
         null,
         {
-          "text": "Application design & development",
+          "text": "Maintainance",
           "color": "omegaDarker",
           "variant": "h4"
         },
         {
-          "text": "As an Internet marketing strategy, SEO considers how search engines work, the computer-programmed algorithms that dictate search engine behavior."
+          "text": "Your product is always live & works as expected. Long term maintainance at reasonable costs."
         }
       ],
       "images": [
@@ -83,7 +83,7 @@
       ],
       "buttons": [
         {
-          "text": "Learn More   ➜",
+          "text": "Maintain   ➜",
           "type": "PAGE",
           "link": "",
           "variant": "primary-light"

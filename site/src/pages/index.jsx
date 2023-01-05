@@ -1,23 +1,15 @@
 import React from 'react'
 import { graphql } from 'gatsby'
-import { Container } from 'theme-ui'
 import Layout from '@solid-ui-layout/Layout'
 import Seo from '@solid-ui-components/Seo'
 import Divider from '@solid-ui-components/Divider'
 import Header from '@solid-ui-blocks/Header/Block01'
-import Hero from '@solid-ui-blocks/Hero/Block01'
-import Companies from '@solid-ui-blocks/Companies/Block01'
-import BuildBrand from '@solid-ui-blocks/FeaturesWithPhoto/Block04'
-import FeatureOne from '@solid-ui-blocks/FeaturesWithPhoto/Block01'
 import WhyChooseUs from '@solid-ui-blocks/Features/Block04'
-import FeatureTwo from '@solid-ui-blocks/FeaturesWithPhoto/Block02'
-import Strategies from '@solid-ui-blocks/Features/Block06'
-import Download from '@solid-ui-blocks/CallToAction/Block02'
-import GetStarted from '@solid-ui-blocks/CallToAction/Block01'
 import Footer from '@solid-ui-blocks/Footer/Block01'
 import { normalizeBlockContentNodes } from '@blocks-helpers'
 import theme from './_theme'
-import styles from './_styles'
+import Gallery from '@solid-ui-blocks/Blog/Block01'
+import Contact from '@solid-ui-blocks/CallToAction/Block02'
 
 const IndexPage = props => {
   const { allBlockContent } = props.data
@@ -29,39 +21,15 @@ const IndexPage = props => {
       {/* Blocks */}
     
        <Header content={content['header']} />
-      <Container variant='full' sx={styles.heroContainer}>
-        <Hero content={content['hero']} reverse />
-      </Container>
       
-      <Divider space='4' />
-      <Companies content={content['companies']} />
-      <Divider space='5' />
-      <Divider space='5' />
-      <Container variant='full' sx={styles.buildBrandContainer}>
-        <BuildBrand content={content['build-brand']} />
-      </Container>
-      <Divider space='5' />
-      <Divider space='5' />
-      <FeatureOne content={content['feature-one']} />
-      <Divider space='5' />
-      <Divider space='5' />
+       <Divider space='5' />
+      <Gallery content={content['services']} />
+
+      <Divider space='3' />
       <WhyChooseUs content={content['why-choose-us']} />
-      <Divider space='5' />
-      <Divider space='5' />
-      
-      <FeatureTwo content={content['feature-two']} reverse />
+
       <Divider space='4' />
-      <Strategies content={content['strategies']} />
-      <Divider space='4' />
-      
-      <Download content={content['download']} />
-      <Divider space='5' />
-      <Divider space='5' />
-      
-      <Container sx={styles.getStartedContainer}>
-        <GetStarted content={content['get-started']} />
-      </Container>
-      <Divider space='5' />
+      <Contact content={content['cta']} />
       <Divider space='5' />
       <Footer content={content['footer']} /> 
     </Layout>

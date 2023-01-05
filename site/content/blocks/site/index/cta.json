@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "Let's talk",
+      "color": "alpha",
+      "variant": "h5"
+    },
+    {
+      "text": "Explore together your project needs & how we can help."
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Contact Us",
+      "type": "MODAL",
+      "link": "contact",
+      "variant": "gradient"
+    }
+  ]
+}
