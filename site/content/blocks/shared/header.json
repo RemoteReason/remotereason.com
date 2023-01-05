@@ -11,9 +11,15 @@
         {
           "text": "Services",
           "type": "PAGE",
-          "link": "/services",
-          "variant": "links.nav-dark"
-        }, 
+          "variant": "links.nav-dark",
+          "link": "/services/overview"
+        },
+        {
+          "text": "Expertise",
+          "type": "PAGE",
+          "variant": "links.nav-dark",
+          "link": "/expertise/overview"
+        },
         {
           "text": "Blog",
           "type": "PAGE",

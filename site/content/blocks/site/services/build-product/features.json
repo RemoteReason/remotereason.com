@@ -1,0 +1,229 @@
+{
+  "text": [
+    {
+      "text": "How we work togeher",
+      "color": "alpha",
+      "variant": "h2"
+    },
+    {
+      "text": "You get value in each stage",
+      "variant": "h4"
+    }
+  ],
+  "icon": {
+    "src": "../../../../assets/flexiblocks/icons/bx-analyse.svg",
+    "alt": "alt text"
+  },
+  "collection": [
+    {
+      "text": [
+        {
+          "text": "1. Free consultation",
+          "color": "betaDark",
+          "variant": "h4"
+        },
+        {
+          "text": "We agree on the project vision & constraints. We sign the contract & prepare for kickstart."
+        }
+      ],
+      "collection": [
+        {
+          "text": [
+            {
+              "text": "NDA signed",
+              "color": "omegaDark",
+              "variant": "h6"
+            }
+          ],
+          "icon": {
+            "src": "../../../../assets/flexiblocks/icons/bx-check-circle.svg",
+            "alt": "alt text",
+            "color": "beta"
+          }
+        },
+        {
+          "text": [
+            {
+              "text": "Clear project vision & constraints",
+              "color": "omegaDark",
+              "variant": "h6"
+            }
+          ],
+          "icon": {
+            "src": "../../../../assets/flexiblocks/icons/bx-check-circle.svg",
+            "alt": "alt text",
+            "color": "beta"
+          }
+        },
+        {
+          "text": [
+            {
+              "text": "Contract signed",
+              "color": "omegaDark",
+              "variant": "h6"
+            }
+          ],
+          "icon": {
+            "src": "../../../../assets/flexiblocks/icons/bx-check-circle.svg",
+            "alt": "alt text",
+            "color": "beta"
+          }
+        },
+        {
+          "text": [
+            {
+              "text": "Kickstart date",
+              "color": "omegaDark",
+              "variant": "h6"
+            }
+          ],
+          "icon": {
+            "src": "../../../../assets/flexiblocks/icons/bx-check-circle.svg",
+            "alt": "alt text",
+            "color": "beta"
+          }
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "2. Master plan",
+          "color": "betaDark",
+          "variant": "h4"
+        },
+        {
+          "text": "Clear release timeline & estimated costs. We agree on the look & feel and the technical design."
+        }
+      ],
+      "collection": [
+        {
+          "text": [
+            {
+              "text": "UI/UX design (clickable demo)",
+              "color": "omegaDark",
+              "variant": "h6"
+            }
+          ],
+          "icon": {
+            "src": "../../../../assets/flexiblocks/icons/bx-check-circle.svg",
+            "alt": "alt text",
+            "color": "beta"
+          }
+        },
+        {
+          "text": [
+            {
+              "text": "Features scope",
+              "color": "omegaDark",
+              "variant": "h6"
+            }
+          ],
+          "icon": {
+            "src": "../../../../assets/flexiblocks/icons/bx-check-circle.svg",
+            "alt": "alt text",
+            "color": "beta"
+          }
+        },
+        {
+          "text": [
+            {
+              "text": "Costs & timeline",
+              "color": "omegaDark",
+              "variant": "h6"
+            }
+          ],
+          "icon": {
+            "src": "../../../../assets/flexiblocks/icons/bx-check-circle.svg",
+            "alt": "alt text",
+            "color": "beta"
+          }
+        },
+        {
+          "text": [
+            {
+              "text": "Technical design / architecture",
+              "color": "omegaDark",
+              "variant": "h6"
+            }
+          ],
+          "icon": {
+            "src": "../../../../assets/flexiblocks/icons/bx-check-circle.svg",
+            "alt": "alt text",
+            "color": "beta"
+          }
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "3. Implementation",
+          "color": "betaDark",
+          "variant": "h4"
+        },
+        {
+          "text": "Agile development with fast iterations. The system is always live in a secure production environment."
+        }
+      ],
+      "collection": [
+        {
+          "text": [
+            {
+              "text": "Daily communication",
+              "color": "omegaDark",
+              "variant": "h6"
+            }
+          ],
+          "icon": {
+            "src": "../../../../assets/flexiblocks/icons/bx-check-circle.svg",
+            "alt": "alt text",
+            "color": "beta"
+          }
+        },
+        {
+          "text": [
+            {
+              "text": "Demo every 2 weeks",
+              "color": "omegaDark",
+              "variant": "h6"
+            }
+          ],
+          "icon": {
+            "src": "../../../../assets/flexiblocks/icons/bx-check-circle.svg",
+            "alt": "alt text",
+            "color": "beta"
+          }
+        },
+        {
+          "text": [
+            {
+              "text": "Managed team",
+              "color": "omegaDark",
+              "variant": "h6"
+            }
+          ],
+          "icon": {
+            "src": "../../../../assets/flexiblocks/icons/bx-check-circle.svg",
+            "alt": "alt text",
+            "color": "beta"
+          }
+        },
+        {
+          "text": [
+            {
+              "text": "Reporting on progress & costs",
+              "color": "omegaDark",
+              "variant": "h6"
+            }
+          ],
+          "icon": {
+            "src": "../../../../assets/flexiblocks/icons/bx-check-circle.svg",
+            "alt": "alt text",
+            "color": "beta"
+          }
+        }
+      ]
+    }
+  ]
+}

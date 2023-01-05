@@ -25,7 +25,7 @@
         {
           "text": "Build   ➜",
           "type": "PAGE",
-          "link": "",
+          "link": "/services/build-product",
           "variant": "primary-light"
         }
       ]
@@ -55,7 +55,7 @@
         {
           "text": "Expand   ➜",
           "type": "PAGE",
-          "link": "",
+          "link": "/services/team-extension",
           "variant": "primary-light"
         }
       ]
@@ -85,7 +85,7 @@
         {
           "text": "Maintain   ➜",
           "type": "PAGE",
-          "link": "",
+          "link": "/services/maintainance",
           "variant": "primary-light"
         }
       ]

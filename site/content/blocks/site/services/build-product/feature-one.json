@@ -1,0 +1,85 @@
+{
+  "text": [
+    {
+      "text": "Build product",
+      "color": "alpha",
+      "variant": "h2"
+    },
+    {
+      "text": "We take full responsability for end to end delivery. Our team follows your project vision & constraints.",
+      "variant": "h5"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/flexiblocks/homepage/consulting/feature-one.jpg",
+      "radius": "lg",
+      "alt": "alt text"
+    },
+    {
+      "src": "../../../../assets/flexiblocks/homepage/consulting/feature-one-overlay.png",
+      "alt": "alt text",
+      "radius": "lg",
+      "shadow": "default",
+      "effects": ["fadeInLeft", "float"],
+      "position": {
+        "bottom": "15%",
+        "right": "-5%"
+      }
+    }
+  ],
+  "collection": [
+    {
+      "icon": {
+        "src": "../../../../assets/flexiblocks/icons/bx-chat.svg",
+        "color": "beta",
+        "bg": "omegaLighter"
+      },
+      "text": [
+        {
+          "text": "1. Free consultation",
+          "color": "betaDark",
+          "variant": "h5"
+        },
+        {
+          "text": "Get to know each other & evaluate fit. Discuss your project vision & constraints. Starts with a 30 min call."
+        }
+      ]
+    },
+    {
+      "icon": {
+        "src": "../../../../assets/flexiblocks/icons/bx-brain.svg",
+        "color": "beta",
+        "bg": "omegaLighter"
+      },
+      "text": [
+        {
+          "text": "2. Master plan",
+          "color": "betaDark",
+          "variant": "h5"
+        },
+        {
+          "text": "Create the implementation plan that includes UI/UX design, technical design, budget & release timeline."
+        }
+      ]
+    },
+    {
+      "icon": {
+        "src": "../../../../assets/flexiblocks/icons/bx-rocket.svg",
+        "color": "beta",
+        "bg": "omegaLighter"
+      },
+      "text": [
+        {
+          "text": "3. Implementation",
+          "color": "betaDark",
+          "variant": "h5"
+        },
+        {
+          "text": "Execute the actual implementation based on the agreed roadmap."
+        }
+      ]
+    }
+    
+  ]
+}
