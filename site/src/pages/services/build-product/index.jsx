@@ -34,7 +34,7 @@ const Services03 = props => {
 }
 
 export const query = graphql`
-  query innerpageSiteServicesBlockContent {
+  query innerpageSiteServicesBuildProductBlockContent {
     allBlockContent(
       filter: { page: { in: ["site/services/build-product", "shared"] } }
     ) {
