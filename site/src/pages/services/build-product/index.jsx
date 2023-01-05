@@ -21,11 +21,11 @@ const Services03 = props => {
       <Header content={content['header']} />
       <Divider space='5' />
       <Divider space='5' />
-      <FeatureOne content={content['feature-one']} />
+      <FeatureOne content={content['service-steps']} />
       <Divider space='4' />
       <Contact content={content['cta']} />
       <Divider space='5' />
-      <Features content={content['features']} />
+      <Features content={content['service-value']} />
       <Divider space='5' />
 
       <Footer content={content['footer']} />
