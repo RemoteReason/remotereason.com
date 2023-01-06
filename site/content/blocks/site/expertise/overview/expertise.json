@@ -1,0 +1,94 @@
+{
+  "collection": [
+    {
+      "container": {
+        "variant": "cards.interactive"
+      },
+      "text": [
+        null,
+        {
+          "text": "Mobile apps",
+          "color": "betaDark",
+          "variant": "h4"
+        },
+        {
+          "text": "We build mobile apps on IOS & Android. Flawless experience on phones & tables of various sizes."
+        }
+      ],
+      "images": [
+        {
+          "src": "../../../../assets/site/expertise/overview/mobile-apps.jpg",
+          "alt": "alt text"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "Details   ➜",
+          "type": "PAGE",
+          "link": "/expertise/mobile-apps",
+          "variant": "primary-light"
+        }
+      ]
+    },
+    {
+      "container": {
+        "variant": "cards.interactive"
+      },
+      "text": [
+        null,
+        {
+          "text": "Web apps",
+          "color": "betaDark",
+          "variant": "h4"
+        },
+        {
+          "text": "We build web apps & portals that feel right on all browsers & devices."
+        }
+      ],
+      "images": [
+        {
+          "src": "../../../../assets/site/expertise/overview/web-apps.jpg",
+          "alt": "alt text"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "Details   ➜",
+          "type": "PAGE",
+          "link": "/expertise/web-apps",
+          "variant": "primary-light"
+        }
+      ]
+    },
+    {
+      "container": {
+        "variant": "cards.interactive"
+      },
+      "text": [
+        null,
+        {
+          "text": "UI/UX Design",
+          "color": "betaDark",
+          "variant": "h4"
+        },
+        {
+          "text": "Branding & graphical design for your web & mobile apps."
+        }
+      ],
+      "images": [
+        {
+          "src": "../../../../assets/site/expertise/overview/ui-ux-design.jpg",
+          "alt": "alt text"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "Details   ➜",
+          "type": "PAGE",
+          "link": "/expertise/ui-ux-design",
+          "variant": "primary-light"
+        }
+      ]
+    }
+  ]
+}

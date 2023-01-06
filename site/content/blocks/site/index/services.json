@@ -53,7 +53,7 @@
       ],
       "buttons": [
         {
-          "text": "Expand   ➜",
+          "text": "Grow   ➜",
           "type": "PAGE",
           "link": "/services/team-extension/",
           "variant": "primary-light"

@@ -1,0 +1,20 @@
+{
+  "collection": [
+    {
+      "text": [
+        {
+          "text": "Expertise",
+          "color": "alpha",
+          "variant": "h2",
+          "space": 0
+        },
+        {
+          "text": "Flexible technology partner commited to innovation & long term team work.",
+          "color":"alphaLighter",
+          "variant": "h5"
+        }
+        
+      ]
+    }
+  ]
+}
