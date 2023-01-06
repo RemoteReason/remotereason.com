@@ -1,5 +1,7 @@
+.DS_Store
 node_modules/
 tmp/site
+
 site/.cache
 site/public
 site/node_modules

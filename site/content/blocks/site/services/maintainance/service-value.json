@@ -1,0 +1,230 @@
+{
+  "text": [
+    {
+      "text": "How we work togeher",
+      "color": "alpha",
+      "variant": "h2"
+    },
+    {
+      "text": "You get value in each stage",
+      "variant": "h4"
+    }
+  ],
+  "icon": {
+    "src": "../../../../assets/shared/icons/bx-analyse.svg",
+    "alt": "alt text"
+  },
+  "collection": [
+    {
+      "text": [
+        {
+          "text": "1. Free consultation",
+          "color": "betaDark",
+          "variant": "h4"
+        },
+        {
+          "text": "We agree on the costs & operational requirements. We sign the contract."
+        }
+      ],
+      "collection": [
+        {
+          "text": [
+            {
+              "text": "NDA signed",
+              "color": "omegaDark",
+              "variant": "h6"
+            }
+          ],
+          "icon": {
+            "src": "../../../../assets/shared/icons/bx-check-circle.svg",
+            "alt": "alt text",
+            "color": "beta"
+          }
+        },
+        {
+          "text": [
+            {
+              "text": "Service Level Agreements",
+              "color": "omegaDark",
+              "variant": "h6"
+            }
+          ],
+          "icon": {
+            "src": "../../../../assets/shared/icons/bx-check-circle.svg",
+            "alt": "alt text",
+            "color": "beta"
+          }
+        },
+        {
+          "text": [
+            {
+              "text": "Contract signed",
+              "color": "omegaDark",
+              "variant": "h6"
+            }
+          ],
+          "icon": {
+            "src": "../../../../assets/shared/icons/bx-check-circle.svg",
+            "alt": "alt text",
+            "color": "beta"
+          }
+        },
+        {
+          "text": [
+            {
+              "text": "Start date",
+              "color": "omegaDark",
+              "variant": "h6"
+            }
+          ],
+          "icon": {
+            "src": "../../../../assets/shared/icons/bx-check-circle.svg",
+            "alt": "alt text",
+            "color": "beta"
+          }
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "2. Onboarding",
+          "color": "betaDark",
+          "variant": "h4"
+        },
+        {
+          "text": "Our team takes ownership. We are responsible for your product."
+        }
+      ],
+      "collection": [
+        {
+          "text": [
+            {
+              "text": "Project codebase expertise",
+              "color": "omegaDark",
+              "variant": "h6"
+            }
+          ],
+          "icon": {
+            "src": "../../../../assets/shared/icons/bx-check-circle.svg",
+            "alt": "alt text",
+            "color": "beta"
+          }
+        },
+        {
+          "text": [
+            {
+              "text": "Shared processes",
+              "color": "omegaDark",
+              "variant": "h6"
+            }
+          ],
+          "icon": {
+            "src": "../../../../assets/shared/icons/bx-check-circle.svg",
+            "alt": "alt text",
+            "color": "beta"
+          }
+        },
+        {
+          "text": [
+            {
+              "text": "Common reporting",
+              "color": "omegaDark",
+              "variant": "h6"
+            }
+          ],
+          "icon": {
+            "src": "../../../../assets/shared/icons/bx-check-circle.svg",
+            "alt": "alt text",
+            "color": "beta"
+          }
+        },
+        {
+          "text": [
+            {
+              "text": "Shared knowledge",
+              "color": "omegaDark",
+              "variant": "h6"
+            }
+          ],
+          "icon": {
+            "src": "../../../../assets/shared/icons/bx-check-circle.svg",
+            "alt": "alt text",
+            "color": "beta"
+          }
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "3. Ongoing",
+          "color": "betaDark",
+          "variant": "h4"
+        },
+        {
+          "text": "We do preventive & reactive maintainance. We care."
+        }
+      ],
+      "collection": [
+        {
+          "text": [
+            {
+              "text": "Active monitoring",
+              "color": "omegaDark",
+              "variant": "h6"
+            }
+          ],
+          "icon": {
+            "src": "../../../../assets/shared/icons/bx-check-circle.svg",
+            "alt": "alt text",
+            "color": "beta"
+          }
+        },
+        {
+          "text": [
+            {
+              "text": "Monthly reporting",
+              "color": "omegaDark",
+              "variant": "h6"
+            }
+          ],
+          "icon": {
+            "src": "../../../../assets/shared/icons/bx-check-circle.svg",
+            "alt": "alt text",
+            "color": "beta"
+          }
+        },
+        {
+          "text": [
+            {
+              "text": "Flexible allocations",
+              "color": "omegaDark",
+              "variant": "h6"
+            }
+          ],
+          "icon": {
+            "src": "../../../../assets/shared/icons/bx-check-circle.svg",
+            "alt": "alt text",
+            "color": "beta"
+          }
+        },
+        {
+          "text": [
+            {
+              "text": "Managed team",
+              "color": "omegaDark",
+              "variant": "h6"
+            }
+          ],
+          "icon": {
+            "src": "../../../../assets/shared/icons/bx-check-circle.svg",
+            "alt": "alt text",
+            "color": "beta"
+          }
+        }
+        
+      ]
+    }
+  ]
+}

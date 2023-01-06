@@ -1,0 +1,74 @@
+{
+  "text": [
+    {
+      "text": "Maintainance",
+      "color": "alpha",
+      "variant": "h2"
+    },
+    {
+      "text": "Your product is always live & works as expected. Long term maintainance at reasonable costs.",
+      "variant": "h5"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/site/services/overview/maintainance.jpg",
+      "radius": "lg",
+      "alt": "alt text"
+    }
+  ],
+  "collection": [
+    {
+      "icon": {
+        "src": "../../../../assets/shared/icons/bx-chat.svg",
+        "color": "beta",
+        "bg": "omegaLighter"
+      },
+      "text": [
+        {
+          "text": "1. Free consultation",
+          "color": "betaDark",
+          "variant": "h5"
+        },
+        {
+          "text": "Get to know each other & evaluate fit. We understand your operational needs & constraints. Starts with a 30 min call."
+        }
+      ]
+    },
+    {
+      "icon": {
+        "src": "../../../../assets/shared/icons/bx-brain.svg",
+        "color": "beta",
+        "bg": "omegaLighter"
+      },
+      "text": [
+        {
+          "text": "2. Onboarding",
+          "color": "betaDark",
+          "variant": "h5"
+        },
+        {
+          "text": "We learn your project codebase & deployment environments. Implement any neccessary changes."
+        }
+      ]
+    },
+    {
+      "icon": {
+        "src": "../../../../assets/shared/icons/bx-rocket.svg",
+        "color": "beta",
+        "bg": "omegaLighter"
+      },
+      "text": [
+        {
+          "text": "3. Ongoing",
+          "color": "betaDark",
+          "variant": "h5"
+        },
+        {
+          "text": "We keep things running smoothly. We implement fixes or improvements."
+        }
+      ]
+    }
+    
+  ]
+}
