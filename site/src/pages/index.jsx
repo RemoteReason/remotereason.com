@@ -10,6 +10,7 @@ import { normalizeBlockContentNodes } from '@blocks-helpers'
 import theme from './_theme'
 import Gallery from '@solid-ui-blocks/Blog/Block01'
 import Contact from '@solid-ui-blocks/CallToAction/Block02'
+import FeatureOne from '@solid-ui-blocks/FeaturesWithPhoto/Block01'
 
 const IndexPage = props => {
   const { allBlockContent } = props.data
@@ -21,6 +22,8 @@ const IndexPage = props => {
       {/* Blocks */}
     
        <Header content={content['header']} />
+       <Divider space='5' />
+      <FeatureOne content={content['expertise']} />
       
        <Divider space='5' />
       <Gallery content={content['services']} />

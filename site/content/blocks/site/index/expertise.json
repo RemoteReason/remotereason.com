@@ -1,0 +1,61 @@
+{
+  "text": [
+    {
+      "text": "GROW YOUR BUSINESS",
+      "color": "alpha",
+      "variant": "h4"
+    },
+    {
+      "text": "with custom made software",
+      "variant": "h2"
+    },
+    {
+      "text": "We build beautiful custom made software for startups & fast moving companies.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../assets/site/index/expertise-overview.jpg",
+      "alt": "alt text"
+    }
+  ],
+  "collection": [
+    {
+      "icon": {
+        "src": "../../../assets/shared/icons/bx-check-circle.svg",
+        "color": "beta"
+      },
+      "text": [
+        {
+          "text": "Mobile apps",
+          "variant": "h5"
+        }
+      ]
+    },
+    {
+      "icon": {
+        "src": "../../../assets/shared/icons/bx-check-circle.svg",
+        "color": "beta"
+      },
+      "text": [
+        {
+          "text": "Web apps",
+          "variant": "h5"
+        }
+      ]
+    },
+    {
+      "icon": {
+        "src": "../../../assets/shared/icons/bx-check-circle.svg",
+        "color": "beta"
+      },
+      "text": [
+        {
+          "text": "UI/UX design",
+          "variant": "h5"
+        }
+      ]
+    }
+  ]
+}
