@@ -12,26 +12,15 @@
   ],
   "images": [
     {
-      "src": "../../../../assets/site/services/build-product/service.jpg",
+      "src": "../../../../assets/site/services/overview/team-extension.jpg",
       "radius": "lg",
       "alt": "alt text"
-    },
-    {
-      "src": "../../../../assets/flexiblocks/homepage/consulting/feature-one-overlay.png",
-      "alt": "alt text",
-      "radius": "lg",
-      "shadow": "default",
-      "effects": ["fadeInLeft", "float"],
-      "position": {
-        "bottom": "15%",
-        "right": "-5%"
-      }
     }
   ],
   "collection": [
     {
       "icon": {
-        "src": "../../../../assets/flexiblocks/icons/bx-chat.svg",
+        "src": "../../../../assets/shared/icons/bx-chat.svg",
         "color": "beta",
         "bg": "omegaLighter"
       },
@@ -48,7 +37,7 @@
     },
     {
       "icon": {
-        "src": "../../../../assets/flexiblocks/icons/bx-brain.svg",
+        "src": "../../../../assets/shared/icons/bx-brain.svg",
         "color": "beta",
         "bg": "omegaLighter"
       },
@@ -65,7 +54,7 @@
     },
     {
       "icon": {
-        "src": "../../../../assets/flexiblocks/icons/bx-rocket.svg",
+        "src": "../../../../assets/shared/icons/bx-rocket.svg",
         "color": "beta",
         "bg": "omegaLighter"
       },

@@ -11,7 +11,7 @@
     }
   ],
   "icon": {
-    "src": "../../../../assets/flexiblocks/icons/bx-analyse.svg",
+    "src": "../../../../assets/shared/icons/bx-analyse.svg",
     "alt": "alt text"
   },
   "collection": [
@@ -36,7 +36,7 @@
             }
           ],
           "icon": {
-            "src": "../../../../assets/flexiblocks/icons/bx-check-circle.svg",
+            "src": "../../../../assets/shared/icons/bx-check-circle.svg",
             "alt": "alt text",
             "color": "beta"
           }
@@ -50,7 +50,7 @@
             }
           ],
           "icon": {
-            "src": "../../../../assets/flexiblocks/icons/bx-check-circle.svg",
+            "src": "../../../../assets/shared/icons/bx-check-circle.svg",
             "alt": "alt text",
             "color": "beta"
           }
@@ -64,7 +64,7 @@
             }
           ],
           "icon": {
-            "src": "../../../../assets/flexiblocks/icons/bx-check-circle.svg",
+            "src": "../../../../assets/shared/icons/bx-check-circle.svg",
             "alt": "alt text",
             "color": "beta"
           }
@@ -78,7 +78,7 @@
             }
           ],
           "icon": {
-            "src": "../../../../assets/flexiblocks/icons/bx-check-circle.svg",
+            "src": "../../../../assets/shared/icons/bx-check-circle.svg",
             "alt": "alt text",
             "color": "beta"
           }
@@ -106,7 +106,7 @@
             }
           ],
           "icon": {
-            "src": "../../../../assets/flexiblocks/icons/bx-check-circle.svg",
+            "src": "../../../../assets/shared/icons/bx-check-circle.svg",
             "alt": "alt text",
             "color": "beta"
           }
@@ -120,7 +120,7 @@
             }
           ],
           "icon": {
-            "src": "../../../../assets/flexiblocks/icons/bx-check-circle.svg",
+            "src": "../../../../assets/shared/icons/bx-check-circle.svg",
             "alt": "alt text",
             "color": "beta"
           }
@@ -134,7 +134,7 @@
             }
           ],
           "icon": {
-            "src": "../../../../assets/flexiblocks/icons/bx-check-circle.svg",
+            "src": "../../../../assets/shared/icons/bx-check-circle.svg",
             "alt": "alt text",
             "color": "beta"
           }
@@ -148,7 +148,7 @@
             }
           ],
           "icon": {
-            "src": "../../../../assets/flexiblocks/icons/bx-check-circle.svg",
+            "src": "../../../../assets/shared/icons/bx-check-circle.svg",
             "alt": "alt text",
             "color": "beta"
           }
@@ -176,7 +176,7 @@
             }
           ],
           "icon": {
-            "src": "../../../../assets/flexiblocks/icons/bx-check-circle.svg",
+            "src": "../../../../assets/shared/icons/bx-check-circle.svg",
             "alt": "alt text",
             "color": "beta"
           }
@@ -190,7 +190,7 @@
             }
           ],
           "icon": {
-            "src": "../../../../assets/flexiblocks/icons/bx-check-circle.svg",
+            "src": "../../../../assets/shared/icons/bx-check-circle.svg",
             "alt": "alt text",
             "color": "beta"
           }
@@ -204,7 +204,7 @@
             }
           ],
           "icon": {
-            "src": "../../../../assets/flexiblocks/icons/bx-check-circle.svg",
+            "src": "../../../../assets/shared/icons/bx-check-circle.svg",
             "alt": "alt text",
             "color": "beta"
           }
@@ -218,7 +218,7 @@
             }
           ],
           "icon": {
-            "src": "../../../../assets/flexiblocks/icons/bx-check-circle.svg",
+            "src": "../../../../assets/shared/icons/bx-check-circle.svg",
             "alt": "alt text",
             "color": "beta"
           }

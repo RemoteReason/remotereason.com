@@ -11,7 +11,7 @@
     }
   ],
   "icon": {
-    "src": "../../../../assets/flexiblocks/icons/bx-analyse.svg",
+    "src": "../../../../assets/shared/icons/bx-analyse.svg",
     "alt": "alt text"
   },
   "collection": [
@@ -23,7 +23,7 @@
           "variant": "h4"
         },
         {
-          "text": "We agree on the project vision & constraints. We sign the contract & prepare for kickstart."
+          "text": "We agree on the required team expertise & allocation. We sign the contract."
         }
       ],
       "collection": [
@@ -36,7 +36,7 @@
             }
           ],
           "icon": {
-            "src": "../../../../assets/flexiblocks/icons/bx-check-circle.svg",
+            "src": "../../../../assets/shared/icons/bx-check-circle.svg",
             "alt": "alt text",
             "color": "beta"
           }
@@ -44,13 +44,13 @@
         {
           "text": [
             {
-              "text": "Clear project vision & constraints",
+              "text": "Team expertise & allocation",
               "color": "omegaDark",
               "variant": "h6"
             }
           ],
           "icon": {
-            "src": "../../../../assets/flexiblocks/icons/bx-check-circle.svg",
+            "src": "../../../../assets/shared/icons/bx-check-circle.svg",
             "alt": "alt text",
             "color": "beta"
           }
@@ -64,7 +64,7 @@
             }
           ],
           "icon": {
-            "src": "../../../../assets/flexiblocks/icons/bx-check-circle.svg",
+            "src": "../../../../assets/shared/icons/bx-check-circle.svg",
             "alt": "alt text",
             "color": "beta"
           }
@@ -72,13 +72,13 @@
         {
           "text": [
             {
-              "text": "Kickstart date",
+              "text": "Start date",
               "color": "omegaDark",
               "variant": "h6"
             }
           ],
           "icon": {
-            "src": "../../../../assets/flexiblocks/icons/bx-check-circle.svg",
+            "src": "../../../../assets/shared/icons/bx-check-circle.svg",
             "alt": "alt text",
             "color": "beta"
           }
@@ -93,20 +93,20 @@
           "variant": "h4"
         },
         {
-          "text": "Clear release timeline & estimated costs. We agree on the look & feel and the technical design."
+          "text": "Our team joins your project. The team learns & adapts. Your delivery capacity grows."
         }
       ],
       "collection": [
         {
           "text": [
             {
-              "text": "UI/UX design (clickable demo)",
+              "text": "Project codebase expertise",
               "color": "omegaDark",
               "variant": "h6"
             }
           ],
           "icon": {
-            "src": "../../../../assets/flexiblocks/icons/bx-check-circle.svg",
+            "src": "../../../../assets/shared/icons/bx-check-circle.svg",
             "alt": "alt text",
             "color": "beta"
           }
@@ -114,13 +114,13 @@
         {
           "text": [
             {
-              "text": "Features scope",
+              "text": "Shared processes",
               "color": "omegaDark",
               "variant": "h6"
             }
           ],
           "icon": {
-            "src": "../../../../assets/flexiblocks/icons/bx-check-circle.svg",
+            "src": "../../../../assets/shared/icons/bx-check-circle.svg",
             "alt": "alt text",
             "color": "beta"
           }
@@ -128,13 +128,13 @@
         {
           "text": [
             {
-              "text": "Costs & timeline",
+              "text": "Common reporting",
               "color": "omegaDark",
               "variant": "h6"
             }
           ],
           "icon": {
-            "src": "../../../../assets/flexiblocks/icons/bx-check-circle.svg",
+            "src": "../../../../assets/shared/icons/bx-check-circle.svg",
             "alt": "alt text",
             "color": "beta"
           }
@@ -142,13 +142,13 @@
         {
           "text": [
             {
-              "text": "Technical design / architecture",
+              "text": "Shared knowledge",
               "color": "omegaDark",
               "variant": "h6"
             }
           ],
           "icon": {
-            "src": "../../../../assets/flexiblocks/icons/bx-check-circle.svg",
+            "src": "../../../../assets/shared/icons/bx-check-circle.svg",
             "alt": "alt text",
             "color": "beta"
           }
@@ -163,20 +163,20 @@
           "variant": "h4"
         },
         {
-          "text": "Agile development with fast iterations. The system is always live in a secure production environment."
+          "text": "We work together. We handle challenges as a team & a long term partner."
         }
       ],
       "collection": [
         {
           "text": [
             {
-              "text": "Daily communication",
+              "text": "Direct communication",
               "color": "omegaDark",
               "variant": "h6"
             }
           ],
           "icon": {
-            "src": "../../../../assets/flexiblocks/icons/bx-check-circle.svg",
+            "src": "../../../../assets/shared/icons/bx-check-circle.svg",
             "alt": "alt text",
             "color": "beta"
           }
@@ -184,13 +184,13 @@
         {
           "text": [
             {
-              "text": "Demo every 2 weeks",
+              "text": "Flexible allocations",
               "color": "omegaDark",
               "variant": "h6"
             }
           ],
           "icon": {
-            "src": "../../../../assets/flexiblocks/icons/bx-check-circle.svg",
+            "src": "../../../../assets/shared/icons/bx-check-circle.svg",
             "alt": "alt text",
             "color": "beta"
           }
@@ -204,25 +204,12 @@
             }
           ],
           "icon": {
-            "src": "../../../../assets/flexiblocks/icons/bx-check-circle.svg",
-            "alt": "alt text",
-            "color": "beta"
-          }
-        },
-        {
-          "text": [
-            {
-              "text": "Reporting on progress & costs",
-              "color": "omegaDark",
-              "variant": "h6"
-            }
-          ],
-          "icon": {
-            "src": "../../../../assets/flexiblocks/icons/bx-check-circle.svg",
+            "src": "../../../../assets/shared/icons/bx-check-circle.svg",
             "alt": "alt text",
             "color": "beta"
           }
         }
+        
       ]
     }
   ]

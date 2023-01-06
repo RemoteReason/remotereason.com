@@ -17,7 +17,7 @@
       ],
       "images": [
         {
-          "src": "../../../assets/flexiblocks/innerpage/services-03/gallery-1.jpg",
+          "src": "../../../assets/site/services/overview/build-product.jpg",
           "alt": "alt text"
         }
       ],
@@ -47,7 +47,7 @@
       ],
       "images": [
         {
-          "src": "../../../assets/flexiblocks/innerpage/services-03/gallery-2.jpg",
+          "src": "../../../assets/site/services/overview/team-extension.jpg",
           "alt": "alt text"
         }
       ],
@@ -77,7 +77,7 @@
       ],
       "images": [
         {
-          "src": "../../../assets/flexiblocks/innerpage/services-03/gallery-3.jpg",
+          "src": "../../../assets/site/services/overview/maintainance.jpg",
           "alt": "alt text"
         }
       ],

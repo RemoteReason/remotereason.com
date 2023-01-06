@@ -20,7 +20,6 @@ const Services03 = props => {
       {/* Blocks */}
       <Header content={content['header']} />
       <Divider space='5' />
-      <Divider space='5' />
       <FeatureOne content={content['service-steps']} />
       <Divider space='4' />
       <Contact content={content['cta']} />

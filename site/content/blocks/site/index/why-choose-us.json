@@ -23,7 +23,7 @@
         }
       ],
       "icon": {
-        "src": "../../../assets/flexiblocks/icons/bx-analyse.svg",
+        "src": "../../../assets/shared/icons/bx-analyse.svg",
         "bg": "omegaLighter",
         "color": "alpha"
       }
@@ -40,7 +40,7 @@
         }
       ],
       "icon": {
-        "src": "../../../assets/flexiblocks/icons/bx-chat.svg",
+        "src": "../../../assets/shared/icons/bx-chat.svg",
         "bg": "omegaLighter",
         "color": "alpha"
       }
@@ -57,7 +57,7 @@
         }
       ],
       "icon": {
-        "src": "../../../assets/flexiblocks/icons/bx-dna.svg",
+        "src": "../../../assets/shared/icons/bx-dna.svg",
         "bg": "omegaLighter",
         "color": "alpha"
       }
@@ -74,7 +74,7 @@
         }
       ],
       "icon": {
-        "src": "../../../assets/flexiblocks/icons/bx-directions.svg",
+        "src": "../../../assets/shared/icons/bx-directions.svg",
         "bg": "omegaLighter",
         "color": "alpha"
       }

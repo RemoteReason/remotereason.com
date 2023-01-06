@@ -1,7 +1,7 @@
 {
   "images": [
     {
-      "src": "../../assets/flexiblocks/shared/logo.png",
+      "src": "../../assets/shared/logo.png",
       "alt": "alt text"
     }
   ],
@@ -73,7 +73,7 @@
           "link": "https://github.com/RemoteReson",
           "variant": "links.nav-light",
           "icon": {
-            "src": "../../assets/flexiblocks/icons/bxl-github.svg",
+            "src": "../../assets/shared/icons/bxl-github.svg",
             "color": "#2f4f4f"
           }
         },
@@ -83,7 +83,7 @@
           "link": "https://twitter.com/gatsby",
           "variant": "links.nav-light",
           "icon": {
-            "src": "../../assets/flexiblocks/icons/bxl-twitter.svg",
+            "src": "../../assets/shared/icons/bxl-twitter.svg",
             "color": "#1da1f2"
           }
         },
@@ -93,7 +93,7 @@
           "link": "https://instagram.com/gatsby",
           "variant": "links.nav-light",
           "icon": {
-            "src": "../../assets/flexiblocks/icons/bxl-instagram.svg",
+            "src": "../../assets/shared/icons/bxl-instagram.svg",
             "color": "#c13584"
           }
         }

@@ -1,4 +1,5 @@
-node_modules
-site/node_modules
-site/.cache
+node_modules/
 tmp/site
+site/.cache
+site/public
+site/node_modules
