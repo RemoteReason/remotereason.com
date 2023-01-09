@@ -1,0 +1,74 @@
+{
+  "text": [
+    {
+      "text": "We really care",
+      "color": "alpha",
+      "variant": "h2"
+    },
+    {
+      "text": "Your mobile app is crafted with care for the overall customer experience.",
+      "variant": "h5"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/site/expertise/overview/mobile-apps.jpg",
+      "radius": "lg",
+      "alt": "alt text"
+    }
+  ],
+  "collection": [
+    {
+      "icon": {
+        "src": "../../../../assets/shared/icons/bx-crown.svg",
+        "color": "beta",
+        "bg": "omegaLighter"
+      },
+      "text": [
+        {
+          "text": "Look & feel",
+          "color": "betaDark",
+          "variant": "h5"
+        },
+        {
+          "text": "The app looks great & feels right on all relevant screen sizes & devices."
+        }
+      ]
+    },
+    {
+      "icon": {
+        "src": "../../../../assets/shared/icons/bx-analyse.svg",
+        "color": "beta",
+        "bg": "omegaLighter"
+      },
+      "text": [
+        {
+          "text": "Performance",
+          "color": "betaDark",
+          "variant": "h5"
+        },
+        {
+          "text": "The app feels fast & smooth. Uses the right amount battery & mobile data."
+        }
+      ]
+    },
+    {
+      "icon": {
+        "src": "../../../../assets/shared/icons/bx-user.svg",
+        "color": "beta",
+        "bg": "omegaLighter"
+      },
+      "text": [
+        {
+          "text": "Security",
+          "color": "betaDark",
+          "variant": "h5"
+        },
+        {
+          "text": "The user data & communication is secure. All data handling complies with relevant regulations."
+        }
+      ]
+    }
+    
+  ]
+}
