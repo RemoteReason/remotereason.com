@@ -1,0 +1,25 @@
+{
+  "text": [
+    {
+      "text": "Smart Open Source",
+      "color": "alpha",
+      "variant": "h5",
+      "space":2
+    },
+    {
+      "text": "Your software is always proprietary & private. But we make it with Open Source technologies."
+    },
+    {
+      "text":"No worries about license fees or vendor lock-in.",
+      "space":2
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Lean more",
+      "type": "PAGE",
+      "link": "/open-source",
+      "variant": "primary-outline"
+    }
+  ]
+}

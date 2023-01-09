@@ -1,0 +1,188 @@
+{
+  "text": [
+    {
+      "text": "We build complete web apps",
+      "color": "alpha",
+      "variant": "h2"
+    },
+    {
+      "text": "We build the web interface, the backend & release it in production",
+      "variant": "h4"
+    }
+  ],
+  "icon": {
+    "src": "../../../../assets/shared/icons/bx-analyse.svg",
+    "alt": "alt text"
+  },
+  "collection": [
+    {
+      "text": [
+        {
+          "text": "Web frontend",
+          "color": "betaDark",
+          "variant": "h4"
+        },
+        {
+          "text": "HTML5. React with JS/TS. Tailwind or similar SCSS frameworks. D3, WebGL & advanced visualisation techniques."
+        }
+      ],
+      "collection": [
+        {
+          "text": [
+            {
+              "text": "Beautifull in all browsers",
+              "color": "omegaDark",
+              "variant": "h6"
+            }
+          ],
+          "icon": {
+            "src": "../../../../assets/shared/icons/bx-check-circle.svg",
+            "alt": "alt text",
+            "color": "beta"
+          }
+        },
+        {
+          "text": [
+            {
+              "text": "Mobile & tablet ready",
+              "color": "omegaDark",
+              "variant": "h6"
+            }
+          ],
+          "icon": {
+            "src": "../../../../assets/shared/icons/bx-check-circle.svg",
+            "alt": "alt text",
+            "color": "beta"
+          }
+        },
+        {
+          "text": [
+            {
+              "text": "Rich media experience",
+              "color": "omegaDark",
+              "variant": "h6"
+            }
+          ],
+          "icon": {
+            "src": "../../../../assets/shared/icons/bx-check-circle.svg",
+            "alt": "alt text",
+            "color": "beta"
+          }
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "Backend server",
+          "color": "betaDark",
+          "variant": "h4"
+        },
+        {
+          "text": "Node server with JS/TS using Next or NestJS. We also work with Ruby on Rails. And PHP / Laravel."
+        }
+      ],
+      "collection": [
+        {
+          "text": [
+            {
+              "text": "Scalable & secure",
+              "color": "omegaDark",
+              "variant": "h6"
+            }
+          ],
+          "icon": {
+            "src": "../../../../assets/shared/icons/bx-check-circle.svg",
+            "alt": "alt text",
+            "color": "beta"
+          }
+        },
+        {
+          "text": [
+            {
+              "text": "Ready for integrations",
+              "color": "omegaDark",
+              "variant": "h6"
+            }
+          ],
+          "icon": {
+            "src": "../../../../assets/shared/icons/bx-check-circle.svg",
+            "alt": "alt text",
+            "color": "beta"
+          }
+        },
+        {
+          "text": [
+            {
+              "text": "Easy to change",
+              "color": "omegaDark",
+              "variant": "h6"
+            }
+          ],
+          "icon": {
+            "src": "../../../../assets/shared/icons/bx-check-circle.svg",
+            "alt": "alt text",
+            "color": "beta"
+          }
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "Infrastructure",
+          "color": "betaDark",
+          "variant": "h4"
+        },
+        {
+          "text": "We take care of CI/CD. We deploy on AWS or CGP but also on PaaS like Render or Fly. Kubernetes as well. "
+        }
+      ],
+      "collection": [
+        {
+          "text": [
+            {
+              "text": "Fully automated",
+              "color": "omegaDark",
+              "variant": "h6"
+            }
+          ],
+          "icon": {
+            "src": "../../../../assets/shared/icons/bx-check-circle.svg",
+            "alt": "alt text",
+            "color": "beta"
+          }
+        },
+        {
+          "text": [
+            {
+              "text": "Scalable & secure",
+              "color": "omegaDark",
+              "variant": "h6"
+            }
+          ],
+          "icon": {
+            "src": "../../../../assets/shared/icons/bx-check-circle.svg",
+            "alt": "alt text",
+            "color": "beta"
+          }
+        },
+        {
+          "text": [
+            {
+              "text": "Cost effective",
+              "color": "omegaDark",
+              "variant": "h6"
+            }
+          ],
+          "icon": {
+            "src": "../../../../assets/shared/icons/bx-check-circle.svg",
+            "alt": "alt text",
+            "color": "beta"
+          }
+        }
+      ]
+    }
+ 
+  ]
+}
