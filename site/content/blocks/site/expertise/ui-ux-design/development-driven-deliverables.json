@@ -1,0 +1,91 @@
+{
+  "text": [
+    {
+      "text": "Deliverables",
+      "color": "beta",
+      "variant": "h2"
+    }
+  ],
+  "collection": [
+    {
+      "container": {
+        "variant": "cards.paper"
+      },
+      "text": [
+        {
+          "text": "Design system",
+          "color": "omegaDarker",
+          "variant": "h5"
+        },
+        {
+          "text": "Design framework that defines colours, typography, proportions & more."
+        }
+      ],
+      "icon": {
+        "src": "../../../../assets/shared/icons/bx-dna.svg",
+        "bg": "#D3E7FE",
+        "color": "#276BF0"
+      }
+    },
+    {
+      "container": {
+        "variant": "cards.paper"
+      },
+      "text": [
+        {
+          "text": "Screen mockups",
+          "color": "omegaDarker",
+          "variant": "h5"
+        },
+        {
+          "text": "Visual screen mockup based on the new feature specifications."
+        }
+      ],
+      "icon": {
+        "src": "../../../../assets/shared/icons/bx-check.svg",
+        "bg": "#FEFAD6",
+        "color": "#F4D133"
+      }
+    },
+    {
+      "container": {
+        "variant": "cards.paper"
+      },
+      "text": [
+        {
+          "text": "Feature visuals",
+          "color": "omegaDarker",
+          "variant": "h5"
+        },
+        {
+          "text": "On brand & feature visual elements icons, textures, charts, etc."
+        }
+      ],
+      "icon": {
+        "src": "../../../../assets/shared/icons/bx-bar-chart-alt.svg",
+        "bg": "#FEE8D1",
+        "color": "#F7491D"
+      }
+    },
+    {
+      "container": {
+        "variant": "cards.paper"
+      },
+      "text": [
+        {
+          "text": "Responsive design",
+          "color": "omegaDarker",
+          "variant": "h5"
+        },
+        {
+          "text": "How the new feature looks on smaller screens. Like smartphone or tablet."
+        }
+      ],
+      "icon": {
+        "src": "../../../../assets/shared/icons/bx-directions.svg",
+        "bg": "#EBFDDA",
+        "color": "#64DB43"
+      }
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "text": [
+    {
+      "text": "1. Prototype Design",
+      "color": "alpha",
+      "variant": "h2"
+    },
+    {
+      "text": "product mockup when you start",
+      "variant": "h3"
+    },
+    {
+      "text": "Pixel perfect visual mockup of your product idea. Fully realistic & clickable screens, controls & inputs.",
+      "variant": "medium"
+    },
+    {
+      "text": "Your idea is not implemented yet but you need",
+      "variant": "h5"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/site/expertise/overview/ui-ux-design.jpg",
+      "alt": "alt text"
+    }
+  ],
+  "collection": [
+    {
+      "icon": {
+        "src": "../../../../assets/shared/icons/bx-check-circle.svg",
+        "color": "beta"
+      },
+      "text": [
+        {
+          "text": "early funding from investors",
+          "variant": "h5"
+        }
+      ]
+    },
+    {
+      "icon": {
+        "src": "../../../../assets/shared/icons/bx-check-circle.svg",
+        "color": "beta"
+      },
+      "text": [
+        {
+          "text": "buy-in from future customers",
+          "variant": "h5"
+        }
+      ]
+    },
+    {
+      "icon": {
+        "src": "../../../../assets/shared/icons/bx-check-circle.svg",
+        "color": "beta"
+      },
+      "text": [
+        {
+          "text": "discover how features & screens work together",
+          "variant": "h5"
+        }
+      ]
+    }
+  ]
+}

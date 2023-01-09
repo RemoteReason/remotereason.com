@@ -1,22 +1,22 @@
 {
   "text": [
     {
-      "text": "Smart Open Source",
+      "text": "Build smart using Open Source",
       "color": "alpha",
       "variant": "h5",
       "space":2
     },
     {
-      "text": "Your software is always proprietary & private. But we make it with Open Source technologies."
+      "text": "Your software is always proprietary & private. But we build it using plenty of Open Source technologies."
     },
     {
-      "text":"No worries about license fees or vendor lock-in.",
+      "text":"You get faster time to market. Also zero license fees or vendor lock-in.",
       "space":2
     }
   ],
   "buttons": [
     {
-      "text": "Lean more",
+      "text": "Read more",
       "type": "PAGE",
       "link": "/open-source",
       "variant": "primary-outline"
