@@ -1,0 +1,52 @@
+{
+  "text": [
+    {
+      "text": "What personal data is collected ?",
+      "color":"beta",
+      "variant": "h2"
+    }
+  ],
+  "collection": [
+    {
+      "text": [
+        {
+          "text": "Personal identification data",
+          "variant": "h5"
+        },
+        {
+          "text": "Personal information should stay personal, and that’s why we only collect the minimum necessary info meant to help us improve the experience we deliver to our associates.",
+          "space":3
+        },
+        {
+          "text":"We collect the following personal information: name, e-mail address, phone number"
+        }
+      ],
+      "icon": {
+        "src": "../../../../assets/shared/icons/bx-user.svg",
+        "bg": "white",
+        "color": "alpha"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Non-identifying personal data",
+          "variant": "h5"
+        },
+        {
+          "text": "We do not correlate personal identification data with non-identifying personal data unless clearly specified at the moment of collection.",
+          "space":3
+        },
+        {
+          "text":"We collect the following non-identifying personal information: IP address, cookies, referring URL, browser type, operating system, site usage, and browsing history."
+        }
+      ],
+
+      "icon": {
+        "src": "../../../../assets/shared/icons/bx-data.svg",
+        "bg": "white",
+        "color": "alpha"
+      }
+    }
+  ]
+}

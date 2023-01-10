@@ -41,21 +41,15 @@
       ],
       "buttons": [
         {
-          "text": "Privacy Notice",
+          "text": "Privacy Policy",
           "type": "PAGE",
-          "link": "/legal/privacy-notice",
+          "link": "/legal/privacy-policy",
           "variant": "links.nav-light"
         },
         {
           "text": "Cookie Policy",
           "type": "PAGE",
           "link": "/legal/cookie-policy",
-          "variant": "links.nav-light"
-        },
-        {
-          "text": "Terms Of Use",
-          "type": "PAGE",
-          "link": "/legal/terms-of-use",
           "variant": "links.nav-light"
         }
       ]

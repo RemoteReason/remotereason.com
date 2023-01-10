@@ -1,0 +1,88 @@
+{
+  "text": [
+    {
+      "text": "How we use personal data ?",
+      "color":"beta",
+      "variant": "h2"
+    },
+    {
+      "text": "We use your personal data for your benefit. We never sell it.",
+      "variant": "h5"
+    }
+  ],
+  "collection": [
+    {
+      "text": [
+        {
+          "text": "Communication",
+          "variant": "h5"
+        },
+        {
+          "text": "When we answer queries submitted through our contact forms, chat, e-mail or social media."
+        } 
+      ],
+      "icon": {
+        "src": "../../../../assets/shared/icons/bx-chat.svg",
+        "bg": "white",
+        "color": "alpha"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Updates",
+          "variant": "h5"
+        },
+        {
+          "text": "When we keep you posted on company updates through emails and newsletters."
+        }
+      ],
+      "icon": {
+        "src": "../../../../assets/shared/icons/bx-mail-send.svg",
+        "bg": "white",
+        "color": "alpha"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Ads",
+          "variant": "h5"
+        },
+        {
+          "text": "When we build targeted audiences for social media campaigns to ensure the relevancy of our communications.",
+          "space":3
+        },
+        {
+          "text": "Also we optimize Google & social media ads based on collected anonymized data."
+        }
+
+      ],
+      "icon": {
+        "src": "../../../../assets/shared/icons/bxl-google.svg",
+        "bg": "white",
+        "color": "alpha"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Website experience",
+          "variant": "h5"
+        },
+        {
+          "text": "We need understand your current experience with our website in order to improve it.",
+          "space":3
+        },
+        {
+          "text": "We create statistics around website traffic, marketing performance, communication initiatives."
+        }
+      ],
+      "icon": {
+        "src": "../../../../assets/shared/icons/bxs-window-alt.svg",
+        "bg": "white",
+        "color": "alpha"
+      }
+    }
+  ]
+}

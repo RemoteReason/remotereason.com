@@ -1,0 +1,28 @@
+{
+  "collection": [
+    {
+      "text": [
+        {
+          "text": "How to manage Cookies?",
+          "color": "omegaDarker",
+          "variant": "h2",
+          "space": 3
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "You can always opt to turn off cookies from your browser settings. Check the website of your browser for step-by-step instructions of how to opt out.",
+          "color": "omegaDark",
+          "space": 3
+        },
+        {
+          "text": "If you have any further questions regarding how to handle cookies we’d be happy to answer. Please contact us at privacy@remotereason.com for more details.",
+          "color": "omegaDark"
+        }
+
+      ]
+    }
+  ]
+}
