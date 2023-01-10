@@ -28,7 +28,7 @@
         {
           "text": "Blog",
           "type": "PAGE",
-          "link": "/blog",
+          "link": "https://blog.remotereason.com",
           "variant": "links.nav-light"
         }
       ]
