@@ -1,12 +1,7 @@
 {
   "text": [
     {
-      "text": "Get access to unlimited resources",
-      "color": "alpha",
-      "variant": "h4"
-    },
-    {
-      "text": "Why Choose Us Over Competition?",
+      "text": "You will really like us",
       "variant": "h2"
     }
   ],
@@ -14,12 +9,12 @@
     {
       "text": [
         {
-          "text": "Advanced Analytics",
+          "text": "High tech",
           "color": "omegaDark",
           "variant": "h5"
         },
         {
-          "text": "At vero eos et accusamus et. Tempor incididunt ut labore et dolore magna aliqua consectetur magna aliqua."
+          "text": "Our teams have production grade expertise with high tech open source."
         }
       ],
       "icon": {
@@ -31,12 +26,12 @@
     {
       "text": [
         {
-          "text": "Expert Support",
+          "text": "Benelux Area",
           "color": "omegaDark",
           "variant": "h5"
         },
         {
-          "text": "Et harum quidem rerum facilis. Tempor incididunt ut labore et dolore magna aliqua consectetur magna aliqua."
+          "text": "We can visit your office in person. Anywhere in the Benelux area. We are friendly people."
         }
       ],
       "icon": {
@@ -48,12 +43,12 @@
     {
       "text": [
         {
-          "text": "Lifetime Access",
+          "text": "Fast time to market",
           "color": "omegaDark",
           "variant": "h5"
         },
         {
-          "text": "Itaque earum rerum hic tenetur. Tempor incididunt ut labore et dolore magna aliqua consectetur magna aliqua."
+          "text": "We have experience with fast moving product roadmaps. Startup speed."
         }
       ],
       "icon": {
@@ -65,12 +60,12 @@
     {
       "text": [
         {
-          "text": "Creative Solutions",
+          "text": "Flexible",
           "color": "omegaDark",
           "variant": "h5"
         },
         {
-          "text": "Similique sunt in culpa officia. Tempor incididunt ut labore et dolore magna aliqua consectetur magna aliqua."
+          "text": "We adapt our teams size on demand. You get a flexible delivery capacity."
         }
       ],
       "icon": {

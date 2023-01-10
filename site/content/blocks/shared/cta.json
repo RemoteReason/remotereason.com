@@ -1,17 +1,22 @@
 {
   "text": [
     {
-      "text": "Let's talk",
+      "text": "Reasonable geeks",
       "color": "alpha",
       "variant": "h5"
     },
     {
-      "text": "Explore together your project needs & how we can help."
+      "text": "We are proud to power tech driven startups & disrupt with open source.",
+      "space":1
+    },
+    {
+      "text": "Get faster time to market & a flexible delivery capacity. Work with reasonable geeks.",
+      "space":2
     }
   ],
   "buttons": [
     {
-      "text": "Contact Us",
+      "text": "Go for it!",
       "type": "PAGE",
       "link": "mailto:hello@remotereason.com",
       "variant": "gradient"
