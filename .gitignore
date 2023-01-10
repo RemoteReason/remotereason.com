@@ -5,3 +5,7 @@ tmp/site
 site/.cache
 site/public
 site/node_modules
+
+blog/.cache
+blog/public
+blog/node_modules
