@@ -31,7 +31,7 @@
     {
       "buttons": [
         {
-          "text": "Contact Us",
+          "text": "Contact us",
           "type": "PAGE",
           "link": "mailto:hello@remotereason.com"
         }

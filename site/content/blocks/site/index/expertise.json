@@ -1,16 +1,16 @@
 {
   "text": [
     {
-      "text": "STAND TALL",
+      "text": "Faster Time To Market",
       "color": "alpha",
-      "variant": "h4"
+      "variant": "h2"
     },
     {
       "text": "with well crafted software",
       "variant": "h2"
     },
     {
-      "text": "We build beautiful custom software for startups & companies that really care.",
+      "text": "We build beautiful custom software for startups & companies that really care. Startup speed.",
       "variant": "medium"
     }
   ],
@@ -57,5 +57,15 @@
         }
       ]
     }
+    
+  ],
+  "buttons": [
+    {
+      "text": "Read more   ➜",
+      "type": "PAGE",
+      "link": "/expertise/overview",
+      "variant": "secondary-outline"
+    }
   ]
+
 }

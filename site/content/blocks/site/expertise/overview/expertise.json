@@ -12,8 +12,16 @@
           "variant": "h4"
         },
         {
-          "text": "We build mobile apps on IOS & Android. Flawless experience on phones & tables of various sizes."
+          "text": "We build mobile apps on IOS & Android. Flawless experience on phones & tables of various sizes.",
+          "space":2
+        },
+        {
+          "text": "Cross platform | iOS | Android ",
+          "variant": "h6",
+          "space":2,
+          "color": "omegaDark"
         }
+
       ],
       "images": [
         {
@@ -23,10 +31,10 @@
       ],
       "buttons": [
         {
-          "text": "Details   ➜",
+          "text": "Go mobile   ➜",
           "type": "PAGE",
           "link": "/expertise/mobile-apps",
-          "variant": "primary-light"
+          "variant": "secondary-outline"
         }
       ]
     },
@@ -42,7 +50,14 @@
           "variant": "h4"
         },
         {
-          "text": "We build web apps & portals that feel right on all browsers & devices."
+          "text": "We build web apps & portals that feel right on all browsers & devices.",
+          "space":2
+        },
+        {
+          "text": "Frontend | Backend | DevOps ",
+          "variant": "h6",
+          "space":2,
+          "color": "omegaDark"
         }
       ],
       "images": [
@@ -53,10 +68,10 @@
       ],
       "buttons": [
         {
-          "text": "Details   ➜",
+          "text": "Go web   ➜",
           "type": "PAGE",
           "link": "/expertise/web-apps",
-          "variant": "primary-light"
+          "variant": "secondary-outline"
         }
       ]
     },
@@ -72,7 +87,14 @@
           "variant": "h4"
         },
         {
-          "text": "Branding & graphical design for your web & mobile apps."
+          "text": "Branding & graphical design for your web & mobile apps.",
+          "space":2
+        },
+        {
+          "text": "Prototype | Development Driven ",
+          "variant": "h6",
+          "space":2,
+          "color": "omegaDark"
         }
       ],
       "images": [
@@ -83,10 +105,10 @@
       ],
       "buttons": [
         {
-          "text": "Details   ➜",
+          "text": "More design   ➜",
           "type": "PAGE",
           "link": "/expertise/ui-ux-design",
-          "variant": "primary-light"
+          "variant": "secondary-outline"
         }
       ]
     }

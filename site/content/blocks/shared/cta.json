@@ -16,10 +16,10 @@
   ],
   "buttons": [
     {
-      "text": "Go for it!",
+      "text": "Contact us",
       "type": "PAGE",
       "link": "mailto:hello@remotereason.com",
-      "variant": "gradient"
+      "variant": "primary"
     }
   ]
 }

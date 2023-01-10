@@ -28,7 +28,7 @@ const Services03 = props => {
       <FeatureOne content={content['challenges-web-apps']} />
       <Divider space='4' />
       <Contact content={content['cta']} />
-
+      <Divider space='5' />
       <Footer content={content['footer']} />
     </Layout>
   )

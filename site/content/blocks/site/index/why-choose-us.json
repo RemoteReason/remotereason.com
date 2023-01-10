@@ -2,6 +2,7 @@
   "text": [
     {
       "text": "You will really like us",
+      "color": "alpha",
       "variant": "h2"
     }
   ],
@@ -10,7 +11,6 @@
       "text": [
         {
           "text": "High tech",
-          "color": "omegaDark",
           "variant": "h5"
         },
         {
@@ -18,33 +18,29 @@
         }
       ],
       "icon": {
-        "src": "../../../assets/shared/icons/bx-analyse.svg",
-        "bg": "omegaLighter",
-        "color": "alpha"
+        "src": "../../../assets/shared/icons/bx-target-lock.svg",
+        "color": "beta"
       }
     },
     {
       "text": [
         {
           "text": "Benelux Area",
-          "color": "omegaDark",
           "variant": "h5"
         },
         {
-          "text": "We can visit your office in person. Anywhere in the Benelux area. We are friendly people."
+          "text": "We can visit your office in person. Anywhere in the Benelux area. We are friendly geeks."
         }
       ],
       "icon": {
-        "src": "../../../assets/shared/icons/bx-chat.svg",
-        "bg": "omegaLighter",
-        "color": "alpha"
+        "src": "../../../assets/shared/icons/bx-planet.svg",
+        "color": "beta"
       }
     },
     {
       "text": [
         {
           "text": "Fast time to market",
-          "color": "omegaDark",
           "variant": "h5"
         },
         {
@@ -52,16 +48,14 @@
         }
       ],
       "icon": {
-        "src": "../../../assets/shared/icons/bx-dna.svg",
-        "bg": "omegaLighter",
-        "color": "alpha"
+        "src": "../../../assets/shared/icons/bx-rocket.svg",
+        "color": "beta"
       }
     },
     {
       "text": [
         {
           "text": "Flexible",
-          "color": "omegaDark",
           "variant": "h5"
         },
         {
@@ -70,8 +64,7 @@
       ],
       "icon": {
         "src": "../../../assets/shared/icons/bx-directions.svg",
-        "bg": "omegaLighter",
-        "color": "alpha"
+        "color": "beta"
       }
     }
   ]
