@@ -62,9 +62,9 @@
       ],
       "buttons": [
         {
-          "text": "Github",
+          "text": "github",
           "type": "PAGE",
-          "link": "https://github.com/RemoteReson",
+          "link": "https://github.com/RemoteReason",
           "variant": "links.nav-light",
           "icon": {
             "src": "../../assets/shared/icons/bxl-github.svg",
@@ -72,9 +72,9 @@
           }
         },
         {
-          "text": "Twitter",
+          "text": "twitter",
           "type": "PAGE",
-          "link": "https://twitter.com/RemoteReson",
+          "link": "https://twitter.com/RemoteReason",
           "variant": "links.nav-light",
           "icon": {
             "src": "../../assets/shared/icons/bxl-twitter.svg",
@@ -82,7 +82,7 @@
           }
         },
         {
-          "text": "Slack",
+          "text": "slack",
           "type": "PAGE",
           "link": "https://remote-reason.slack.com",
           "variant": "links.nav-light",
