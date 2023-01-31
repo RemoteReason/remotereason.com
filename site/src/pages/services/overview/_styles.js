@@ -5,7 +5,7 @@
  *
  */
 
-import pattern from "../../../../content/assets/shared/patterns/dot-pattern.svg"
+import pattern from "../../../../content/assets/shared/patterns/map-red.svg"
 
 export default {
   heroContainer: {
