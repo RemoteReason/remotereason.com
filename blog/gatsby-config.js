@@ -4,7 +4,7 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: '@elegantstack/gatsby-theme-flexiblog-agency',
+      resolve: '@elegantstack/gatsby-theme-flexiblog-minimal-v2',
       options: {
         // Add theme options here. Check documentation for available options.
         siteUrl: process.env.URL || process.env.VERCEL_URL
