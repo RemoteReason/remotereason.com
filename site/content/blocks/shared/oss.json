@@ -16,9 +16,9 @@
   ],
   "buttons": [
     {
-      "text": "Read more",
+      "text": "Let's talk",
       "type": "PAGE",
-      "link": "/open-source",
+      "link": "mailto:hello@remotereason.com",
       "variant": "secondary-outline"
     }
   ]

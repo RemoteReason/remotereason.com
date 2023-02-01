@@ -22,15 +22,10 @@ export default {
       borderRadius: `xl`,
       mx: `auto`
     },
-    '::before': {
-      zIndex: -3,
-      bg: `omegaDarker`
-    },
     '::after': {
       zIndex: -2,
       background: `url(${pattern}) no-repeat left top`,
-      backgroundSize: `cover`,
-      opacity: 0.25
+      backgroundSize: `cover`
     }
   }
 }

@@ -35,7 +35,6 @@ const FooterBlock01 = ({ content: { images, collection } }) => {
               © {new Date().getFullYear()}, All Rights Reserved.
             </Box>
             <Box>
-              <PoweredByGatsby />
             </Box>
           </Box>
           {collection?.map(
