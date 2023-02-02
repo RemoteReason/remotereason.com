@@ -19,7 +19,13 @@ module.exports = {
         icon: 'content/assets/shared/favicon.png',
       },
     },
-    "gatsby-plugin-sitemap"
+    {
+      resolve: "gatsby-plugin-sitemap",
+      options: {
+        excludes: [ '/legal/**' ]
+      }
+    }
+
   ],
   // Customize your site metadata
   siteMetadata: {

@@ -18,7 +18,12 @@ module.exports = {
         icon: 'content/assets/favicon.png',
       },
     },
-    "gatsby-plugin-sitemap"
+    {
+      resolve: "gatsby-plugin-sitemap",
+      options: {
+        excludes: [ '/tag/**','/authors','/contact' ]
+      }
+    }
 
   ],
   // Customize your site metadata:
