@@ -27,6 +27,7 @@ module.exports = {
     name: 'Remote Reason',
     description: 'Building software products that power your business.',
     email: 'hello@remotereason.com',
+    siteUrl: `https://blog.remotereason.com`,
     address:'',
     phone:'',
 

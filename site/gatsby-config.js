@@ -27,5 +27,6 @@ module.exports = {
     title: 'Remote Reason - Software Development Services',
     name: 'Remote Reason',
     description: 'Building software products that power your business.',
+    siteUrl: `https://remotereason.com`
   }
 }
