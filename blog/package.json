@@ -13,7 +13,9 @@
 		"@elegantstack/gatsby-theme-flexiblog-minimal-v2": "*",
 		"gatsby": "^4.14.1",
 		"react": "^18.1.0",
-		"react-dom": "^18.1.0"
+		"react-dom": "^18.1.0",
+		"gatsby-plugin-manifest":"5.5.0",
+		"gatsby-plugin-sitemap":"6.5.0"
 	},
 	"devDependencies": {
 		"prettier": "^2.6.2",

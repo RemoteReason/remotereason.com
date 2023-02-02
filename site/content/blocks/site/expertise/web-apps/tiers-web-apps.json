@@ -23,7 +23,7 @@
           "variant": "h4"
         },
         {
-          "text": "HTML5. React with JS/TS. Tailwind or similar SCSS frameworks. D3, WebGL & advanced visualisation techniques."
+          "text": "HTML5. React with JS/TS. Tailwind or similar for CSS. D3, WebGL & advanced visualisation techniques."
         }
       ],
       "collection": [
@@ -79,7 +79,7 @@
           "variant": "h4"
         },
         {
-          "text": "Node server with JS/TS using Next or NestJS. We also work with Ruby on Rails. And PHP / Laravel."
+          "text": "Node server with JS/TS & NestJS. Elixir/Phoenix as well. Always choose the right tool for the right job."
         }
       ],
       "collection": [

@@ -11,7 +11,14 @@ module.exports = {
       },
     },
     "gatsby-plugin-image",
-    "gatsby-plugin-sharp"
+    "gatsby-plugin-sharp",
+    {
+      resolve: 'gatsby-plugin-manifest',
+      options: {
+        icon: 'content/assets/favicon.png',
+      },
+    },
+    "gatsby-plugin-sitemap"
 
   ],
   // Customize your site metadata:
