@@ -28,9 +28,9 @@ module.exports = {
   ],
   // Customize your site metadata:
   siteMetadata: {
-    title: 'Remote Reason - Software Development Services',
+    title: 'Remote Reason',
     name: 'Remote Reason',
-    description: 'Building software products that power your business.',
+    description: 'Building custom software for startups & companies that really care.',
     email: 'hello@remotereason.com',
     siteUrl: `https://blog.remotereason.com`,
     address:'',
