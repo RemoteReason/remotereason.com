@@ -91,8 +91,8 @@ const ContentImages = ({
         <ImageComponent
           image={images[0]}
           loading={loading}
-          objectFit={imageFit}
-          objectPosition={objectPosition}
+          objectfit={imageFit}
+          objectposition={objectPosition}
           sx={sx}
         />
       </Reveal>
