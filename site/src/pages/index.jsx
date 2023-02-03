@@ -18,7 +18,7 @@ const IndexPage = props => {
 
   return (
     <Layout theme={theme} {...props}>
-      <Seo title='Remote Reason' />
+      <Seo title='Home' />
       {/* Blocks */}
     
        <Header content={content['header']} />
