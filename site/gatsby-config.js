@@ -32,6 +32,7 @@ module.exports = {
     //General Site Metadata
     title: 'Remote Reason',
     name: 'Remote Reason',
+    image: `site/content/assets/site/index/expertise-overview.png`,
     description: 'Building custom software for startups & companies that really care.',
     siteUrl: `https://remotereason.com`
   }
