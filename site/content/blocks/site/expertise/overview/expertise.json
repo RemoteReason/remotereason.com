@@ -26,7 +26,7 @@
       "images": [
         {
           "src": "../../../../assets/site/expertise/overview/mobile-apps.png",
-          "alt": "alt text"
+          "alt": "Expertise - Mobile apps"
         }
       ],
       "buttons": [
@@ -63,7 +63,7 @@
       "images": [
         {
           "src": "../../../../assets/site/expertise/overview/web-apps.png",
-          "alt": "alt text"
+          "alt": "Expertise - Web apps"
         }
       ],
       "buttons": [
@@ -100,7 +100,7 @@
       "images": [
         {
           "src": "../../../../assets/site/expertise/overview/ui-ux-design.png",
-          "alt": "alt text"
+          "alt": "Expertise - UI/UX Design"
         }
       ],
       "buttons": [

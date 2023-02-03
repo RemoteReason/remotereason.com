@@ -21,13 +21,14 @@
   "images": [
     {
       "src": "../../../../assets/site/expertise/ui-ux-design/ui-ux-design-ongoing.png",
-      "alt": "alt text"
+      "alt": "Continous delivery of mockups & visual assets"
     }
   ],
   "collection": [
     {
       "icon": {
         "src": "../../../../assets/shared/icons/bx-check-circle.svg",
+        "alt": "to see the final look & feel",
         "color": "beta"
       },
       "text": [
@@ -40,6 +41,7 @@
     {
       "icon": {
         "src": "../../../../assets/shared/icons/bx-check-circle.svg",
+        "alt": "visual guidelines for pixel perfect screens",
         "color": "beta"
       },
       "text": [
@@ -52,6 +54,7 @@
     {
       "icon": {
         "src": "../../../../assets/shared/icons/bx-check-circle.svg",
+        "alt": "to fit them visually in the existing app",
         "color": "beta"
       },
       "text": [

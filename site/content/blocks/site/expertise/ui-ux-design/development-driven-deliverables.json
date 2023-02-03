@@ -23,6 +23,7 @@
       ],
       "icon": {
         "src": "../../../../assets/shared/icons/bx-dna.svg",
+        "alt": "Development Driven Design",
         "bg": "#D3E7FE",
         "color": "#276BF0"
       }
@@ -43,6 +44,7 @@
       ],
       "icon": {
         "src": "../../../../assets/shared/icons/bx-check.svg",
+        "alt": "Visual screen mockup based on the new feature specifications",
         "bg": "#FEFAD6",
         "color": "#F4D133"
       }
@@ -63,6 +65,7 @@
       ],
       "icon": {
         "src": "../../../../assets/shared/icons/bx-bar-chart-alt.svg",
+        "alt": "On brand & feature visual elements icons, textures, charts, etc",
         "bg": "#FEE8D1",
         "color": "#F7491D"
       }
@@ -83,6 +86,7 @@
       ],
       "icon": {
         "src": "../../../../assets/shared/icons/bx-directions.svg",
+        "alt": "How the new feature looks on smaller screens. Like smartphone or tablet",
         "bg": "#EBFDDA",
         "color": "#64DB43"
       }

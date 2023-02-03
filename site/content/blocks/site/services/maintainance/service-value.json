@@ -12,7 +12,7 @@
   ],
   "icon": {
     "src": "../../../../assets/shared/icons/bx-analyse.svg",
-    "alt": "alt text"
+    "alt": "You get value in each stage"
   },
   "collection": [
     {
@@ -37,7 +37,7 @@
           ],
           "icon": {
             "src": "../../../../assets/shared/icons/bx-check-circle.svg",
-            "alt": "alt text",
+            "alt": "NDA signed",
             "color": "beta"
           }
         },
@@ -51,7 +51,7 @@
           ],
           "icon": {
             "src": "../../../../assets/shared/icons/bx-check-circle.svg",
-            "alt": "alt text",
+            "alt": "Service Level Agreements",
             "color": "beta"
           }
         },
@@ -65,7 +65,7 @@
           ],
           "icon": {
             "src": "../../../../assets/shared/icons/bx-check-circle.svg",
-            "alt": "alt text",
+            "alt": "Contract signed",
             "color": "beta"
           }
         },
@@ -79,7 +79,7 @@
           ],
           "icon": {
             "src": "../../../../assets/shared/icons/bx-check-circle.svg",
-            "alt": "alt text",
+            "alt": "Start date",
             "color": "beta"
           }
         }
@@ -107,7 +107,7 @@
           ],
           "icon": {
             "src": "../../../../assets/shared/icons/bx-check-circle.svg",
-            "alt": "alt text",
+            "alt": "Project codebase expertise",
             "color": "beta"
           }
         },
@@ -121,7 +121,7 @@
           ],
           "icon": {
             "src": "../../../../assets/shared/icons/bx-check-circle.svg",
-            "alt": "alt text",
+            "alt": "Shared processes",
             "color": "beta"
           }
         },
@@ -135,7 +135,7 @@
           ],
           "icon": {
             "src": "../../../../assets/shared/icons/bx-check-circle.svg",
-            "alt": "alt text",
+            "alt": "Common reporting",
             "color": "beta"
           }
         },
@@ -149,7 +149,7 @@
           ],
           "icon": {
             "src": "../../../../assets/shared/icons/bx-check-circle.svg",
-            "alt": "alt text",
+            "alt": "Shared knowledge",
             "color": "beta"
           }
         }
@@ -177,7 +177,7 @@
           ],
           "icon": {
             "src": "../../../../assets/shared/icons/bx-check-circle.svg",
-            "alt": "alt text",
+            "alt": "Active monitoring",
             "color": "beta"
           }
         },
@@ -191,7 +191,7 @@
           ],
           "icon": {
             "src": "../../../../assets/shared/icons/bx-check-circle.svg",
-            "alt": "alt text",
+            "alt": "Monthly reporting",
             "color": "beta"
           }
         },
@@ -205,7 +205,7 @@
           ],
           "icon": {
             "src": "../../../../assets/shared/icons/bx-check-circle.svg",
-            "alt": "alt text",
+            "alt": "Flexible allocations",
             "color": "beta"
           }
         },
@@ -219,7 +219,7 @@
           ],
           "icon": {
             "src": "../../../../assets/shared/icons/bx-check-circle.svg",
-            "alt": "alt text",
+            "alt": "Managed team",
             "color": "beta"
           }
         }

@@ -23,7 +23,7 @@
       "images": [
         {
           "src": "../../../assets/site/services/overview/build-product.png",
-          "alt": "alt text"
+          "alt": "Build product"
         }
       ],
       "buttons": [
@@ -53,7 +53,7 @@
       "images": [
         {
           "src": "../../../assets/site/services/overview/team-extension.png",
-          "alt": "alt text"
+          "alt": "Team extension"
         }
       ],
       "buttons": [
@@ -83,7 +83,7 @@
       "images": [
         {
           "src": "../../../assets/site/services/overview/maintainance.png",
-          "alt": "alt text"
+          "alt": "Maintainance"
         }
       ],
       "buttons": [

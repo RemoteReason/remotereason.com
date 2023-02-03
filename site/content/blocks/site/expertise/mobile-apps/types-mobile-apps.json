@@ -12,7 +12,7 @@
   ],
   "icon": {
     "src": "../../../../assets/shared/icons/bx-analyse.svg",
-    "alt": "alt text"
+    "alt": "Types of Mobile apps"
   },    
   "collection": [
     {
@@ -37,7 +37,7 @@
           ],
           "icon": {
             "src": "../../../../assets/shared/icons/bx-check-circle.svg",
-            "alt": "alt text",
+            "alt": "Coded with React Native",
             "color": "beta"
           }
         },
@@ -51,7 +51,7 @@
           ],
           "icon": {
             "src": "../../../../assets/shared/icons/bx-check-circle.svg",
-            "alt": "alt text",
+            "alt": "> 50% cheaper vs. native",
             "color": "beta"
           }
         },
@@ -65,7 +65,7 @@
           ],
           "icon": {
             "src": "../../../../assets/shared/icons/bx-check-circle.svg",
-            "alt": "alt text",
+            "alt": "Good performance",
             "color": "beta"
           }
         }
@@ -93,7 +93,7 @@
           ],
           "icon": {
             "src": "../../../../assets/shared/icons/bx-check-circle.svg",
-            "alt": "alt text",
+            "alt": "Coded in Swift / Objective C",
             "color": "beta"
           }
         },
@@ -107,7 +107,7 @@
           ],
           "icon": {
             "src": "../../../../assets/shared/icons/bx-check-circle.svg",
-            "alt": "alt text",
+            "alt": "Full OS / hardware access",
             "color": "beta"
           }
         },
@@ -121,7 +121,7 @@
           ],
           "icon": {
             "src": "../../../../assets/shared/icons/bx-check-circle.svg",
-            "alt": "alt text",
+            "alt": "Maximum performance",
             "color": "beta"
           }
         }
@@ -149,7 +149,7 @@
           ],
           "icon": {
             "src": "../../../../assets/shared/icons/bx-check-circle.svg",
-            "alt": "alt text",
+            "alt": "Coded in Kotlin / Java",
             "color": "beta"
           }
         },
@@ -163,7 +163,7 @@
           ],
           "icon": {
             "src": "../../../../assets/shared/icons/bx-check-circle.svg",
-            "alt": "alt text",
+            "alt": "Full OS / hardware access",
             "color": "beta"
           }
         },
@@ -177,7 +177,7 @@
           ],
           "icon": {
             "src": "../../../../assets/shared/icons/bx-check-circle.svg",
-            "alt": "alt text",
+            "alt": "Maximum performance",
             "color": "beta"
           }
         }

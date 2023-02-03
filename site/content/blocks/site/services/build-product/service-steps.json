@@ -14,13 +14,14 @@
     {
       "src": "../../../../assets/site/services/build-product/build-product-details.png",
       "radius": "lg",
-      "alt": "alt text"
+      "alt": "We take full responsability for end to end delivery"
     }
   ],
   "collection": [
     {
       "icon": {
         "src": "../../../../assets/shared/icons/bx-chat.svg",
+        "alt": "Free consultation",
         "color": "beta",
         "bg": "omegaLighter"
       },
@@ -38,6 +39,7 @@
     {
       "icon": {
         "src": "../../../../assets/shared/icons/bx-brain.svg",
+        "alt": "Master plan",
         "color": "beta",
         "bg": "omegaLighter"
       },
@@ -55,6 +57,7 @@
     {
       "icon": {
         "src": "../../../../assets/shared/icons/bx-rocket.svg",
+        "alt": "Implementation",
         "color": "beta",
         "bg": "omegaLighter"
       },

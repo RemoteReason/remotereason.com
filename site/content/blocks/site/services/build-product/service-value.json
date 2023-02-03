@@ -12,7 +12,7 @@
   ],
   "icon": {
     "src": "../../../../assets/shared/icons/bx-analyse.svg",
-    "alt": "alt text"
+    "alt": "You get value in each stage"
   },
   "collection": [
     {
@@ -37,7 +37,7 @@
           ],
           "icon": {
             "src": "../../../../assets/shared/icons/bx-check-circle.svg",
-            "alt": "alt text",
+            "alt": "NDA signed",
             "color": "beta"
           }
         },
@@ -51,7 +51,7 @@
           ],
           "icon": {
             "src": "../../../../assets/shared/icons/bx-check-circle.svg",
-            "alt": "alt text",
+            "alt": "Clear project vision & constraints",
             "color": "beta"
           }
         },
@@ -65,7 +65,7 @@
           ],
           "icon": {
             "src": "../../../../assets/shared/icons/bx-check-circle.svg",
-            "alt": "alt text",
+            "alt": "Contract signed",
             "color": "beta"
           }
         },
@@ -79,7 +79,7 @@
           ],
           "icon": {
             "src": "../../../../assets/shared/icons/bx-check-circle.svg",
-            "alt": "alt text",
+            "alt": "Kickstart date",
             "color": "beta"
           }
         }
@@ -107,7 +107,7 @@
           ],
           "icon": {
             "src": "../../../../assets/shared/icons/bx-check-circle.svg",
-            "alt": "alt text",
+            "alt": "UI/UX design (clickable demo)",
             "color": "beta"
           }
         },
@@ -121,7 +121,7 @@
           ],
           "icon": {
             "src": "../../../../assets/shared/icons/bx-check-circle.svg",
-            "alt": "alt text",
+            "alt": "Features scope",
             "color": "beta"
           }
         },
@@ -135,7 +135,7 @@
           ],
           "icon": {
             "src": "../../../../assets/shared/icons/bx-check-circle.svg",
-            "alt": "alt text",
+            "alt": "Costs & timeline",
             "color": "beta"
           }
         },
@@ -149,7 +149,7 @@
           ],
           "icon": {
             "src": "../../../../assets/shared/icons/bx-check-circle.svg",
-            "alt": "alt text",
+            "alt": "Technical design / architecture",
             "color": "beta"
           }
         }
@@ -177,7 +177,7 @@
           ],
           "icon": {
             "src": "../../../../assets/shared/icons/bx-check-circle.svg",
-            "alt": "alt text",
+            "alt": "Daily communication",
             "color": "beta"
           }
         },
@@ -191,7 +191,7 @@
           ],
           "icon": {
             "src": "../../../../assets/shared/icons/bx-check-circle.svg",
-            "alt": "alt text",
+            "alt": "Demo every 2 weeks",
             "color": "beta"
           }
         },
@@ -205,7 +205,7 @@
           ],
           "icon": {
             "src": "../../../../assets/shared/icons/bx-check-circle.svg",
-            "alt": "alt text",
+            "alt": "Managed team",
             "color": "beta"
           }
         },
@@ -219,7 +219,7 @@
           ],
           "icon": {
             "src": "../../../../assets/shared/icons/bx-check-circle.svg",
-            "alt": "alt text",
+            "alt": "Reporting on progress & costs",
             "color": "beta"
           }
         }

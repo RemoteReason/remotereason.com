@@ -14,7 +14,7 @@
     {
       "src": "../../../../assets/site/expertise/web-apps/web-apps-details.png",
       "radius": "lg",
-      "alt": "alt text"
+      "alt": "Your web app is crafted with care for the overall business value"
     }
   ],
   "collection": [
@@ -39,6 +39,7 @@
       "icon": {
         "src": "../../../../assets/shared/icons/bx-analyse.svg",
         "color": "beta",
+        "alt": "The web app looks great & feels right on all relevant screen sizes & devices",
         "bg": "omegaLighter"
       },
       "text": [
@@ -55,6 +56,7 @@
     {
       "icon": {
         "src": "../../../../assets/shared/icons/bx-user.svg",
+        "alt": "The user data & communication is secure",
         "color": "beta",
         "bg": "omegaLighter"
       },

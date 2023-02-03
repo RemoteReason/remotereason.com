@@ -14,13 +14,14 @@
     {
       "src": "../../../../assets/site/services/maintainance/maintainance-details.png",
       "radius": "lg",
-      "alt": "alt text"
+      "alt": "Your product is always live & works as expected"
     }
   ],
   "collection": [
     {
       "icon": {
         "src": "../../../../assets/shared/icons/bx-chat.svg",
+        "alt": "Free consultation",
         "color": "beta",
         "bg": "omegaLighter"
       },
@@ -38,6 +39,7 @@
     {
       "icon": {
         "src": "../../../../assets/shared/icons/bx-brain.svg",
+        "alt": "Onboarding",
         "color": "beta",
         "bg": "omegaLighter"
       },
@@ -55,6 +57,7 @@
     {
       "icon": {
         "src": "../../../../assets/shared/icons/bx-rocket.svg",
+        "alt": "Ongoing",
         "color": "beta",
         "bg": "omegaLighter"
       },

@@ -17,13 +17,14 @@
   "images": [
     {
       "src": "../../../assets/site/index/expertise-overview.png",
-      "alt": "alt text"
+      "alt": "We build beautiful custom software"
     }
   ],
   "collection": [
     {
       "icon": {
         "src": "../../../assets/shared/icons/bx-check-circle.svg",
+        "alt": "Mobile apps",
         "color": "beta"
       },
       "text": [
@@ -36,6 +37,7 @@
     {
       "icon": {
         "src": "../../../assets/shared/icons/bx-check-circle.svg",
+        "alt": "Web apps",
         "color": "beta"
       },
       "text": [
@@ -48,6 +50,7 @@
     {
       "icon": {
         "src": "../../../assets/shared/icons/bx-check-circle.svg",
+        "alt": "UI/UX design",
         "color": "beta"
       },
       "text": [

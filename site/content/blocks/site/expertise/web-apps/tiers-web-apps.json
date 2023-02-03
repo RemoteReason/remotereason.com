@@ -12,7 +12,7 @@
   ],
   "icon": {
     "src": "../../../../assets/shared/icons/bx-analyse.svg",
-    "alt": "alt text"
+    "alt": "We build the web interface, the backend & release it in production"
   },
   "collection": [
     {
@@ -37,7 +37,7 @@
           ],
           "icon": {
             "src": "../../../../assets/shared/icons/bx-check-circle.svg",
-            "alt": "alt text",
+            "alt": "Beautifull in all browsers",
             "color": "beta"
           }
         },
@@ -51,7 +51,7 @@
           ],
           "icon": {
             "src": "../../../../assets/shared/icons/bx-check-circle.svg",
-            "alt": "alt text",
+            "alt": "Mobile & tablet ready",
             "color": "beta"
           }
         },
@@ -65,7 +65,7 @@
           ],
           "icon": {
             "src": "../../../../assets/shared/icons/bx-check-circle.svg",
-            "alt": "alt text",
+            "alt": "Rich media experience",
             "color": "beta"
           }
         }
@@ -93,7 +93,7 @@
           ],
           "icon": {
             "src": "../../../../assets/shared/icons/bx-check-circle.svg",
-            "alt": "alt text",
+            "alt": "Scalable & secure",
             "color": "beta"
           }
         },
@@ -107,7 +107,7 @@
           ],
           "icon": {
             "src": "../../../../assets/shared/icons/bx-check-circle.svg",
-            "alt": "alt text",
+            "alt": "Ready for integrations",
             "color": "beta"
           }
         },
@@ -121,7 +121,7 @@
           ],
           "icon": {
             "src": "../../../../assets/shared/icons/bx-check-circle.svg",
-            "alt": "alt text",
+            "alt": "Easy to change",
             "color": "beta"
           }
         }
@@ -149,7 +149,7 @@
           ],
           "icon": {
             "src": "../../../../assets/shared/icons/bx-check-circle.svg",
-            "alt": "alt text",
+            "alt": "Fully automated",
             "color": "beta"
           }
         },
@@ -163,7 +163,7 @@
           ],
           "icon": {
             "src": "../../../../assets/shared/icons/bx-check-circle.svg",
-            "alt": "alt text",
+            "alt": "Scalable & secure",
             "color": "beta"
           }
         },
@@ -177,7 +177,7 @@
           ],
           "icon": {
             "src": "../../../../assets/shared/icons/bx-check-circle.svg",
-            "alt": "alt text",
+            "alt": "Cost effective",
             "color": "beta"
           }
         }
