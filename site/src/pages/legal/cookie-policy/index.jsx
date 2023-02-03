@@ -18,7 +18,7 @@ const AboutUs02 = props => {
 
   return (
     <Layout {...props}>
-      <Seo title='Home' />
+      <Seo title='Remote Reason - Cookie Policy' />
       {/* Blocks */}
       <Header content={content['header']} />
       <Divider space='5' />

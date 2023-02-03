@@ -16,7 +16,7 @@ const Services03 = props => {
 
   return (
     <Layout {...props}>
-      <Seo title='Home' />
+      <Seo title='Services - Team Extension' />
       {/* Blocks */}
       <Header content={content['header']} />
       <Divider space='5' />
