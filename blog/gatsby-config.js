@@ -58,6 +58,7 @@ module.exports = {
     title: 'Remote Reason',
     name: 'Remote Reason',
     description: 'Building custom software for startups & companies that really care.',
+    image: `content/assets/social-image.png`,
     email: 'hello@remotereason.com',
     siteUrl: `https://blog.remotereason.com`,
     address:'',
