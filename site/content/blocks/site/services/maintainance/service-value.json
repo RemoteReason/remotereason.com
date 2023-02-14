@@ -36,7 +36,7 @@
             }
           ],
           "icon": {
-            "src": "../../../../assets/shared/icons/bx-check-circle.svg",
+            "src": "../../../../assets/shared/icons/bx-check.svg",
             "alt": "NDA signed",
             "color": "beta"
           }
@@ -50,7 +50,7 @@
             }
           ],
           "icon": {
-            "src": "../../../../assets/shared/icons/bx-check-circle.svg",
+            "src": "../../../../assets/shared/icons/bx-check.svg",
             "alt": "Service Level Agreements",
             "color": "beta"
           }
@@ -64,7 +64,7 @@
             }
           ],
           "icon": {
-            "src": "../../../../assets/shared/icons/bx-check-circle.svg",
+            "src": "../../../../assets/shared/icons/bx-check.svg",
             "alt": "Contract signed",
             "color": "beta"
           }
@@ -78,7 +78,7 @@
             }
           ],
           "icon": {
-            "src": "../../../../assets/shared/icons/bx-check-circle.svg",
+            "src": "../../../../assets/shared/icons/bx-check.svg",
             "alt": "Start date",
             "color": "beta"
           }
@@ -106,7 +106,7 @@
             }
           ],
           "icon": {
-            "src": "../../../../assets/shared/icons/bx-check-circle.svg",
+            "src": "../../../../assets/shared/icons/bx-check.svg",
             "alt": "Project codebase expertise",
             "color": "beta"
           }
@@ -120,7 +120,7 @@
             }
           ],
           "icon": {
-            "src": "../../../../assets/shared/icons/bx-check-circle.svg",
+            "src": "../../../../assets/shared/icons/bx-check.svg",
             "alt": "Shared processes",
             "color": "beta"
           }
@@ -134,7 +134,7 @@
             }
           ],
           "icon": {
-            "src": "../../../../assets/shared/icons/bx-check-circle.svg",
+            "src": "../../../../assets/shared/icons/bx-check.svg",
             "alt": "Common reporting",
             "color": "beta"
           }
@@ -148,7 +148,7 @@
             }
           ],
           "icon": {
-            "src": "../../../../assets/shared/icons/bx-check-circle.svg",
+            "src": "../../../../assets/shared/icons/bx-check.svg",
             "alt": "Shared knowledge",
             "color": "beta"
           }
@@ -176,7 +176,7 @@
             }
           ],
           "icon": {
-            "src": "../../../../assets/shared/icons/bx-check-circle.svg",
+            "src": "../../../../assets/shared/icons/bx-check.svg",
             "alt": "Active monitoring",
             "color": "beta"
           }
@@ -190,7 +190,7 @@
             }
           ],
           "icon": {
-            "src": "../../../../assets/shared/icons/bx-check-circle.svg",
+            "src": "../../../../assets/shared/icons/bx-check.svg",
             "alt": "Monthly reporting",
             "color": "beta"
           }
@@ -204,7 +204,7 @@
             }
           ],
           "icon": {
-            "src": "../../../../assets/shared/icons/bx-check-circle.svg",
+            "src": "../../../../assets/shared/icons/bx-check.svg",
             "alt": "Flexible allocations",
             "color": "beta"
           }
@@ -218,7 +218,7 @@
             }
           ],
           "icon": {
-            "src": "../../../../assets/shared/icons/bx-check-circle.svg",
+            "src": "../../../../assets/shared/icons/bx-check.svg",
             "alt": "Managed team",
             "color": "beta"
           }

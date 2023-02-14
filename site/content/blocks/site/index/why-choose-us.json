@@ -18,9 +18,8 @@
         }
       ],
       "icon": {
-        "src": "../../../assets/shared/icons/bx-target-lock.svg",
-        "alt": "High tech",
-        "color": "beta"
+        "src": "../../../assets/shared/icons/high-tech.svg",
+        "alt": "High tech"
       }
     },
     {
@@ -34,9 +33,8 @@
         }
       ],
       "icon": {
-        "src": "../../../assets/shared/icons/bx-planet.svg",
-        "alt": "Benelux Area",
-        "color": "beta"
+        "src": "../../../assets/shared/icons/benelux.svg",
+        "alt": "Benelux Area"
       }
     },
     {
@@ -50,9 +48,8 @@
         }
       ],
       "icon": {
-        "src": "../../../assets/shared/icons/bx-rocket.svg",
-        "alt": "Fast time to market",
-        "color": "beta"
+        "src": "../../../assets/shared/icons/fast-time-to-market.svg",
+        "alt": "Fast time to market"
       }
     },
     {
@@ -66,9 +63,8 @@
         }
       ],
       "icon": {
-        "src": "../../../assets/shared/icons/bx-directions.svg",
-        "alt": "Flexible",
-        "color": "beta"
+        "src": "../../../assets/shared/icons/flexible.svg",
+        "alt": "Flexible"
       }
     }
   ]

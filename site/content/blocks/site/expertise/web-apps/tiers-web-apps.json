@@ -36,7 +36,7 @@
             }
           ],
           "icon": {
-            "src": "../../../../assets/shared/icons/bx-check-circle.svg",
+            "src": "../../../../assets/shared/icons/bx-check.svg",
             "alt": "Beautifull in all browsers",
             "color": "beta"
           }
@@ -50,7 +50,7 @@
             }
           ],
           "icon": {
-            "src": "../../../../assets/shared/icons/bx-check-circle.svg",
+            "src": "../../../../assets/shared/icons/bx-check.svg",
             "alt": "Mobile & tablet ready",
             "color": "beta"
           }
@@ -64,7 +64,7 @@
             }
           ],
           "icon": {
-            "src": "../../../../assets/shared/icons/bx-check-circle.svg",
+            "src": "../../../../assets/shared/icons/bx-check.svg",
             "alt": "Rich media experience",
             "color": "beta"
           }
@@ -92,7 +92,7 @@
             }
           ],
           "icon": {
-            "src": "../../../../assets/shared/icons/bx-check-circle.svg",
+            "src": "../../../../assets/shared/icons/bx-check.svg",
             "alt": "Scalable & secure",
             "color": "beta"
           }
@@ -106,7 +106,7 @@
             }
           ],
           "icon": {
-            "src": "../../../../assets/shared/icons/bx-check-circle.svg",
+            "src": "../../../../assets/shared/icons/bx-check.svg",
             "alt": "Ready for integrations",
             "color": "beta"
           }
@@ -120,7 +120,7 @@
             }
           ],
           "icon": {
-            "src": "../../../../assets/shared/icons/bx-check-circle.svg",
+            "src": "../../../../assets/shared/icons/bx-check.svg",
             "alt": "Easy to change",
             "color": "beta"
           }
@@ -148,7 +148,7 @@
             }
           ],
           "icon": {
-            "src": "../../../../assets/shared/icons/bx-check-circle.svg",
+            "src": "../../../../assets/shared/icons/bx-check.svg",
             "alt": "Fully automated",
             "color": "beta"
           }
@@ -162,7 +162,7 @@
             }
           ],
           "icon": {
-            "src": "../../../../assets/shared/icons/bx-check-circle.svg",
+            "src": "../../../../assets/shared/icons/bx-check.svg",
             "alt": "Scalable & secure",
             "color": "beta"
           }
@@ -176,7 +176,7 @@
             }
           ],
           "icon": {
-            "src": "../../../../assets/shared/icons/bx-check-circle.svg",
+            "src": "../../../../assets/shared/icons/bx-check.svg",
             "alt": "Cost effective",
             "color": "beta"
           }

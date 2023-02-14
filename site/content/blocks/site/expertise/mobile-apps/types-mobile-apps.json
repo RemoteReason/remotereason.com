@@ -36,7 +36,7 @@
             }
           ],
           "icon": {
-            "src": "../../../../assets/shared/icons/bx-check-circle.svg",
+            "src": "../../../../assets/shared/icons/bx-check.svg",
             "alt": "Coded with React Native",
             "color": "beta"
           }
@@ -50,7 +50,7 @@
             }
           ],
           "icon": {
-            "src": "../../../../assets/shared/icons/bx-check-circle.svg",
+            "src": "../../../../assets/shared/icons/bx-check.svg",
             "alt": "> 50% cheaper vs. native",
             "color": "beta"
           }
@@ -64,7 +64,7 @@
             }
           ],
           "icon": {
-            "src": "../../../../assets/shared/icons/bx-check-circle.svg",
+            "src": "../../../../assets/shared/icons/bx-check.svg",
             "alt": "Good performance",
             "color": "beta"
           }
@@ -92,7 +92,7 @@
             }
           ],
           "icon": {
-            "src": "../../../../assets/shared/icons/bx-check-circle.svg",
+            "src": "../../../../assets/shared/icons/bx-check.svg",
             "alt": "Coded in Swift / Objective C",
             "color": "beta"
           }
@@ -106,7 +106,7 @@
             }
           ],
           "icon": {
-            "src": "../../../../assets/shared/icons/bx-check-circle.svg",
+            "src": "../../../../assets/shared/icons/bx-check.svg",
             "alt": "Full OS / hardware access",
             "color": "beta"
           }
@@ -120,7 +120,7 @@
             }
           ],
           "icon": {
-            "src": "../../../../assets/shared/icons/bx-check-circle.svg",
+            "src": "../../../../assets/shared/icons/bx-check.svg",
             "alt": "Maximum performance",
             "color": "beta"
           }
@@ -148,7 +148,7 @@
             }
           ],
           "icon": {
-            "src": "../../../../assets/shared/icons/bx-check-circle.svg",
+            "src": "../../../../assets/shared/icons/bx-check.svg",
             "alt": "Coded in Kotlin / Java",
             "color": "beta"
           }
@@ -162,7 +162,7 @@
             }
           ],
           "icon": {
-            "src": "../../../../assets/shared/icons/bx-check-circle.svg",
+            "src": "../../../../assets/shared/icons/bx-check.svg",
             "alt": "Full OS / hardware access",
             "color": "beta"
           }
@@ -176,7 +176,7 @@
             }
           ],
           "icon": {
-            "src": "../../../../assets/shared/icons/bx-check-circle.svg",
+            "src": "../../../../assets/shared/icons/bx-check.svg",
             "alt": "Maximum performance",
             "color": "beta"
           }

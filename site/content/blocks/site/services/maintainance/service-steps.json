@@ -20,10 +20,8 @@
   "collection": [
     {
       "icon": {
-        "src": "../../../../assets/shared/icons/bx-chat.svg",
-        "alt": "Free consultation",
-        "color": "beta",
-        "bg": "omegaLighter"
+        "src": "../../../../assets/shared/icons/free-consultation.svg",
+        "alt": "Free consultation"
       },
       "text": [
         {
@@ -38,10 +36,8 @@
     },
     {
       "icon": {
-        "src": "../../../../assets/shared/icons/bx-brain.svg",
-        "alt": "Onboarding",
-        "color": "beta",
-        "bg": "omegaLighter"
+        "src": "../../../../assets/shared/icons/onboarding.svg",
+        "alt": "Onboarding"
       },
       "text": [
         {
@@ -56,10 +52,8 @@
     },
     {
       "icon": {
-        "src": "../../../../assets/shared/icons/bx-rocket.svg",
-        "alt": "Ongoing",
-        "color": "beta",
-        "bg": "omegaLighter"
+        "src": "../../../../assets/shared/icons/ongoing.svg",
+        "alt": "Ongoing"
       },
       "text": [
         {

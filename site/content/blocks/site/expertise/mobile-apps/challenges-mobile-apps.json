@@ -20,9 +20,7 @@
   "collection": [
     {
       "icon": {
-        "src": "../../../../assets/shared/icons/bx-crown.svg",
-        "color": "beta",
-        "bg": "omegaLighter"
+        "src": "../../../../assets/shared/icons/look-and-feel.svg"
       },
       "text": [
         {
@@ -37,9 +35,7 @@
     },
     {
       "icon": {
-        "src": "../../../../assets/shared/icons/bx-analyse.svg",
-        "color": "beta",
-        "bg": "omegaLighter"
+        "src": "../../../../assets/shared/icons/performance.svg"
       },
       "text": [
         {
@@ -54,9 +50,7 @@
     },
     {
       "icon": {
-        "src": "../../../../assets/shared/icons/bx-user.svg",
-        "color": "beta",
-        "bg": "omegaLighter"
+        "src": "../../../../assets/shared/icons/security.svg"
       },
       "text": [
         {

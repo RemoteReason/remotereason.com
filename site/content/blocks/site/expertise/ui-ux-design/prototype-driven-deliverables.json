@@ -22,10 +22,8 @@
         }
       ],
       "icon": {
-        "src": "../../../../assets/shared/icons/bx-crown.svg",
-        "alt": "Online mobile friendly web app. Feels like the real MVP",
-        "bg": "#D3E7FE",
-        "color": "#276BF0"
+        "src": "../../../../assets/shared/icons/interactive-app.svg",
+        "alt": "Online mobile friendly web app. Feels like the real MVP"
       }
     },
     {
@@ -43,10 +41,8 @@
         }
       ],
       "icon": {
-        "src": "../../../../assets/shared/icons/bx-dna.svg",
-        "alt": "Colour theme",
-        "bg": "#FEFAD6",
-        "color": "#F4D133"
+        "src": "../../../../assets/shared/icons/colour-theme.svg",
+        "alt": "Colour theme"
       }
     },
     {
@@ -64,10 +60,8 @@
         }
       ],
       "icon": {
-        "src": "../../../../assets/shared/icons/bx-bar-chart-alt.svg",
-        "alt": "App visuals",
-        "bg": "#FEE8D1",
-        "color": "#F7491D"
+        "src": "../../../../assets/shared/icons/app-visuals.svg",
+        "alt": "App visuals"
       }
     }
   ]

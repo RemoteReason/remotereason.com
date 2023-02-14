@@ -18,9 +18,7 @@
         }
       ],
       "icon": {
-        "src": "../../../../assets/shared/icons/bx-dna.svg",
-        "bg": "white",
-        "color": "alpha"
+        "src": "../../../../assets/shared/icons/bx-dna.svg"
       }
     },
     {
@@ -35,9 +33,7 @@
       ],
 
       "icon": {
-        "src": "../../../../assets/shared/icons/bxl-google.svg",
-        "bg": "white",
-        "color": "alpha"
+        "src": "../../../../assets/shared/icons/bxl-google.svg"
       }
     },
     {
@@ -55,9 +51,7 @@
         }
       ],
       "icon": {
-        "src": "../../../../assets/shared/icons/bx-target-lock.svg",
-        "bg": "white",
-        "color": "alpha"
+        "src": "../../../../assets/shared/icons/bx-target-lock.svg"
       }
     }
   ]

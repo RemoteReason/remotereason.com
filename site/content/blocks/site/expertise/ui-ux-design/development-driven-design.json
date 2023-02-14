@@ -27,7 +27,7 @@
   "collection": [
     {
       "icon": {
-        "src": "../../../../assets/shared/icons/bx-check-circle.svg",
+        "src": "../../../../assets/shared/icons/bx-check.svg",
         "alt": "to see the final look & feel",
         "color": "beta"
       },
@@ -40,7 +40,7 @@
     },
     {
       "icon": {
-        "src": "../../../../assets/shared/icons/bx-check-circle.svg",
+        "src": "../../../../assets/shared/icons/bx-check.svg",
         "alt": "visual guidelines for pixel perfect screens",
         "color": "beta"
       },
@@ -53,7 +53,7 @@
     },
     {
       "icon": {
-        "src": "../../../../assets/shared/icons/bx-check-circle.svg",
+        "src": "../../../../assets/shared/icons/bx-check.svg",
         "alt": "to fit them visually in the existing app",
         "color": "beta"
       },

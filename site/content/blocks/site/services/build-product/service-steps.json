@@ -20,10 +20,8 @@
   "collection": [
     {
       "icon": {
-        "src": "../../../../assets/shared/icons/bx-chat.svg",
-        "alt": "Free consultation",
-        "color": "beta",
-        "bg": "omegaLighter"
+        "src": "../../../../assets/shared/icons/free-consultation.svg",
+        "alt": "Free consultation"
       },
       "text": [
         {
@@ -38,10 +36,9 @@
     },
     {
       "icon": {
-        "src": "../../../../assets/shared/icons/bx-brain.svg",
-        "alt": "Master plan",
-        "color": "beta",
-        "bg": "omegaLighter"
+        "src": "../../../../assets/shared/icons/master-plan.svg",
+        "alt": "Master plan"
+
       },
       "text": [
         {
@@ -56,10 +53,8 @@
     },
     {
       "icon": {
-        "src": "../../../../assets/shared/icons/bx-rocket.svg",
-        "alt": "Implementation",
-        "color": "beta",
-        "bg": "omegaLighter"
+        "src": "../../../../assets/shared/icons/implementation.svg",
+        "alt": "Implementation"
       },
       "text": [
         {

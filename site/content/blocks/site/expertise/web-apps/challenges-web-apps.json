@@ -20,9 +20,7 @@
   "collection": [
     {
       "icon": {
-        "src": "../../../../assets/shared/icons/bx-crown.svg",
-        "color": "beta",
-        "bg": "omegaLighter"
+        "src": "../../../../assets/shared/icons/look-and-feel.svg"
       },
       "text": [
         {
@@ -37,10 +35,8 @@
     },
     {
       "icon": {
-        "src": "../../../../assets/shared/icons/bx-analyse.svg",
-        "color": "beta",
-        "alt": "The web app looks great & feels right on all relevant screen sizes & devices",
-        "bg": "omegaLighter"
+        "src": "../../../../assets/shared/icons/performance.svg",
+        "alt": "The web app looks great & feels right on all relevant screen sizes & devices"
       },
       "text": [
         {
@@ -55,10 +51,8 @@
     },
     {
       "icon": {
-        "src": "../../../../assets/shared/icons/bx-user.svg",
-        "alt": "The user data & communication is secure",
-        "color": "beta",
-        "bg": "omegaLighter"
+        "src": "../../../../assets/shared/icons/security.svg",
+        "alt": "The user data & communication is secure"
       },
       "text": [
         {

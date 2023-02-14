@@ -22,9 +22,7 @@
         }
       ],
       "icon": {
-        "src": "../../../../assets/shared/icons/bx-user.svg",
-        "bg": "white",
-        "color": "alpha"
+        "src": "../../../../assets/shared/icons/bx-user.svg"
       }
     },
     {
@@ -43,9 +41,7 @@
       ],
 
       "icon": {
-        "src": "../../../../assets/shared/icons/bx-data.svg",
-        "bg": "white",
-        "color": "alpha"
+        "src": "../../../../assets/shared/icons/bx-data.svg"
       }
     }
   ]

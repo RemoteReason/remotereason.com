@@ -22,9 +22,7 @@
         } 
       ],
       "icon": {
-        "src": "../../../../assets/shared/icons/bx-chat.svg",
-        "bg": "white",
-        "color": "alpha"
+        "src": "../../../../assets/shared/icons/bx-chat.svg"
       }
     },
     {
@@ -38,9 +36,7 @@
         }
       ],
       "icon": {
-        "src": "../../../../assets/shared/icons/bx-mail-send.svg",
-        "bg": "white",
-        "color": "alpha"
+        "src": "../../../../assets/shared/icons/bx-mail-send.svg"
       }
     },
     {
@@ -59,9 +55,7 @@
 
       ],
       "icon": {
-        "src": "../../../../assets/shared/icons/bxl-google.svg",
-        "bg": "white",
-        "color": "alpha"
+        "src": "../../../../assets/shared/icons/bxl-google.svg"
       }
     },
     {
@@ -79,9 +73,7 @@
         }
       ],
       "icon": {
-        "src": "../../../../assets/shared/icons/bxs-window-alt.svg",
-        "bg": "white",
-        "color": "alpha"
+        "src": "../../../../assets/shared/icons/bxs-window-alt.svg"
       }
     }
   ]

@@ -88,7 +88,7 @@
           "link": "https://remote-reason.slack.com",
           "variant": "links.nav-light",
           "icon": {
-            "src": "../../assets/shared/icons/bx-chat.svg",
+            "src": "../../assets/shared/icons/bx-slack.svg",
             "color": "#2f4f4f"
           }
         }

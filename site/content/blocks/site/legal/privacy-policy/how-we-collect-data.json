@@ -22,9 +22,7 @@
         } 
       ],
       "icon": {
-        "src": "../../../../assets/shared/icons/bx-pen.svg",
-        "bg": "white",
-        "color": "alpha"
+        "src": "../../../../assets/shared/icons/bx-pen.svg"
       }
     },
     {
@@ -38,9 +36,7 @@
         }
       ],
       "icon": {
-        "src": "../../../../assets/shared/icons/bx-user-voice.svg",
-        "bg": "white",
-        "color": "alpha"
+        "src": "../../../../assets/shared/icons/bx-user-voice.svg"
       }
     },
     {
@@ -54,9 +50,7 @@
         }
       ],
       "icon": {
-        "src": "../../../../assets/shared/icons/bx-chat.svg",
-        "bg": "white",
-        "color": "alpha"
+        "src": "../../../../assets/shared/icons/bx-chat.svg"
       }
     },
     {
@@ -70,9 +64,7 @@
         }
       ],
       "icon": {
-        "src": "../../../../assets/shared/icons/bx-bar-chart-alt.svg",
-        "bg": "white",
-        "color": "alpha"
+        "src": "../../../../assets/shared/icons/bx-bar-chart-alt.svg"
       }
     }
   ]
