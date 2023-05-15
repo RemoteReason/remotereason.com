@@ -76,8 +76,8 @@ const Avatar = ({
         {withPattern && (
           <MemphisPattern sx={{ ...styles.pattern, ...patternStyles }} />
         )}
-        <Box sx={styles.circle({ width })}></Box>
-        <Box sx={styles.arc({ width })}></Box>
+        {/* <Box sx={styles.circle({ width })}></Box>
+        <Box sx={styles.arc({ width })}></Box> */}
         <Img
           image={image}
           alt={alt}
