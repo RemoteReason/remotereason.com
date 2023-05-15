@@ -1,6 +1,6 @@
 ---
-title: NestJS - batteries included web framework
-tags: ['#jamstack', '#web']
+title: Batteries included web frameworks
+tags: ['#jamstack', '#web', '#elixir', '#phoenix']
 date: 2023-01-22
 thumbnail: batteries-included.png
 author: Paul Sabou
@@ -99,7 +99,36 @@ Frameworks tend to be very opinionated about everything in your app development 
 When your development philosophy is not aligned with the framwork then you will lose most benefits as you fight the framework's ways of doing things.
 
 
-## NestJS - a great Jamstack web framework
+## Two "batteries included" web frameworks
+
+### 1. Phoenix - the Elixir web framework
+
+[Phoenix Framework](https://www.phoenixframework.org/) is "the web framework" for the Elixir ecosystem. There are
+no real quality alternatives in the ecosystem. Basically it's the Ruby on Rails for Elixir.
+
+The framework was designed based on the Ruby on Rails philosophy. The main contributors had extensive experience
+(and some dissapointments) with RoR.
+
+![Phoenix](./phoenix-logo.png 'Phoenix logo')
+
+#### PRO's
+- [Open source](https://github.com/phoenixframework/phoenix/blob/main/LICENSE.md)
+- [Well documented](https://hexdocs.pm/phoenix/Phoenix.html) & [Online courses](https://pragmaticstudio.com/courses/phoenix-liveview) available
+- Wide scope (ie. standalone apps, web apps, amazing realtime support)
+- Battle tested & large community
+- Core features included (ie. security, persistence, API, etc.)
+- Architectural patterns included (modularity, dependency injection, OOP patterns etc.) 
+- Devops ready : testing, deployments, data migration, etc.
+- Good choice for projects of any size
+
+#### CONS
+- You need to like functional programming
+- You need to learn Elixir (which is very different from Ruby or TS/JS)
+
+`youtube: https://www.youtube.com/watch?v=MZvmYaFkNJI&t=2s`
+
+
+### 2. NestJS - a great Jamstack web framework
 
 The Jamstack ecosystem is pretty fragmented. For most tasks there are several "standard ways" of doing things (and libraries).
 This is damaging for dev productivity & overall dev experience (and sanity). It's exactly the opposite from the Ruby & Rails ecosystem.
@@ -110,7 +139,7 @@ During the last several years we started to have some good options for 'batterie
 
 At this moment [NestJS](http://nestjs.com) is one of the best options out there. 
 
-### PRO's
+#### PRO's
 - [Open source](https://github.com/nestjs/nest/blob/master/LICENSE) with [Enterprise support](https://enterprise.nestjs.com/)
 - [Well documented](https://docs.nestjs.com/) & [Online courses](https://courses.nestjs.com/) available
 - Wide scope (ie. standalone apps, web apps, good realtime support)
@@ -121,7 +150,7 @@ At this moment [NestJS](http://nestjs.com) is one of the best options out there.
 - Devops ready : testing, deployments, data migration, etc.
 - Good choice for larger projects
 
-### CONS
+#### CONS
 - Feels overengineered (ie. a bit like Java / Spring)
 - A steep learning curve
 - Not ideal for small projects
@@ -130,6 +159,6 @@ At this moment [NestJS](http://nestjs.com) is one of the best options out there.
 
 
 ## References
+- [Phoenix homepage](https://www.phoenixframework.org)
 - [NestJS homepage](http://nestjs.com)
-- [NestJS samples](https://github.com/nestjs/nest/tree/master/sample)
 - [Batteries included - The Rails Doctrine](https://rubyonrails.org/doctrine)
