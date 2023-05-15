@@ -23,7 +23,7 @@
           "variant": "h4"
         },
         {
-          "text": "HTML5. React with JS/TS. Tailwind or similar for CSS. D3, WebGL & advanced visualisation techniques."
+          "text": "We build frontends with Phoenix Liveview or React with JS/TS. Tailwind or similar for CSS. Visualisations with D3 & WebGL."
         }
       ],
       "collection": [
@@ -79,7 +79,7 @@
           "variant": "h4"
         },
         {
-          "text": "Node server with JS/TS & NestJS. Elixir/Phoenix as well. Always choose the right tool for the right job."
+          "text": "We deliver with Phoenix/Elixir. Node with JS/TS. Scala/Java/Akka. Various SQL/noSQL databases."
         }
       ],
       "collection": [
