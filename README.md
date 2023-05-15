@@ -14,6 +14,10 @@ Uses a paid [FlexiBlog Blog Theme](https://themeforest.net/item/flexiblog-react-
 
 Both Gatsby themes were acquired via ThemeForest using the account paul.sabou@gmail.com.
 
+## How to customise things
+* gatsby shadowing strategy => override folders inside each site
+* change specific theme components inside the root folder /packages (not ideal as it makes theme update merges harder)
+
 # Production
 The two projects are available in production as follows:
 * [RR homepage](https://www.remotereason.com/)
