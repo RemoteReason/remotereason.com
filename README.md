@@ -14,6 +14,17 @@ Uses a paid [FlexiBlog Blog Theme](https://themeforest.net/item/flexiblog-react-
 
 Both Gatsby themes were acquired via ThemeForest using the account paul.sabou@gmail.com.
 
+## How to run in development mode
+1. Run blog in development
+```
+cd ./blog; npm run develop 
+```
+
+2. Run site in development
+```
+cd ./site; npm run develop 
+```
+
 ## How to customise things
 * gatsby shadowing strategy => override folders inside each site
 * change specific theme components inside the root folder /packages (not ideal as it makes theme update merges harder)
