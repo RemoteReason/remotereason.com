@@ -7,6 +7,43 @@
       "text": [
         null,
         {
+          "text": "AI Engineering",
+          "color": "betaDark",
+          "variant": "h4"
+        },
+        {
+          "text": "Generative AI, chatbots & custom AI models. Fine tuned for your own data and business case. Deployed on premise or private clouds.",
+          "space":2
+        },
+        {
+          "text": "On premise | Cloud | SaaS",
+          "variant": "h6",
+          "space":2,
+          "color": "omegaDark"
+        }
+      ],
+      "images": [
+        {
+          "src": "../../../../assets/site/expertise/overview/ai-engineering.png",
+          "alt": "Expertise - AI Engineering"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "More AI   ➜",
+          "type": "PAGE",
+          "link": "/expertise/ai-engineering",
+          "variant": "secondary-outline"
+        }
+      ]
+    },
+    {
+      "container": {
+        "variant": "cards.interactive"
+      },
+      "text": [
+        null,
+        {
           "text": "Mobile apps",
           "color": "betaDark",
           "variant": "h4"
@@ -71,43 +108,6 @@
           "text": "Go web   ➜",
           "type": "PAGE",
           "link": "/expertise/web-apps",
-          "variant": "secondary-outline"
-        }
-      ]
-    },
-    {
-      "container": {
-        "variant": "cards.interactive"
-      },
-      "text": [
-        null,
-        {
-          "text": "UI/UX Design",
-          "color": "betaDark",
-          "variant": "h4"
-        },
-        {
-          "text": "Branding & graphical design for your web & mobile apps.",
-          "space":2
-        },
-        {
-          "text": "Prototype | Development Driven ",
-          "variant": "h6",
-          "space":2,
-          "color": "omegaDark"
-        }
-      ],
-      "images": [
-        {
-          "src": "../../../../assets/site/expertise/overview/ui-ux-design.png",
-          "alt": "Expertise - UI/UX Design"
-        }
-      ],
-      "buttons": [
-        {
-          "text": "More design   ➜",
-          "type": "PAGE",
-          "link": "/expertise/ui-ux-design",
           "variant": "secondary-outline"
         }
       ]

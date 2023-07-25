@@ -24,6 +24,19 @@
     {
       "icon": {
         "src": "../../../assets/shared/icons/bx-check.svg",
+        "alt": "AI engineering",
+        "color": "beta"
+      },
+      "text": [
+        {
+          "text": "AI engineering",
+          "variant": "h5"
+        }
+      ]
+    },
+    {
+      "icon": {
+        "src": "../../../assets/shared/icons/bx-check.svg",
         "alt": "Mobile apps",
         "color": "beta"
       },

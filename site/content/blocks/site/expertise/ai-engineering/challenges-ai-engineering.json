@@ -1,0 +1,71 @@
+{
+  "text": [
+    {
+      "text": "We really care",
+      "color": "alpha",
+      "variant": "h2"
+    },
+    {
+      "text": "Your AI is crafted with care for the overall business value.",
+      "variant": "h5"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/site/expertise/ai-engineering/ai-engineering-details.png",
+      "radius": "lg",
+      "alt": "Your AI is crafted with care for the overall business value."
+    }
+  ],
+  "collection": [
+    {
+      "icon": {
+        "src": "../../../../assets/shared/icons/look-and-feel.svg",
+        "alt": "The AI system understands your own data & performs well within your specific business case."
+      },
+      "text": [
+        {
+          "text": "Truly yours",
+          "color": "betaDark",
+          "variant": "h5"
+        },
+        {
+          "text": "The AI system understands your own data & functions well for your specific business case."
+        }
+      ]
+    },
+    {
+      "icon": {
+        "src": "../../../../assets/shared/icons/performance.svg",
+        "alt": "The AI system understands your own data & functions well for your specific business case."
+      },
+      "text": [
+        {
+          "text": "Performance",
+          "color": "betaDark",
+          "variant": "h5"
+        },
+        {
+          "text": "The AI service performs as expected. Infrastructure automatically grows to handle additional load."
+        }
+      ]
+    },
+    {
+      "icon": {
+        "src": "../../../../assets/shared/icons/security.svg",
+        "alt": "The AI service performs as expected. Infrastructure automatically grows to handle additional load."
+      },
+      "text": [
+        {
+          "text": "Security",
+          "color": "betaDark",
+          "variant": "h5"
+        },
+        {
+          "text": "The AI system & data is completely safe. Everything stays inside your company private infrastucture."
+        }
+      ]
+    }
+    
+  ]
+}
