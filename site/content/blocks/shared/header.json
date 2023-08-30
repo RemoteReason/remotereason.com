@@ -32,9 +32,9 @@
     {
       "buttons": [
         {
-          "text": "Contact us",
+          "text": "Schedule call",
           "type": "PAGE",
-          "link": "mailto:hello@remotereason.com"
+          "link": "https://calendly.com/remote-reason/30min"
         }
       ]
     }
