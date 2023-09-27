@@ -84,11 +84,11 @@ module.exports = {
     headerMenu: [
       {
         name: 'Services',
-        slug: 'https://remotereason.com/services/overview'
+        slug: 'https://www.remotereason.com/services/overview'
       },
       {
         name: 'Expertise',
-        slug: 'https://remotereason.com/expertise/overview'
+        slug: 'https://www.remotereason.com/expertise/overview'
       },
       {
         name: 'Blog',
@@ -103,11 +103,11 @@ module.exports = {
         items: [
           {
             name: 'Services',
-            slug: 'https://remotereason.com/services/overview'
+            slug: 'https://www.remotereason.com/services/overview'
           },
           {
             name: 'Expertise',
-            slug: 'https://remotereason.com/expertise/overview'
+            slug: 'https://www.remotereason.com/expertise/overview'
           },
           {
             name: 'Blog',
