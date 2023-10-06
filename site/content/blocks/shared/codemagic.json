@@ -1,0 +1,24 @@
+{
+  "text": [
+    {
+      "text": "🤖 Get offer in <5 minutes from our AI",
+      "variant": "h5"
+    },
+    {
+      "text": "Use our specialized conversational AI to get a complete estimation of your 💰 budgets & timeline.",
+      "space":1
+    },
+    {
+      "text": "Codemagic.ai builds MVP offers in <5 minutes. For busy 🧑🏾‍💼 product managers & 👨‍🚀 non-technical founders.",
+      "space":2
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Estimate your project",
+      "type": "PAGE",
+      "link": "https://codemagic.ai",
+      "bg": "rgb(147 51 234)" 
+    }
+  ]
+}

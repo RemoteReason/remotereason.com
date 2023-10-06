@@ -20,12 +20,15 @@ const IndexPage = props => {
     <Layout theme={theme} {...props}>
       <Seo title='Home' />
       {/* Blocks */}
-    
-       <Header content={content['header']} />
-       <Divider space='5' />
+
+      <Header content={content['header']} />
+      <Divider space='5' />
       <FeatureOne content={content['expertise']} />
-      
-       <Divider space='5' />
+
+      <Divider space='3' />
+      <Contact content={content['codemagic']} />
+
+      <Divider space='3' />
       <Gallery content={content['services']} />
 
       <Divider space='3' />
@@ -34,7 +37,7 @@ const IndexPage = props => {
       <Divider space='4' />
       <Contact content={content['cta']} />
       <Divider space='5' />
-      <Footer content={content['footer']} /> 
+      <Footer content={content['footer']} />
     </Layout>
   )
 }

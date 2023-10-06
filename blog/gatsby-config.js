@@ -115,6 +115,26 @@ module.exports = {
           }
         ]
       },
+
+      {
+        title: '🤖 Codemagic',
+        items: [
+          {
+            name: 'Estimate',
+            slug: 'https://www.codemagic.ai'
+          },
+          {
+            name: 'Showcase',
+            slug: 'https://www.codemagic.ai/estimates'
+          },
+          {
+            name: 'FAQ',
+            slug: 'https://www.codemagic.ai/#faq'
+          }
+        ]
+      },
+
+
       {
         title: 'Legal',
         items: [

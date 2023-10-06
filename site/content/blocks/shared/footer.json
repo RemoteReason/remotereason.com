@@ -37,6 +37,33 @@
     {
       "text": [
         {
+          "text": "🤖 Codemagic"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "Estimate",
+          "type": "PAGE",
+          "link": "https://www.codemagic.ai",
+          "variant": "links.nav-light"
+        },
+        {
+          "text": "Showcase",
+          "type": "PAGE",
+          "link": "https://www.codemagic.ai/estimates",
+          "variant": "links.nav-light"
+        },
+        {
+          "text": "FAQ",
+          "type": "PAGE",
+          "link": "https://www.codemagic.ai/#faq",
+          "variant": "links.nav-light"
+        }
+      ]
+    },
+    {
+      "text": [
+        {
           "text": "Legal"
         }
       ],

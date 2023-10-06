@@ -26,7 +26,9 @@ const Services04 = props => {
       <Contact content={content['cta']} />
       <Divider space='4' />
       <FeatureOne content={content['challenges-ai-engineering']} />
-      <Divider space='5' />
+      <Divider space='3' />
+      <Contact content={content['codemagic']} />
+      <Divider space='3' />
       <Footer content={content['footer']} />
     </Layout>
   )
