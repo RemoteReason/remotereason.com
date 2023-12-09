@@ -1,18 +1,18 @@
 {
   "text": [
     {
-      "text": "Team extension",
+      "text": "Extend product",
       "color": "alpha",
       "variant": "h2"
     },
     {
-      "text": "Your delivery capacity grows in a flexible way. Our team works alongside your existing team.",
+      "text": "Your delivery capacity grows in a flexible way. Our team works alongside your core team.",
       "variant": "h5"
     }
   ],
   "images": [
     {
-      "src": "../../../../assets/site/services/team-extension/team-extension-details.png",
+      "src": "../../../../assets/site/services/extend-product/extend-product-details.png",
       "radius": "lg",
       "alt": "Your delivery capacity grows"
     }

@@ -16,7 +16,7 @@ const Services03 = props => {
 
   return (
     <Layout {...props}>
-      <Seo title='Services - Team Extension' />
+      <Seo title='Services - Extend product' />
       {/* Blocks */}
       <Header content={content['header']} />
       <Divider space='5' />
@@ -24,7 +24,7 @@ const Services03 = props => {
       <Divider space='4' />
       <Contact content={content['cta']} />
       <Divider space='3' />
-        <Features content={content['service-value']} />
+      <Features content={content['service-value']} />
       <Divider space='5' />
 
       <Footer content={content['footer']} />
@@ -33,9 +33,9 @@ const Services03 = props => {
 }
 
 export const query = graphql`
-  query innerpageSiteServicesTeamExtensionBlockContent {
+  query innerpageSiteServicesExtendProductBlockContent {
     allBlockContent(
-      filter: { page: { in: ["site/services/team-extension", "shared"] } }
+      filter: { page: { in: ["site/services/extend-product", "shared"] } }
     ) {
       nodes {
         ...BlockContent

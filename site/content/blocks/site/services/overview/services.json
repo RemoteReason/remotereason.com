@@ -37,7 +37,7 @@
       "text": [
         null,
         {
-          "text": "Team extension",
+          "text": "Extend product",
           "color": "betaDark",
           "variant": "h4"
         },
@@ -47,15 +47,15 @@
       ],
       "images": [
         {
-          "src": "../../../../assets/site/services/overview/team-extension.png",
-          "alt": "Team extension"
+          "src": "../../../../assets/site/services/overview/extend-product.png",
+          "alt": "Extend product"
         }
       ],
       "buttons": [
         {
           "text": "Grow   ➜",
           "type": "PAGE",
-          "link": "/services/team-extension/",
+          "link": "/services/extend-product/",
           "variant": "secondary-outline"
         }
       ]
