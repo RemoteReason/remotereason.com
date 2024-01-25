@@ -29,6 +29,9 @@ const IndexPage = props => {
       <Contact content={content['codemagic']} />
 
       <Divider space='3' />
+      <Contact content={content['internship']} />
+
+      <Divider space='3' />
       <Gallery content={content['services']} />
 
       <Divider space='3' />
