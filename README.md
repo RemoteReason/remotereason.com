@@ -25,6 +25,12 @@ cd ./blog; npm run develop
 cd ./site; npm run develop 
 ```
 
+3. Test the site locally
+```
+cd ./site; npm run build
+npx http-server public
+```
+
 ## How to customise things
 * gatsby shadowing strategy => override folders inside each site
 * change specific theme components inside the root folder /packages (not ideal as it makes theme update merges harder)
