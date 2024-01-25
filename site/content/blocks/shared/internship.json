@@ -1,7 +1,7 @@
 {
   "text": [
     {
-      "text": "🔥 Internship",
+      "text": "🧠 Elixir & Phoenix Internship",
       "variant": "h5"
     },
     {
@@ -15,9 +15,10 @@
   ],
   "buttons": [
     {
-      "text": "Read more",
+      "text": "Internship   ➜",
       "type": "PAGE",
-      "link": "/internship.pdf"
+      "link": "/internship.pdf",
+      "variant": "secondary-outline"
     }
   ]
 }
