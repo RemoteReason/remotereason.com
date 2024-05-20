@@ -14,7 +14,7 @@ const Posts = ({ data: { paginatedPosts = {}, posts }, ...props }) => {
           <CardList
             variant={['vertical']}
             nodes={paginatedPosts.nodes}
-            columns={[1, 2, 3]}
+            columns={[1, 2, 3, 4]}
           />
         </Main>
       </Stack>
