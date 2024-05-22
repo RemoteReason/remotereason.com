@@ -89,17 +89,13 @@ module.exports = {
       {
         name: 'Expertise',
         slug: 'https://www.remotereason.com/expertise/overview'
-      },
-      {
-        name: 'Blog',
-        slug: '/'
       }
     ],
 
     //Footer Menu Items (2 Sets)
     footerMenu: [
       {
-        title: 'RR',
+        title: 'Company',
         items: [
           {
             name: 'Services',
@@ -108,33 +104,24 @@ module.exports = {
           {
             name: 'Expertise',
             slug: 'https://www.remotereason.com/expertise/overview'
-          },
-          {
-            name: 'Blog',
-            slug: '/'
           }
         ]
       },
 
       {
-        title: '🤖 Codemagic',
+        title: 'Team',
         items: [
           {
-            name: 'Estimate',
-            slug: 'https://www.codemagic.ai'
+            name: 'Internship',
+            slug: 'https://www.remotereason.com/internship.pdf'
           },
           {
-            name: 'Showcase',
-            slug: 'https://www.codemagic.ai/estimates'
-          },
-          {
-            name: 'FAQ',
-            slug: 'https://www.codemagic.ai/#faq'
+            name: 'Blog',
+            slug: '/'
           }
+          
         ]
       },
-
-
       {
         title: 'Legal',
         items: [

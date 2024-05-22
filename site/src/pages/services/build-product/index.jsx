@@ -27,9 +27,6 @@ const Services03 = props => {
       <Divider space='3' />
       <Features content={content['service-value']} />
       <Divider space='3' />
-      <Contact content={content['codemagic']} />
-      <Divider space='3' />
-
       <Footer content={content['footer']} />
     </Layout>
   )

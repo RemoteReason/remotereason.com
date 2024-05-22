@@ -10,7 +10,7 @@
     {
       "text": [
         {
-          "text": "RR"
+          "text": "Company"
         }
       ],
       "buttons": [
@@ -25,38 +25,26 @@
           "type": "PAGE",
           "link": "/expertise/overview",
           "variant": "links.nav-light"
-        },
-        {
-          "text": "Blog",
-          "type": "PAGE",
-          "link": "https://blog.remotereason.com",
-          "variant": "links.nav-light"
         }
       ]
     },
     {
       "text": [
         {
-          "text": "🤖 Codemagic"
+          "text": "Team"
         }
       ],
       "buttons": [
         {
-          "text": "Estimate",
+          "text": "Internship",
           "type": "PAGE",
-          "link": "https://www.codemagic.ai",
+          "link": "https://www.remotereason.com/internship.pdf",
           "variant": "links.nav-light"
         },
         {
-          "text": "Showcase",
+          "text": "Blog",
           "type": "PAGE",
-          "link": "https://www.codemagic.ai/estimates",
-          "variant": "links.nav-light"
-        },
-        {
-          "text": "FAQ",
-          "type": "PAGE",
-          "link": "https://www.codemagic.ai/#faq",
+          "link": "https://blog.remotereason.com",
           "variant": "links.nav-light"
         }
       ]

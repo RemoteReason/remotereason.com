@@ -23,8 +23,6 @@ const Services03 = props => {
       <Divider space='3' />
       <Features content={content['tiers-web-apps']} />
       <Divider space='3' />
-      <Contact content={content['codemagic']} />
-      <Divider space='3' />
       <Contact content={content['ui-ux-design']} />
       <Divider space='5' />
       <FeatureOne content={content['challenges-web-apps']} />

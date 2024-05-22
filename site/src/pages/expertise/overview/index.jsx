@@ -6,7 +6,6 @@ import Divider from '@solid-ui-components/Divider'
 import Header from '@solid-ui-blocks/Header/Block01'
 import Content from '@solid-ui-blocks/Content/Block02'
 import Gallery from '@solid-ui-blocks/Blog/Block01'
-import Contact from '@solid-ui-blocks/CallToAction/Block02'
 import Footer from '@solid-ui-blocks/Footer/Block01'
 import { normalizeBlockContentNodes } from '@blocks-helpers'
 import { Container } from 'theme-ui'
@@ -26,8 +25,6 @@ const Services03 = props => {
         <Content content={content['expertise-intro']} />
         <Gallery content={content['expertise']} />
       </Container>
-      <Divider space='4' />
-      <Contact content={content['cta']} />
       <Divider space='5' />
       <Footer content={content['footer']} />
     </Layout>

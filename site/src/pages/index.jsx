@@ -9,7 +9,6 @@ import Footer from '@solid-ui-blocks/Footer/Block01'
 import { normalizeBlockContentNodes } from '@blocks-helpers'
 import theme from './_theme'
 import Gallery from '@solid-ui-blocks/Blog/Block01'
-import Contact from '@solid-ui-blocks/CallToAction/Block02'
 import FeatureOne from '@solid-ui-blocks/FeaturesWithPhoto/Block01'
 
 const IndexPage = props => {
@@ -26,19 +25,11 @@ const IndexPage = props => {
       <FeatureOne content={content['expertise']} />
 
       <Divider space='3' />
-      <Contact content={content['codemagic']} />
-
-      <Divider space='3' />
-      <Contact content={content['internship']} />
-
-      <Divider space='3' />
       <Gallery content={content['services']} />
 
       <Divider space='3' />
       <WhyChooseUs content={content['why-choose-us']} />
 
-      <Divider space='4' />
-      <Contact content={content['cta']} />
       <Divider space='5' />
       <Footer content={content['footer']} />
     </Layout>

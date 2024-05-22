@@ -20,7 +20,9 @@ export default {
       right: 0,
       borderRadius: t => `0 0 ${t.radii.xl} ${t.radii.xl}`,
       borderRadius: `xl`,
-      mx: `auto`
+      mx: `auto`,
+      filter: `blur(3px)`
+
     },
     '::after': {
       zIndex: -2,
