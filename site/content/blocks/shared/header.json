@@ -10,6 +10,12 @@
     {
       "buttons": [
         {
+          "text": "Clients",
+          "type": "PAGE",
+          "variant": "links.nav-dark",
+          "link": "/clients/overview"
+        },
+        {
           "text": "Services",
           "type": "PAGE",
           "variant": "links.nav-dark",

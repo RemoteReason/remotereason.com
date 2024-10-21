@@ -15,6 +15,12 @@
       ],
       "buttons": [
         {
+          "text": "Clients",
+          "type": "PAGE",
+          "link": "/clients/overview",
+          "variant": "links.nav-light"
+        },
+        {
           "text": "Services",
           "type": "PAGE",
           "link": "/services/overview",

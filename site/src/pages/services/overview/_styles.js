@@ -21,7 +21,7 @@ export default {
       borderRadius: t => `0 0 ${t.radii.xl} ${t.radii.xl}`,
       borderRadius: `xl`,
       mx: `auto`,
-      filter: `blur(3px)`
+      filter: `blur(0px)`
 
     },
     '::after': {

@@ -1,0 +1,94 @@
+{
+  "collection": [
+    {
+      "container": {
+        "variant": "cards.interactive"
+      },
+      "text": [
+        null,
+        {
+          "text": "Cast Magic",
+          "color": "alphaDark",
+          "variant": "h5"
+        },
+        {
+          "text": "AI platform for podcasters. Turn long form audio into ready to use content assets, instantly. 10x your content. Upload your Mp3 and download transcripts, notes, summaries, highlights and more."
+        }
+      ],
+      "images": [
+        {
+          "src": "../../../../assets/site/clients/overview/castmagic.jpg",
+          "alt": "Cast Magic"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "> castmagic.io",
+          "type": "PAGE",
+          "link": "https://www.castmagic.io/",
+          "variant": "links.nav-dark"
+        }
+      ]
+    },
+    {
+      "container": {
+        "variant": "cards.interactive"
+      },
+      "text": [
+        null,
+        {
+          "text": "Burohelp",
+          "color": "alphaDark",
+          "variant": "h5"
+        },
+        {
+          "text": "B2B social network. Burohelp Corporate Responsability Communities connects non-profits with commercial companies that provide volunteer work on demand."
+        }
+      ],
+      "images": [
+        {
+          "src": "../../../../assets/site/clients/overview/burohelp.jpg",
+          "alt": "Burohelp"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "> burohelp.com",
+          "type": "PAGE",
+          "link": "https://burohelp.com",
+          "variant": "links.nav-dark"
+        }
+      ]
+    },
+    {
+      "container": {
+        "variant": "cards.interactive"
+      },
+      "text": [
+        null,
+        {
+          "text": "Prisma Net",
+          "color": "alphaDark",
+          "variant": "h5"
+        },
+        {
+          "text": "PrismaNet provides care for 3 000+ people with disabilities. Services include assisted living, day activities, and family support focusing on helping people live as independently as possible."
+        }
+      ],
+      "images": [
+        {
+          "src": "../../../../assets/site/clients/overview/prisma.jpg",
+          "alt": "PrismaNet"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "> prismanet.nl",
+          "type": "PAGE",
+          "link": "https://www.prismanet.nl/",
+          "variant": "links.nav-dark"
+        }
+      ]
+    }
+  ]
+}
