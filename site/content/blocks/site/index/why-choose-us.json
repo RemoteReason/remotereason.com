@@ -25,16 +25,16 @@
     {
       "text": [
         {
-          "text": "Benelux Area",
+          "text": "We travel",
           "variant": "h5"
         },
         {
-          "text": "We can visit your office in person. Anywhere in the Benelux area. We are friendly geeks."
+          "text": "We can visit your office in person. We are friendly geeks."
         }
       ],
       "icon": {
         "src": "../../../assets/shared/icons/benelux.svg",
-        "alt": "Benelux Area"
+        "alt": "We travel"
       }
     },
     {

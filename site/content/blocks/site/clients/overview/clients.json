@@ -89,6 +89,96 @@
           "variant": "links.nav-dark"
         }
       ]
+    },
+    {
+      "container": {
+        "variant": "cards.interactive"
+      },
+      "text": [
+        null,
+        {
+          "text": "MIREX - República Dominicana",
+          "color": "alphaDark",
+          "variant": "h5"
+        },
+        {
+          "text": "Custom software solution & services delivered for the The Dominican Republic Embassy - Netherlands, The Hague."
+        }
+      ],
+      "images": [
+        {
+          "src": "../../../../assets/site/clients/overview/dominicana.png",
+          "alt": "MIREX"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "> mirex.gob.do",
+          "type": "PAGE",
+          "link": "https://mirex.gob.do/",
+          "variant": "links.nav-dark"
+        }
+      ]
+    },
+    {
+      "container": {
+        "variant": "cards.interactive"
+      },
+      "text": [
+        null,
+        {
+          "text": "Intersoft",
+          "color": "alphaDark",
+          "variant": "h5"
+        },
+        {
+          "text": "Intersoft delivers and supports custom-configured solutions. Remote Reason delivered for Intersoft a bespoke document signing platform for contracts at scale (ie. like DocuSign)"
+        }
+      ],
+      "images": [
+        {
+          "src": "../../../../assets/site/clients/overview/intersoft.png",
+          "alt": "Intersoft"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "> intersoft.nl",
+          "type": "PAGE",
+          "link": "https://www.intersoft.nl/",
+          "variant": "links.nav-dark"
+        }
+      ]
+    },
+    {
+      "container": {
+        "variant": "cards.interactive"
+      },
+      "text": [
+        null,
+        {
+          "text": "Font Due",
+          "color": "alphaDark",
+          "variant": "h5"
+        },
+        {
+          "text": "The ecommerce platform for independent type foundries - Build your website. Manage your content. Own distribution. Sell your fonts."
+        }
+      ],
+      "images": [
+        {
+          "src": "../../../../assets/site/clients/overview/fontdue.png",
+          "alt": "FontDue"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "> fontdue.com",
+          "type": "PAGE",
+          "link": "https://www.fontdue.com/",
+          "variant": "links.nav-dark"
+        }
+      ]
     }
   ]
 }
