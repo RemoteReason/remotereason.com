@@ -1,0 +1,19 @@
+{
+  "collection": [
+    {
+      "text": [
+        {
+          "text": "Careers",
+          "color": "white",
+          "variant": "h2",
+          "space": 0
+        },
+        {
+          "text": "We are looking for geeks to join us.",
+          "color": "white",
+          "variant": "h5"
+        }
+      ]
+    }
+  ]
+}

@@ -42,15 +42,21 @@
       ],
       "buttons": [
         {
-          "text": "Internship",
-          "type": "PAGE",
-          "link": "https://www.remotereason.com/internship.pdf",
-          "variant": "links.nav-light"
-        },
-        {
           "text": "Blog",
           "type": "PAGE",
           "link": "https://blog.remotereason.com",
+          "variant": "links.nav-light"
+        },
+        {
+          "text": "Careers",
+          "type": "PAGE",
+          "link": "/careers/overview",
+          "variant": "links.nav-light"
+        },
+        {
+          "text": "Contact",
+          "type": "PAGE",
+          "link": "/contact/overview",
           "variant": "links.nav-light"
         }
       ]

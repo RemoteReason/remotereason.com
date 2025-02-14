@@ -1,0 +1,188 @@
+{
+  "text": [
+    {
+      "text": "We build complete web apps",
+      "color": "alpha",
+      "variant": "h2"
+    },
+    {
+      "text": "We build the web interface, the backend & release it in production",
+      "variant": "h4"
+    }
+  ],
+  "icon": {
+    "src": "../../../../assets/shared/icons/bx-analyse.svg",
+    "alt": "We build the web interface, the backend & release it in production"
+  },
+  "collection": [
+    {
+      "text": [
+        {
+          "text": "Web frontend",
+          "color": "betaDark",
+          "variant": "h4"
+        },
+        {
+          "text": "We build frontends with Phoenix Liveview or React with JS/TS. Tailwind or similar for CSS. Visualisations with D3 & WebGL."
+        }
+      ],
+      "collection": [
+        {
+          "text": [
+            {
+              "text": "Beautifull in all browsers",
+              "color": "omegaDark",
+              "variant": "h6"
+            }
+          ],
+          "icon": {
+            "src": "../../../../assets/shared/icons/bx-check.svg",
+            "alt": "Beautifull in all browsers",
+            "color": "beta"
+          }
+        },
+        {
+          "text": [
+            {
+              "text": "Mobile & tablet ready",
+              "color": "omegaDark",
+              "variant": "h6"
+            }
+          ],
+          "icon": {
+            "src": "../../../../assets/shared/icons/bx-check.svg",
+            "alt": "Mobile & tablet ready",
+            "color": "beta"
+          }
+        },
+        {
+          "text": [
+            {
+              "text": "Rich media experience",
+              "color": "omegaDark",
+              "variant": "h6"
+            }
+          ],
+          "icon": {
+            "src": "../../../../assets/shared/icons/bx-check.svg",
+            "alt": "Rich media experience",
+            "color": "beta"
+          }
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "Backend server",
+          "color": "betaDark",
+          "variant": "h4"
+        },
+        {
+          "text": "We deliver with Phoenix/Elixir. Node with JS/TS. Scala/Java/Akka. Various SQL/noSQL databases."
+        }
+      ],
+      "collection": [
+        {
+          "text": [
+            {
+              "text": "Scalable & secure",
+              "color": "omegaDark",
+              "variant": "h6"
+            }
+          ],
+          "icon": {
+            "src": "../../../../assets/shared/icons/bx-check.svg",
+            "alt": "Scalable & secure",
+            "color": "beta"
+          }
+        },
+        {
+          "text": [
+            {
+              "text": "Ready for integrations",
+              "color": "omegaDark",
+              "variant": "h6"
+            }
+          ],
+          "icon": {
+            "src": "../../../../assets/shared/icons/bx-check.svg",
+            "alt": "Ready for integrations",
+            "color": "beta"
+          }
+        },
+        {
+          "text": [
+            {
+              "text": "Easy to change",
+              "color": "omegaDark",
+              "variant": "h6"
+            }
+          ],
+          "icon": {
+            "src": "../../../../assets/shared/icons/bx-check.svg",
+            "alt": "Easy to change",
+            "color": "beta"
+          }
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "DevOps",
+          "color": "betaDark",
+          "variant": "h4"
+        },
+        {
+          "text": "We take care of CI/CD. We deploy on AWS or CGP but also on PaaS like Render or Fly. Kubernetes as well. "
+        }
+      ],
+      "collection": [
+        {
+          "text": [
+            {
+              "text": "Fully automated",
+              "color": "omegaDark",
+              "variant": "h6"
+            }
+          ],
+          "icon": {
+            "src": "../../../../assets/shared/icons/bx-check.svg",
+            "alt": "Fully automated",
+            "color": "beta"
+          }
+        },
+        {
+          "text": [
+            {
+              "text": "Scalable & secure",
+              "color": "omegaDark",
+              "variant": "h6"
+            }
+          ],
+          "icon": {
+            "src": "../../../../assets/shared/icons/bx-check.svg",
+            "alt": "Scalable & secure",
+            "color": "beta"
+          }
+        },
+        {
+          "text": [
+            {
+              "text": "Cost effective",
+              "color": "omegaDark",
+              "variant": "h6"
+            }
+          ],
+          "icon": {
+            "src": "../../../../assets/shared/icons/bx-check.svg",
+            "alt": "Cost effective",
+            "color": "beta"
+          }
+        }
+      ]
+    }
+ 
+  ]
+}

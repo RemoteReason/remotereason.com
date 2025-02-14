@@ -1,0 +1,70 @@
+{
+  "text": [
+    {
+      "text": "We really care",
+      "color": "alpha",
+      "variant": "h2"
+    },
+    {
+      "text": "Your web app is crafted with care for the overall business value.",
+      "variant": "h5"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/site/expertise/web-apps/web-apps-details.png",
+      "radius": "lg",
+      "alt": "Your web app is crafted with care for the overall business value"
+    }
+  ],
+  "collection": [
+    {
+      "icon": {
+        "src": "../../../../assets/shared/icons/look-and-feel.svg"
+      },
+      "text": [
+        {
+          "text": "Look & feel",
+          "color": "betaDark",
+          "variant": "h5"
+        },
+        {
+          "text": "The web app looks great & feels right on all relevant screen sizes & devices."
+        }
+      ]
+    },
+    {
+      "icon": {
+        "src": "../../../../assets/shared/icons/performance.svg",
+        "alt": "The web app looks great & feels right on all relevant screen sizes & devices"
+      },
+      "text": [
+        {
+          "text": "Performance",
+          "color": "betaDark",
+          "variant": "h5"
+        },
+        {
+          "text": "The web app feels fast & smooth. Infrastructure automatically grows to handle the load."
+        }
+      ]
+    },
+    {
+      "icon": {
+        "src": "../../../../assets/shared/icons/security.svg",
+        "alt": "The user data & communication is secure"
+      },
+      "text": [
+        {
+          "text": "Security",
+          "color": "betaDark",
+          "variant": "h5"
+        },
+        {
+          "text": "The user data & communication is secure. All data handling complies with relevant regulations."
+        }
+      ]
+    }
+    
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "collection": [
+    {
+      "container": {
+        "variant": "cards.interactive"
+      },
+      "text": [
+        null,
+        {
+          "text": "Full stack internship",
+          "color": "betaDark",
+          "variant": "h4"
+        },
+        {
+          "text": "Generative AI, chatbots & custom AI models. Fine tuned for your own data and business case. Deployed on premise or private clouds.",
+          "space": 2
+        },
+        {
+          "text": "On premise | Cloud | SaaS",
+          "variant": "h6",
+          "space": 2,
+          "color": "omegaDark"
+        }
+      ],
+      "images": [
+        {
+          "src": "../../../../assets/site/careers/overview/full-stack-internship.png",
+          "alt": "Careers - Full Stack Internship"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "More AI   ➜",
+          "type": "PAGE",
+          "link": "/expertise/ai-engineering",
+          "variant": "secondary-outline"
+        }
+      ]
+    },
+    {
+      "container": {
+        "variant": "cards.interactive"
+      },
+      "text": [
+        null,
+        {
+          "text": "Full stack dev",
+          "color": "betaDark",
+          "variant": "h4"
+        },
+        {
+          "text": "We build mobile apps on IOS & Android. Flawless experience on phones & tables of various sizes.",
+          "space": 2
+        },
+        {
+          "text": "Cross platform | iOS | Android ",
+          "variant": "h6",
+          "space": 2,
+          "color": "omegaDark"
+        }
+      ],
+      "images": [
+        {
+          "src": "../../../../assets/site/careers/overview/full-stack-dev.png",
+          "alt": "Careers - Mobile apps"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "Go mobile   ➜",
+          "type": "PAGE",
+          "link": "/expertise/mobile-apps",
+          "variant": "secondary-outline"
+        }
+      ]
+    },
+    {
+      "container": {
+        "variant": "cards.interactive"
+      },
+      "text": [
+        null,
+        {
+          "text": "Mobile dev",
+          "color": "betaDark",
+          "variant": "h4"
+        },
+        {
+          "text": "We build web apps & portals that feel right on all browsers & devices.",
+          "space": 2
+        },
+        {
+          "text": "Frontend | Backend | DevOps ",
+          "variant": "h6",
+          "space": 2,
+          "color": "omegaDark"
+        }
+      ],
+      "images": [
+        {
+          "src": "../../../../assets/site/careers/overview/mobile-dev.png",
+          "alt": "Expertise - Web apps"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "Go web   ➜",
+          "type": "PAGE",
+          "link": "/expertise/web-apps",
+          "variant": "secondary-outline"
+        }
+      ]
+    }
+  ]
+}
