@@ -13,13 +13,12 @@
         },
         {
           "text": "Generative AI, chatbots & custom AI models. Fine tuned for your own data and business case. Deployed on premise or private clouds.",
-          "space":2
+          "space": 2
         },
         {
           "text": "On premise | Cloud | SaaS",
           "variant": "h6",
-          "space":2,
-          "color": "omegaDark"
+          "space": 2
         }
       ],
       "images": [
@@ -50,15 +49,13 @@
         },
         {
           "text": "We build mobile apps on IOS & Android. Flawless experience on phones & tables of various sizes.",
-          "space":2
+          "space": 2
         },
         {
           "text": "Cross platform | iOS | Android ",
           "variant": "h6",
-          "space":2,
-          "color": "omegaDark"
+          "space": 2
         }
-
       ],
       "images": [
         {
@@ -88,13 +85,12 @@
         },
         {
           "text": "We build web apps & portals that feel right on all browsers & devices.",
-          "space":2
+          "space": 2
         },
         {
           "text": "Frontend | Backend | DevOps ",
           "variant": "h6",
-          "space":2,
-          "color": "omegaDark"
+          "space": 2
         }
       ],
       "images": [

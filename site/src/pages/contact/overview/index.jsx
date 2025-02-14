@@ -10,6 +10,7 @@ import Footer from '@solid-ui-blocks/Footer/Block01'
 import { normalizeBlockContentNodes } from '@blocks-helpers'
 import { Container } from 'theme-ui'
 import styles from './_styles'
+import Contact from '@solid-ui-blocks/CallToAction/Block02'
 
 const Services03 = props => {
   const { allBlockContent } = props.data
@@ -24,7 +25,12 @@ const Services03 = props => {
       <Container sx={styles.heroContainer}>
         <Content content={content['contact-intro']} />
         <Gallery content={content['contact']} />
+
       </Container>
+
+      <Divider space='4' />
+      <Contact content={content['cta']} />
+
       <Divider space='5' />
       <Footer content={content['footer']} />
     </Layout>

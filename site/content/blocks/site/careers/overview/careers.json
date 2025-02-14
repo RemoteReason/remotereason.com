@@ -7,32 +7,31 @@
       "text": [
         null,
         {
-          "text": "Full stack internship",
+          "text": "Internship",
           "color": "betaDark",
           "variant": "h4"
         },
         {
-          "text": "Generative AI, chatbots & custom AI models. Fine tuned for your own data and business case. Deployed on premise or private clouds.",
+          "text": "You are now a student in Computer Science. Right now you already know how to code & want to learn more. You want a remote & part-time job after the paid internship.",
           "space": 2
         },
         {
-          "text": "On premise | Cloud | SaaS",
+          "text": "Web | Phoenix | Elixir | FP",
           "variant": "h6",
-          "space": 2,
-          "color": "omegaDark"
+          "space": 2
         }
       ],
       "images": [
         {
           "src": "../../../../assets/site/careers/overview/full-stack-internship.png",
-          "alt": "Careers - Full Stack Internship"
+          "alt": "Careers - Paid internship"
         }
       ],
       "buttons": [
         {
-          "text": "More AI   ➜",
+          "text": "Paid internship   ➜",
           "type": "PAGE",
-          "link": "/expertise/ai-engineering",
+          "link": "/careers/full-stack-internship",
           "variant": "secondary-outline"
         }
       ]
@@ -49,14 +48,13 @@
           "variant": "h4"
         },
         {
-          "text": "We build mobile apps on IOS & Android. Flawless experience on phones & tables of various sizes.",
+          "text": "You have already built several real web products & want to build more. You want a remote & full-time job.",
           "space": 2
         },
         {
-          "text": "Cross platform | iOS | Android ",
+          "text": "Web | Phoenix | Elixir | FP",
           "variant": "h6",
-          "space": 2,
-          "color": "omegaDark"
+          "space": 2
         }
       ],
       "images": [
@@ -67,9 +65,9 @@
       ],
       "buttons": [
         {
-          "text": "Go mobile   ➜",
+          "text": "Full stack   ➜",
           "type": "PAGE",
-          "link": "/expertise/mobile-apps",
+          "link": "/careers/full-stack-dev",
           "variant": "secondary-outline"
         }
       ]
@@ -81,32 +79,31 @@
       "text": [
         null,
         {
-          "text": "Mobile dev",
+          "text": "Mobile app dev",
           "color": "betaDark",
           "variant": "h4"
         },
         {
-          "text": "We build web apps & portals that feel right on all browsers & devices.",
+          "text": "You have already built & published several real mobile apps & want to build more. You want a remote & full-time job.",
           "space": 2
         },
         {
-          "text": "Frontend | Backend | DevOps ",
+          "text": "Kotlin | ReactNative | Native ",
           "variant": "h6",
-          "space": 2,
-          "color": "omegaDark"
+          "space": 2
         }
       ],
       "images": [
         {
           "src": "../../../../assets/site/careers/overview/mobile-dev.png",
-          "alt": "Expertise - Web apps"
+          "alt": "Mobile app dev"
         }
       ],
       "buttons": [
         {
-          "text": "Go web   ➜",
+          "text": "App dev   ➜",
           "type": "PAGE",
-          "link": "/expertise/web-apps",
+          "link": "/careers/mobile-app-dev",
           "variant": "secondary-outline"
         }
       ]

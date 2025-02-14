@@ -3,15 +3,34 @@
     {
       "text": [
         {
-          "text": "Careers",
+          "text": "Are you a geek? 🤓",
           "color": "white",
           "variant": "h2",
           "space": 0
         },
         {
-          "text": "We are looking for geeks to join us.",
+          "text": "You really love coding!",
           "color": "white",
-          "variant": "h5"
+          "variant": "h7",
+          "space": 0
+        },
+        {
+          "text": "Coding is on your list of the 3 most important things in your life!",
+          "color": "white",
+          "variant": "h7",
+          "space": 0
+        },
+        {
+          "text": "We want to talk with you!",
+          "color": "white",
+          "variant": "h6",
+          "space": 2
+        },
+        {
+          "text": "Send us an e-mail at jobs@remotereason.com",
+          "color": "white",
+          "variant": "h6",
+          "space": 0
         }
       ]
     }

@@ -1,71 +1,68 @@
 {
   "text": [
     {
-      "text": "We build mobile apps",
+      "text": "Full stack internship",
       "color": "alpha",
       "variant": "h2"
     },
     {
-      "text": "We make apps that work on phones, tablets, wearables & more.",
+      "text": "You are ready for a full-time / part-time paid internship",
       "variant": "h4"
     }
   ],
   "icon": {
     "src": "../../../../assets/shared/icons/bx-analyse.svg",
     "alt": "Types of Mobile apps"
-  },    
+  },
   "collection": [
     {
       "text": [
         {
-          "text": "Cross platform",
+          "text": "The human 🤖",
           "color": "betaDark",
           "variant": "h4"
         },
         {
-          "text": "Most of the code is reused when building the Android & IOS apps. Best value for most business cases."
+          "text": "You really love coding (like this is the most important stuff going on in your life). You're really happy to learn on the job & during your free time."
         }
       ],
       "collection": [
         {
           "text": [
             {
-              "text": "Coded with React Native",
-              "color": "omegaDark",
+              "text": "Student in Computer Science",
               "variant": "h6"
             }
           ],
           "icon": {
             "src": "../../../../assets/shared/icons/bx-check.svg",
-            "alt": "Coded with React Native",
+            "alt": "Student in Computer Science",
             "color": "beta"
           }
         },
         {
           "text": [
             {
-              "text": "> 50% cheaper vs. native",
-              "color": "omegaDark",
+              "text": "Hands-on! You get stuff done!",
               "variant": "h6"
             }
           ],
           "icon": {
             "src": "../../../../assets/shared/icons/bx-check.svg",
-            "alt": "> 50% cheaper vs. native",
+            "alt": "Hands-on! You get stuff done!",
             "color": "beta"
           }
         },
         {
           "text": [
             {
-              "text": "Good performance",
-              "color": "omegaDark",
+              "text": "You are a geek!",
               "variant": "h6"
             }
           ],
           "icon": {
             "src": "../../../../assets/shared/icons/bx-check.svg",
-            "alt": "Good performance",
+            "alt": "You are a geek!",
             "color": "beta"
           }
         }
@@ -74,54 +71,51 @@
     {
       "text": [
         {
-          "text": "iOS Native",
+          "text": "You already know 🤓",
           "color": "betaDark",
           "variant": "h4"
         },
         {
-          "text": "iOS specific code runs only on Apple devices.  Best for advanced hardware & OS integration."
+          "text": "Right now you already know how to code & want to learn more. Maybe you don't check all the boxes but it's ok as you know you will learn stuff fast."
         }
       ],
       "collection": [
         {
           "text": [
             {
-              "text": "Coded in Swift / Objective C",
-              "color": "omegaDark",
+              "text": "HTML / CSS / Tailwind",
               "variant": "h6"
             }
           ],
           "icon": {
             "src": "../../../../assets/shared/icons/bx-check.svg",
-            "alt": "Coded in Swift / Objective C",
+            "alt": "HTML / CSS / Tailwind",
             "color": "beta"
           }
         },
         {
           "text": [
             {
-              "text": "Full OS / hardware access",
-              "color": "omegaDark",
+              "text": "Javascript (or Typescript)",
               "variant": "h6"
             }
           ],
           "icon": {
             "src": "../../../../assets/shared/icons/bx-check.svg",
-            "alt": "Full OS / hardware access",
+            "alt": "Javascript (or Typescript)",
             "color": "beta"
           }
         },
         {
           "text": [
             {
-              "text": "Maximum performance",
-              "color": "omegaDark",
+              "text": "At least one non-JS language",
               "variant": "h6"
             }
           ],
           "icon": {
             "src": "../../../../assets/shared/icons/bx-check.svg",
-            "alt": "Maximum performance",
+            "alt": "At least one non-JS language",
             "color": "beta"
           }
         }
@@ -130,59 +124,55 @@
     {
       "text": [
         {
-          "text": "Android Native",
+          "text": "You want to learn 🚀",
           "color": "betaDark",
           "variant": "h4"
         },
         {
-          "text": "Android specific code runs only on Android devices. Best for advanced hardware & OS integration."
+          "text": "Elixir, Phoenix Framework & the Elixir ecosystem. Functional programing & distributed systems on the OTP."
         }
       ],
       "collection": [
         {
           "text": [
             {
-              "text": "Coded in Kotlin / Java",
-              "color": "omegaDark",
+              "text": "Elixir, Phoenix & OTP",
               "variant": "h6"
             }
           ],
           "icon": {
             "src": "../../../../assets/shared/icons/bx-check.svg",
-            "alt": "Coded in Kotlin / Java",
+            "alt": "Elixir, Phoenix & OTP",
             "color": "beta"
           }
         },
         {
           "text": [
             {
-              "text": "Full OS / hardware access",
-              "color": "omegaDark",
+              "text": "Functional Programming & the basics of distributed systems",
               "variant": "h6"
             }
           ],
           "icon": {
             "src": "../../../../assets/shared/icons/bx-check.svg",
-            "alt": "Full OS / hardware access",
+            "alt": "Functional Programming & the basics of distributed systems",
             "color": "beta"
           }
         },
         {
           "text": [
             {
-              "text": "Maximum performance",
-              "color": "omegaDark",
+              "text": "SQL / Postgres, AWS & AI engineering",
               "variant": "h6"
             }
           ],
           "icon": {
             "src": "../../../../assets/shared/icons/bx-check.svg",
-            "alt": "Maximum performance",
+            "alt": "SQL / Postgres, AWS & AI engineering",
             "color": "beta"
           }
         }
       ]
     }
- 
   ]
 }
