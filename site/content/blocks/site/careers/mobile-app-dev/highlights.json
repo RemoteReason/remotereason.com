@@ -1,71 +1,68 @@
 {
   "text": [
     {
-      "text": "We build complete web apps",
+      "text": "Mobile app developer (Remote)",
       "color": "alpha",
       "variant": "h2"
     },
     {
-      "text": "We build the web interface, the backend & release it in production",
+      "text": "You have already built & published several real mobile apps & want to build more.",
       "variant": "h4"
     }
   ],
   "icon": {
     "src": "../../../../assets/shared/icons/bx-analyse.svg",
-    "alt": "We build the web interface, the backend & release it in production"
+    "alt": "Types of Mobile apps"
   },
   "collection": [
     {
       "text": [
         {
-          "text": "Web frontend",
+          "text": "The human 🤖",
           "color": "betaDark",
           "variant": "h4"
         },
         {
-          "text": "We build frontends with Phoenix Liveview or React with JS/TS. Tailwind or similar for CSS. Visualisations with D3 & WebGL."
+          "text": "You really love coding (like this is the most important stuff going on in your life). You're really happy to learn on the job & during your free time. You can work well remotely."
         }
       ],
       "collection": [
         {
           "text": [
             {
-              "text": "Beautifull in all browsers",
-              "color": "omegaDark",
+              "text": "Graduated Computer Science",
               "variant": "h6"
             }
           ],
           "icon": {
             "src": "../../../../assets/shared/icons/bx-check.svg",
-            "alt": "Beautifull in all browsers",
+            "alt": "Graduated Computer Science",
             "color": "beta"
           }
         },
         {
           "text": [
             {
-              "text": "Mobile & tablet ready",
-              "color": "omegaDark",
+              "text": "Hands-on! You get stuff done!",
               "variant": "h6"
             }
           ],
           "icon": {
             "src": "../../../../assets/shared/icons/bx-check.svg",
-            "alt": "Mobile & tablet ready",
+            "alt": "Hands-on! You get stuff done!",
             "color": "beta"
           }
         },
         {
           "text": [
             {
-              "text": "Rich media experience",
-              "color": "omegaDark",
+              "text": "You are a geek!",
               "variant": "h6"
             }
           ],
           "icon": {
             "src": "../../../../assets/shared/icons/bx-check.svg",
-            "alt": "Rich media experience",
+            "alt": "You are a geek!",
             "color": "beta"
           }
         }
@@ -74,54 +71,51 @@
     {
       "text": [
         {
-          "text": "Backend server",
+          "text": "You already know 🤓",
           "color": "betaDark",
           "variant": "h4"
         },
         {
-          "text": "We deliver with Phoenix/Elixir. Node with JS/TS. Scala/Java/Akka. Various SQL/noSQL databases."
+          "text": "Right now you already know how to code & want to learn more. Maybe you don't check all the boxes but it's ok as you know you will learn stuff fast."
         }
       ],
       "collection": [
         {
           "text": [
             {
-              "text": "Scalable & secure",
-              "color": "omegaDark",
+              "text": "React Native / JS / TS / IOS or Android native",
               "variant": "h6"
             }
           ],
           "icon": {
             "src": "../../../../assets/shared/icons/bx-check.svg",
-            "alt": "Scalable & secure",
+            "alt": "React Native / JS / TS / IOS or Android native",
             "color": "beta"
           }
         },
         {
           "text": [
             {
-              "text": "Ready for integrations",
-              "color": "omegaDark",
+              "text": "TDD, Git, CI/CD, App stores publish / release",
               "variant": "h6"
             }
           ],
           "icon": {
             "src": "../../../../assets/shared/icons/bx-check.svg",
-            "alt": "Ready for integrations",
+            "alt": "TDD, Git, CI/CD, App stores publish / release",
             "color": "beta"
           }
         },
         {
           "text": [
             {
-              "text": "Easy to change",
-              "color": "omegaDark",
+              "text": "SQL, SQLite, REST / GraphQL",
               "variant": "h6"
             }
           ],
           "icon": {
             "src": "../../../../assets/shared/icons/bx-check.svg",
-            "alt": "Easy to change",
+            "alt": "SQL, SQLite, REST / GraphQL",
             "color": "beta"
           }
         }
@@ -130,59 +124,55 @@
     {
       "text": [
         {
-          "text": "DevOps",
+          "text": "You want to learn 🚀",
           "color": "betaDark",
           "variant": "h4"
         },
         {
-          "text": "We take care of CI/CD. We deploy on AWS or CGP but also on PaaS like Render or Fly. Kubernetes as well. "
+          "text": "Build apps using React Native & Expo. Work with mobile connected devices (ie. Bluetooth & others)"
         }
       ],
       "collection": [
         {
           "text": [
             {
-              "text": "Fully automated",
-              "color": "omegaDark",
+              "text": "Expo & related ecosystem",
               "variant": "h6"
             }
           ],
           "icon": {
             "src": "../../../../assets/shared/icons/bx-check.svg",
-            "alt": "Fully automated",
+            "alt": "Expo & related ecosystem",
             "color": "beta"
           }
         },
         {
           "text": [
             {
-              "text": "Scalable & secure",
-              "color": "omegaDark",
+              "text": "Bluetooth / BLE, NFC, etc.",
               "variant": "h6"
             }
           ],
           "icon": {
             "src": "../../../../assets/shared/icons/bx-check.svg",
-            "alt": "Scalable & secure",
+            "alt": "Bluetooth / BLE, NFC, etc.",
             "color": "beta"
           }
         },
         {
           "text": [
             {
-              "text": "Cost effective",
-              "color": "omegaDark",
+              "text": "Build & use native code libraries",
               "variant": "h6"
             }
           ],
           "icon": {
             "src": "../../../../assets/shared/icons/bx-check.svg",
-            "alt": "Cost effective",
+            "alt": "Build & use native code libraries",
             "color": "beta"
           }
         }
       ]
     }
- 
   ]
 }

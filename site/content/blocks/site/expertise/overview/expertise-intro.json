@@ -3,17 +3,17 @@
     {
       "text": [
         {
-          "text": "Expertise",
+          "text": "Expertise 🤓",
           "color": "white",
           "variant": "h2",
           "space": 0
         },
         {
-          "text": "Flexible technology partner commited to innovation & long term team work.",
-          "color":"white",
-          "variant": "h5"
+          "text": "We are proud to deliver end to end solutions to our partners",
+          "color": "white",
+          "variant": "h4",
+          "space": 0
         }
-        
       ]
     }
   ]

@@ -1,71 +1,68 @@
 {
   "text": [
     {
-      "text": "Deploy, integrate & fine tune AI",
+      "text": "Full stack developer (Remote)",
       "color": "alpha",
       "variant": "h2"
     },
     {
-      "text": "We deploy, integrate & fine tune commercial and open source AI models",
+      "text": "You have already built several real web products & want to build more. You can work well remotely.",
       "variant": "h4"
     }
   ],
   "icon": {
     "src": "../../../../assets/shared/icons/bx-analyse.svg",
-    "alt": "We deploy, integrate & fine tune commercial and open source AI models"
+    "alt": "Types of Mobile apps"
   },
   "collection": [
     {
       "text": [
         {
-          "text": "AI integration",
+          "text": "The human 🤖",
           "color": "betaDark",
           "variant": "h4"
         },
         {
-          "text": "We integrate your software with private AI deployments or AI service providers like OpenAI or Midjourney (and many others)."
+          "text": "You really love coding (like this is the most important stuff going on in your life). You're really happy to learn on the job & during your free time."
         }
       ],
       "collection": [
         {
           "text": [
             {
-              "text": "AI API integration",
-              "color": "omegaDark",
+              "text": "Graduated Computer Science",
               "variant": "h6"
             }
           ],
           "icon": {
             "src": "../../../../assets/shared/icons/bx-check.svg",
-            "alt": "AI API integration",
+            "alt": "Graduated Computer Science",
             "color": "beta"
           }
         },
         {
           "text": [
             {
-              "text": "Integrate public & private data",
-              "color": "omegaDark",
+              "text": "Hands-on! You get stuff done!",
               "variant": "h6"
             }
           ],
           "icon": {
             "src": "../../../../assets/shared/icons/bx-check.svg",
-            "alt": "Integrate public & private data",
+            "alt": "Hands-on! You get stuff done!",
             "color": "beta"
           }
         },
         {
           "text": [
             {
-              "text": "Prompt engineering",
-              "color": "omegaDark",
+              "text": "You are a geek!",
               "variant": "h6"
             }
           ],
           "icon": {
             "src": "../../../../assets/shared/icons/bx-check.svg",
-            "alt": "Prompt engineering",
+            "alt": "You are a geek!",
             "color": "beta"
           }
         }
@@ -74,54 +71,51 @@
     {
       "text": [
         {
-          "text": "AI deployment",
+          "text": "You already know 🤓",
           "color": "betaDark",
           "variant": "h4"
         },
         {
-          "text": "We deploy custom AI models alongside your software. You keep full control on your business data."
+          "text": "Right now you already know how to code & want to learn more. Maybe you don't check all the boxes but it's ok as you know you will learn stuff fast."
         }
       ],
       "collection": [
         {
           "text": [
             {
-              "text": "Custom AI model deployments",
-              "color": "omegaDark",
+              "text": "HTML / CSS / Tailwind / JS / TS & a functional language",
               "variant": "h6"
             }
           ],
           "icon": {
             "src": "../../../../assets/shared/icons/bx-check.svg",
-            "alt": "Custom AI model deployments",
+            "alt": "HTML / CSS / Tailwind / JS / TS & a functional language",
             "color": "beta"
           }
         },
         {
           "text": [
             {
-              "text": "On premise & private clouds",
-              "color": "omegaDark",
+              "text": "TDD, Git, CI/CD, Linux, Docker, AWS",
               "variant": "h6"
             }
           ],
           "icon": {
             "src": "../../../../assets/shared/icons/bx-check.svg",
-            "alt": "On premise & private clouds",
+            "alt": "TDD, Git, CI/CD, Linux, Docker, AWS",
             "color": "beta"
           }
         },
         {
           "text": [
             {
-              "text": "Performance & cost monitoring",
-              "color": "omegaDark",
+              "text": "SQL, Postgres, SQLite",
               "variant": "h6"
             }
           ],
           "icon": {
             "src": "../../../../assets/shared/icons/bx-check.svg",
-            "alt": "Performance & cost monitoring",
+            "alt": "SQL, Postgres, SQLite",
             "color": "beta"
           }
         }
@@ -130,59 +124,55 @@
     {
       "text": [
         {
-          "text": "AI finetuning",
+          "text": "You want to learn 🚀",
           "color": "betaDark",
           "variant": "h4"
         },
         {
-          "text": "We finetune custom or commerial AI models with your own business data. We make the AI system truly yours."
+          "text": "Elixir, Phoenix Framework & the Elixir ecosystem. Functional programing & distributed systems on the OTP."
         }
       ],
       "collection": [
         {
           "text": [
             {
-              "text": "Training on private documents",
-              "color": "omegaDark",
+              "text": "Elixir, Phoenix & OTP",
               "variant": "h6"
             }
           ],
           "icon": {
             "src": "../../../../assets/shared/icons/bx-check.svg",
-            "alt": "Training on private documents",
+            "alt": "Elixir, Phoenix & OTP",
             "color": "beta"
           }
         },
         {
           "text": [
             {
-              "text": "Finetuning LLM's with human feedback",
-              "color": "omegaDark",
+              "text": "Functional Programming & the basics of distributed systems",
               "variant": "h6"
             }
           ],
           "icon": {
             "src": "../../../../assets/shared/icons/bx-check.svg",
-            "alt": "Finetuning LLM's with human feedback",
+            "alt": "Functional Programming & the basics of distributed systems",
             "color": "beta"
           }
         },
         {
           "text": [
             {
-              "text": "Business case specific finetuning",
-              "color": "omegaDark",
+              "text": "AI engineering",
               "variant": "h6"
             }
           ],
           "icon": {
             "src": "../../../../assets/shared/icons/bx-check.svg",
-            "alt": "Business case specific finetuning",
+            "alt": "AI engineering",
             "color": "beta"
           }
         }
       ]
     }
- 
   ]
 }

@@ -1,0 +1,67 @@
+{
+  "text": [
+    {
+      "text": "Typical day at work",
+      "color": "alpha",
+      "variant": "h2"
+    },
+    {
+      "text": "We train you a bit & then you get some real work to do. We work together on a daily basis.",
+      "variant": "h5"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/site/careers/overview/full-stack-dev.png",
+      "radius": "lg",
+      "alt": "Expertise - Mobile apps"
+    }
+  ],
+  "collection": [
+    {
+      "icon": {
+        "src": "../../../../assets/shared/icons/look-and-feel.svg"
+      },
+      "text": [
+        {
+          "text": "Help others",
+          "color": "betaDark",
+          "variant": "h5"
+        },
+        {
+          "text": "Your colleagues will need code reviews & advice with coding & technical design. Other less senior devs will need guidance & mentoring."
+        }
+      ]
+    },
+    {
+      "icon": {
+        "src": "../../../../assets/shared/icons/security.svg"
+      },
+      "text": [
+        {
+          "text": "Architecture & coding",
+          "color": "betaDark",
+          "variant": "h5"
+        },
+        {
+          "text": "Code features for real applications. Propose architecture & technical design."
+        }
+      ]
+    },
+    {
+      "icon": {
+        "src": "../../../../assets/shared/icons/performance.svg"
+      },
+      "text": [
+        {
+          "text": "Delivery & devops",
+          "color": "betaDark",
+          "variant": "h5"
+        },
+        {
+          "text": "Setup & deliver applications in production. CI/CD & cloud setups. Automated & manual testing."
+        }
+      ]
+    }
+  ]
+}

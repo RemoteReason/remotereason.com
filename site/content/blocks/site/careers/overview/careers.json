@@ -88,14 +88,14 @@
           "space": 2
         },
         {
-          "text": "Kotlin | ReactNative | Native ",
+          "text": "Expo | React Native | Native ",
           "variant": "h6",
           "space": 2
         }
       ],
       "images": [
         {
-          "src": "../../../../assets/site/careers/overview/mobile-dev.png",
+          "src": "../../../../assets/site/careers/overview/mobile-app-dev.png",
           "alt": "Mobile app dev"
         }
       ],

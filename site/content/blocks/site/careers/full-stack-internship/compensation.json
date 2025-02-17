@@ -1,0 +1,68 @@
+{
+  "text": [
+    {
+      "text": "What do you get?",
+      "color": "omegaDarker",
+      "variant": "h2"
+    }
+  ],
+  "collection": [
+    {
+      "container": {
+        "variant": "cards.paper"
+      },
+      "text": [
+        {
+          "text": "Paid internship",
+          "color": "omegaDarker",
+          "variant": "h5"
+        },
+        {
+          "text": "We pay you a fair compensation for your time & experience. You get a regular work contract."
+        }
+      ],
+      "icon": {
+        "src": "../../../../assets/shared/icons/master-plan.svg",
+        "alt": "We pay you a fair compensation for your time & experience. You get a regular work contract."
+      }
+    },
+    {
+      "container": {
+        "variant": "cards.paper"
+      },
+      "text": [
+        {
+          "text": "Fully remote",
+          "color": "omegaDarker",
+          "variant": "h5"
+        },
+        {
+          "text": "We work fully remote. We provide the tools & setup needed to make this work."
+        }
+      ],
+      "icon": {
+        "src": "../../../../assets/shared/icons/benelux.svg",
+        "alt": "Fully remote"
+      }
+    },
+    {
+      "container": {
+        "variant": "cards.paper"
+      },
+      "text": [
+        {
+          "text": "Training & mentoring",
+          "color": "omegaDarker",
+          "variant": "h5"
+        },
+        {
+          "text": "You will get access to company paid training courses & materials. You get mentoring."
+        }
+      ],
+      "icon": {
+        "src": "../../../../assets/shared/icons/flexible.svg",
+        "alt": "Training & mentoring"
+      }
+    }
+  ]
+}
