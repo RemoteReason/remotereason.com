@@ -1,14 +1,13 @@
 /* Replacement for slick-carousel/slick/slick-theme.css */
 .with-animation .slick-slide {
-  transition: all 600ms ease;
   opacity: 1;
   transform: scale(1);
   transform-origin: left;
 }
 
 .with-animation .slick-slide.slick-active + :not(.slick-active) {
-  opacity: 0;
-  transform: scale(0.7);
+  opacity: 1;
+  transform: scale(1);
 }
 
 .slick-prev,
@@ -22,11 +21,9 @@
 }
 
 .slick-prev {
-  box-shadow: -1px 1px 3px 0 rgba(1, 1, 1, 0.1);
   left: -15px;
 }
 .slick-next {
-  box-shadow: 1px 1px 3px 0 rgba(1, 1, 1, 0.1);
   right: -15px;
 }
 
@@ -46,8 +43,6 @@
 .slick-dots li {
   position: relative;
   display: inline-block;
-  /* height: 20px;
-  width: 20px; */
   margin: 0 5px;
   padding: 0;
   cursor: pointer;

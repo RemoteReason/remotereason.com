@@ -22,14 +22,10 @@ const Reveal = ({
   return (
     <motion.div
       ref={ref}
-      animate={inView && (animate || effect || undefined)}
-      variants={variants}
-      style={effect?.startsWith('fade') && { opacity: 0 }}
-      transition={{
-        duration,
-        delay,
-        ...transition
-      }}
+      animate={{}}
+      variants={{}}
+      style={{ opacity: 1 }}
+      transition={{}}
       {...props}
     >
       {children}
@@ -40,12 +36,12 @@ const Reveal = ({
 export default Reveal
 
 Reveal.defaultProps = {
-  effect: 'fadeInUp',
+  effect: null,
   threshold: 0.3,
-  duration: 0.5,
+  duration: 0,
   delay: 0,
-  transition: null,
-  animate: null
+  transition: {},
+  animate: {}
 }
 
 Reveal.propTypes = {
