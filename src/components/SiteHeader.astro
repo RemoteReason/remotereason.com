@@ -1,0 +1,135 @@
+---
+import LetsTalkButton from "./LetsTalkButton.astro";
+import { topNavigation } from "../data/pages";
+---
+
+<header class="bg-white max-md:sticky max-md:top-0 max-md:z-50">
+  <nav class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
+    <div class="flex flex-1">
+      <div class="hidden lg:flex lg:gap-x-8">
+        {
+          topNavigation.map((item) => (
+            <a href={item.url} class="text-lg font-semibold text-gray-900 font-mono">
+              {item.name}
+            </a>
+          ))
+        }
+      </div>
+      <div class="flex lg:hidden">
+        <button
+          type="button"
+          data-menu-open
+          class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
+        >
+          <span class="sr-only">Open main menu</span>
+          <svg
+            class="size-6"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            aria-hidden="true"
+          >
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+            ></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <a href="/" class="-m-1.5 p-1.5">
+      <span class="sr-only">Remote Reason</span>
+      <img class="h-8 w-auto" src="/images/logo.svg" alt="" />
+    </a>
+    <div class="flex flex-1 justify-end">
+      <div class="max-sm:hidden flex items-center gap-x-6 lg:mt-0 lg:shrink-0">
+        <LetsTalkButton />
+      </div>
+    </div>
+  </nav>
+
+  <div id="hamburger-menu" class="relative z-40 hidden">
+    <div class="fixed inset-0 bg-black/70" aria-hidden="true"></div>
+    <div class="fixed inset-0" role="dialog" aria-modal="true" aria-label="Main menu" tabindex="0">
+      <div class="flex min-h-full items-center justify-center">
+        <div class="w-full max-w-6xl p-0">
+          <div
+            data-menu-panel
+            class="relative rounded-2xl max-sm:rounded-none bg-white px-5 py-5 shadow-lg ring-1 shadow-zinc-700/10 ring-zinc-700/10"
+          >
+            <div class="flex flex-col gap-8 w-full h-screen">
+              <div class="flex w-full items-center justify-between">
+                <div class="flex items-center gap-2">
+                  <a href="/" class="-m-1.5 p-1.5">
+                    <span class="sr-only">Remote Reason</span>
+                    <img class="h-8 w-auto" src="/images/logo.svg" alt="" />
+                  </a>
+                </div>
+                <button
+                  type="button"
+                  data-menu-close
+                  class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
+                >
+                  <span class="sr-only">Close main menu</span>
+                  <svg
+                    class="size-6"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12"></path>
+                  </svg>
+                </button>
+              </div>
+              <div class="flex flex-col items-start justify-center space-y-6 w-full">
+                <LetsTalkButton />
+                <div class="space-y-2">
+                  {
+                    topNavigation.map((item) => (
+                      <a
+                        href={item.url}
+                        class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
+                      >
+                        {item.name}
+                      </a>
+                    ))
+                  }
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<script>
+  const menu = document.getElementById("hamburger-menu");
+  const panel = menu?.querySelector<HTMLElement>("[data-menu-panel]");
+  const openButton = document.querySelector<HTMLElement>("[data-menu-open]");
+
+  const isOpen = () => !!menu && !menu.classList.contains("hidden");
+
+  function openMenu() {
+    menu?.classList.remove("hidden");
+    document.body.classList.add("overflow-hidden");
+    panel?.querySelector<HTMLElement>("a, button")?.focus();
+  }
+
+  function closeMenu() {
+    menu?.classList.add("hidden");
+    document.body.classList.remove("overflow-hidden");
+    openButton?.focus();
+  }
+
+  openButton?.addEventListener("click", openMenu);
+  menu?.querySelector("[data-menu-close]")?.addEventListener("click", closeMenu);
+  menu?.addEventListener("click", (event) => {
+    if (panel && !panel.contains(event.target as Node)) closeMenu();
+  });
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape" && isOpen()) closeMenu();
+  });
+</script>

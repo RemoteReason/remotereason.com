@@ -1,0 +1,30 @@
+---
+interface Props {
+  /** `left` puts the image on the right on large screens, `right` puts it on the left. */
+  alignment?: "left" | "right";
+  title: string;
+  image: string;
+}
+
+const { alignment = "left", title, image } = Astro.props;
+---
+
+<div
+  class:list={[
+    "flex flex-col px-6 py-6 lg:py-10 justify-between",
+    alignment === "left" ? "lg:flex-row-reverse" : "lg:flex-row",
+  ]}
+>
+  <div class="flex flex-col pb-6 lg:pl-8 lg:w-1/2 lg:flex-row">
+    <img src={image} alt="Product screenshot" class="object-contain object-left" />
+  </div>
+  {/* Tailwind v3 `space-x-16` put this margin on the text column, also when reversed */}
+  <div class="flex flex-col lg:w-1/2 lg:ml-16">
+    <div class="flex flex-col space-y-2 pt-6 lg:pt-0 lg:pr-8">
+      <h4 class="max-w-md text-lg md:text-xl font-semibold">{title}</h4>
+      <div class="text-base/7 text-gray-700">
+        <slot />
+      </div>
+    </div>
+  </div>
+</div>

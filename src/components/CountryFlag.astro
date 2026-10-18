@@ -1,0 +1,13 @@
+---
+interface Props {
+  countryCode: string;
+  label: string;
+}
+
+const { countryCode, label } = Astro.props;
+---
+
+<div class="flex items-center gap-2 cursor-pointer p-1">
+  <img src={`/images/flags/${countryCode}.svg`} class="size-4" loading="lazy" alt="" />
+  <p class="text-sm/6 text-gray-600">{label}</p>
+</div>

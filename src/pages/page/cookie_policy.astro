@@ -1,0 +1,41 @@
+---
+import LegalDocument from "../../components/LegalDocument.astro";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { pages } from "../../data/pages";
+
+const page = pages.cookiePolicy;
+---
+
+<BaseLayout title={page.title} description={page.description} openGraph={page.openGraph}>
+  <LegalDocument title="Cookie Policy" updatedOn="March 4, 2025">
+    <p>
+      Web cookies are small files that store data related to our site. You can think of cookies as brief notes with
+      relevant details related to your visits on our website. By ‘reading’ these notes, we can offer you, every time,
+      relevant information and experiences. More specifically, cookies ease web processes and deliver more relevant
+      experiences by remembering your website preferences and visits. This helps us display only meaningful, targeted
+      content and spare you from non-targeted, irrelevant messages.
+    </p>
+
+    <h2 class="py-1">What types of cookies do we use?</h2>
+
+    <h3>Mandatory Cookies</h3>
+    <p>
+      Mandatory cookies cannot be turned off as they are required for the good functioning of the website. However,
+      these cookies do not track you.
+    </p>
+
+    <h3>Tracking Cookies</h3>
+    <p>
+      Tracking cookies are used by social media ads accounts (e.g. through Facebook Pixel) to target ads according to
+      your preferences, demographics and pattern of digital actions. Although the data collected by tracking cookies
+      helps us to target ads better, the data in cause remains anonymous to us.
+    </p>
+
+    <h2 class="py-1">How to manage Cookies?</h2>
+    <p>
+      You can always opt to turn off cookies from your browser settings. Check the website of your browser for
+      step-by-step instructions of how to opt out. If you have any further questions regarding how to handle cookies
+      we’d be happy to answer. Please contact us at privacy@remotereason.com for more details.
+    </p>
+  </LegalDocument>
+</BaseLayout>

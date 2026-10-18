@@ -1,0 +1,11 @@
+---
+interface Props {
+  class?: string;
+}
+
+const { class: className } = Astro.props;
+---
+
+<div class:list={["container px-6 lg:px-12", className]}>
+  <h1 class="text-3xl font-semibold leading-normal md:leading-10 text-left md:text-4xl"><slot /></h1>
+</div>

@@ -1,0 +1,17 @@
+---
+// Rounded card with the dotted border used for CTAs, quotes and stats.
+interface Props {
+  class?: string;
+}
+
+const { class: className } = Astro.props;
+const dottedBorder =
+  "background-image: url(\"data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' stroke='%239ca3af' stroke-width='2' stroke-dasharray='2%2c 12' stroke-linecap='round' rx='16' ry='16'/%3e%3c/svg%3e\");";
+---
+
+<div
+  class:list={["rounded-2xl bg-white shadow-lg shadow-zinc-700/10 ring-1 ring-zinc-700/10", className]}
+  style={dottedBorder}
+>
+  <slot />
+</div>

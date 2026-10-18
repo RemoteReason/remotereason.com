@@ -1,0 +1,93 @@
+---
+import LegalDocument from "../../components/LegalDocument.astro";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { pages } from "../../data/pages";
+
+const page = pages.privacyPolicy;
+---
+
+<BaseLayout title={page.title} description={page.description} openGraph={page.openGraph}>
+  <LegalDocument title="Privacy Policy" updatedOn="March 4, 2025">
+    <p>
+      RemoteReason is a software company with headquarters in The Netherlands, EU and engineering offices in Romania.
+      RemoteReason is committed to protecting the privacy and security of your Personal Data. The information you share
+      with RemoteReason enables us to code great, relevant experiences on our website and across all our other
+      communication channels. In addition, the Personal Data we collect helps us adapt our services and employment
+      opportunities to your demands and needs.
+    </p>
+
+    <h2 class="py-1">What personal data is collected ?</h2>
+
+    <h3>Personal identification data</h3>
+    <p>
+      Personal information should stay personal, and that's why we only collect the minimum necessary info meant to help
+      us improve the experience we deliver to our associates. We collect the following personal information: name,
+      e-mail address, phone number
+    </p>
+
+    <h3>Non-identifying personal data</h3>
+    You will always be notified when data collection occurs and you'll be asked for consent.
+    <p>
+      We do not correlate personal identification data with non-identifying personal data unless clearly specified at
+      the moment of collection. We collect the following non-identifying personal information: IP address, cookies,
+      referring URL, browser type, operating system, site usage, and browsing history.
+    </p>
+
+    <h2 class="py-1">How we collect personal data ?</h2>
+
+    <h3>Contact forms</h3>
+    <p>We collect the data directly when you send us a message via the forms on our website.</p>
+
+    <h3>Direct communication</h3>
+    <p>
+      We collect the data directly when you voluntarily contact us on by any communication means, be it email, social
+      media or website message boards to inquire about our services or employment opportunities.
+    </p>
+
+    <h3>Survey</h3>
+    <p>
+      We collect the data directly when you voluntarily complete a customer survey or provide feedback on any of our
+      message boards or via email.
+    </p>
+
+    <h3>Website visit</h3>
+    <p>
+      We collect the data indirectly when you visit our website; in this case, embedded web technologies known as cookies
+      collect non-identifying personal data.
+    </p>
+
+    <h2 class="py-1">How we use personal data ?</h2>
+    We use your personal data for your benefit. We never sell it.
+    <h3>Communication</h3>
+    <p>When we answer queries submitted through our contact forms, chat, e-mail or social media.</p>
+
+    <h3>Ads</h3>
+    <p>
+      When we build targeted audiences for social media campaigns to ensure the relevancy of our communications. Also we
+      optimize Google & social media ads based on collected anonymized data.
+    </p>
+
+    <h3>Updates</h3>
+    <p>When we keep you posted on company updates through emails and newsletters.</p>
+
+    <h3>Website experience</h3>
+    <p>
+      We need understand your current experience with our website in order to improve it. We create statistics around
+      website traffic, marketing performance, communication initiatives.
+    </p>
+
+    <h2 class="py-1">Other information</h2>
+    <h3>Third party services</h3>
+    <p>
+      We do not sell your personal data to any third party services. The personal data you agree to share with us is
+      used in collaboration to third party tools only to send you messages or improve ad targeting and user experience.
+      We use the following GDPR compliant third party services : Google Analytics, Facebook, Linkedin, MailChimp
+    </p>
+
+    <h3>Get in touch</h3>
+    <p>
+      If you have any further questions about the way we handle your data, we're happy to answer! Please reach out to us
+      at privacy@remotereason.com and we'll get back to you ASAP.
+    </p>
+  </LegalDocument>
+</BaseLayout>

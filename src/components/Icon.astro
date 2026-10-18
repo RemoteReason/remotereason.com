@@ -1,0 +1,11 @@
+---
+// Heroicon rendered as a CSS mask (see src/styles/heroicons.js), e.g. name="hero-sparkles".
+interface Props {
+  name: string;
+  class?: string;
+}
+
+const { name, class: className } = Astro.props;
+---
+
+<span class:list={[name, className]} aria-hidden="true"></span>

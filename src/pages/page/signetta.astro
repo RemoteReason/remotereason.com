@@ -1,0 +1,223 @@
+---
+import Icon from "../../components/Icon.astro";
+import LetsTalkCta from "../../components/LetsTalkCta.astro";
+import LinkStyled from "../../components/LinkStyled.astro";
+import TechIcon from "../../components/TechIcon.astro";
+import PageCentered from "../../components/layout/PageCentered.astro";
+import BoxLarge from "../../components/page/BoxLarge.astro";
+import HeroImage from "../../components/page/HeroImage.astro";
+import HighlightsBox from "../../components/page/HighlightsBox.astro";
+import HighlightsColumn from "../../components/page/HighlightsColumn.astro";
+import PageHeading from "../../components/page/PageHeading.astro";
+import PageText from "../../components/page/PageText.astro";
+import Paragraph from "../../components/page/Paragraph.astro";
+import ParagraphItem from "../../components/page/ParagraphItem.astro";
+import SectionTitle from "../../components/page/SectionTitle.astro";
+import Testimonial from "../../components/page/Testimonial.astro";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { pages } from "../../data/pages";
+
+const page = pages.signetta;
+const external = { target: "_blank", rel: "noopener noreferrer" };
+---
+
+<BaseLayout title={page.title} description={page.description} openGraph={page.openGraph}>
+  <PageCentered>
+    <PageHeading title="SIGNETTA.COM" description="Fair eSIGNING for the Real Economy" />
+    <HeroImage image="/images/cases/signetta_home.png" />
+
+    <PageText title="The Company">
+      <Paragraph>
+        Signetta is a European electronic signature and HR workflow platform built for industries with mobile,
+        high-volume, and compliance-critical operations. Incorporated as Signetta GmbH, it targets the operational
+        backbone of Europe's essential economy: logistics, hospitality, agriculture, manufacturing, cleaning, and
+        industrial staffing.
+      </Paragraph>
+      <Paragraph>
+        Platforms like <LinkStyled href="https://www.docusign.com" {...external}>DocuSign</LinkStyled> or <LinkStyled
+          href="https://acrobat.adobe.com/us/en/sign.html"
+          {...external}>Adobe Sign</LinkStyled
+        > are built for general-purpose e-signing sold on per-seat subscriptions. Signetta targets a specific underserved
+        segment: essential service industries with high staff turnover, multilingual distributed workforces, and variable
+        documentation volumes.
+      </Paragraph>
+      <Paragraph>
+        The credit model is a central differentiator: Signetta charges per action rather than per seat — economically
+        rational for industries that onboard hundreds of seasonal workers and then scale back.
+      </Paragraph>
+    </PageText>
+    <PageText title="About the project" />
+
+    <BoxLarge alignment="right" image="/images/cases/signetta_about.png" title="Highlights">
+      <ul>
+        <ParagraphItem>
+          The platform enables HR and operations teams to electronically sign documents, manage multi-step approval
+          workflows, verify identities via OTP, and archive records in a fully <LinkStyled
+            href="https://gdpr.eu"
+            {...external}>GDPR</LinkStyled
+          >- and <LinkStyled href="https://digital-strategy.ec.europa.eu/en/policies/eidas-regulation" {...external}
+            >eIDAS</LinkStyled
+          >-compliant environment — from any device, in any language.
+        </ParagraphItem>
+        <ParagraphItem>
+          The platform was designed and built from scratch as a multi-tenant SaaS product, spanning a customer-facing
+          signing experience, an HR/ops management portal, an admin and partner portal, and an API layer for third-party
+          integrations.
+        </ParagraphItem>
+        <ParagraphItem>Shopify based shop (customised with minimal plugins)</ParagraphItem>
+        <ParagraphItem>
+          The platform has separate deployments for each region distributor (ie. US, EU, Middle East, Australia) to
+          provide strong data residency guarantees. Currently the platform has deployments in both Azure and AWS.
+        </ParagraphItem>
+      </ul>
+    </BoxLarge>
+
+    <Testimonial
+      description="Remote Reason has delivered clear costs, weekly deliverables, and working features. The team has exceeded expectations and impressed the client with their ability to bridge business needs with tech insights. Remote Reason's project management has been professional and knowledgeable."
+      image="/images/cases/richard.jpeg"
+      name="Richard Kloosterman"
+      position="CEO, Intersoft"
+      linkedin="https://www.linkedin.com/in/richardkloosterman/"
+      clutch="https://clutch.co/go-to-review/21913110-da3a-48cc-9200-43ae5de59e57/426727"
+    />
+
+    <SectionTitle>What we delivered</SectionTitle>
+
+    <BoxLarge alignment="right" image="/images/cases/signetta_manager.png" title="Platform Core">
+      <ul>
+        <ParagraphItem title="Credit-Based Billing Engine">
+          Every billable action (signing, OTP delivery, storage, user creation, approvals) consumes credits from a
+          prepaid balance. The engine includes a ledger-style transaction log, real-time balance checks, and volume
+          pricing tiers.
+        </ParagraphItem>
+        <ParagraphItem title="Document Upload & Template Management">
+          Users upload documents or generate them from templates with dynamic custom fields (names, dates, roles,
+          signature blocks). The system handles multi-page PDFs with field overlay rendering.
+        </ParagraphItem>
+        <ParagraphItem title="Mobile-First Electronic Signing">
+          Signers receive a link via email or SMS and complete signing from any device without creating an account. The
+          flow is optimized for minimal friction in high-turnover, multilingual environments.
+        </ParagraphItem>
+        <ParagraphItem title="OTP Identity Verification">
+          Built natively into the platform with no third-party dependency. OTPs are delivered via email or SMS, consumed
+          as credits, and every verification event is logged as part of the immutable audit trail.
+        </ParagraphItem>
+        <ParagraphItem title="Approval Workflow Engine">
+          Configurable multi-step, multi-party routing (e.g. HR → Legal → Director) with assigned approvers, deadlines,
+          automated reminders, and timestamped completion records. Workflows are saveable as reusable templates.
+        </ParagraphItem>
+        <ParagraphItem title="Role-Based Access Control (RBAC)">
+          Granular permissions across document visibility, approval authority, archiving access, and dashboards. Each
+          role sees only the data and actions relevant to their scope.
+        </ParagraphItem>
+        <ParagraphItem title="Secure Document Archiving">
+          GDPR-compliant storage with EU-aligned retention policies. Charged on store, free on retrieval. Supports
+          role-based access per document, download logs, and compliance audit exports for labor inspections.
+        </ParagraphItem>
+        <ParagraphItem title="Real-Time Notifications & Audit Logs">
+          Every document event (sent, opened, signed, declined, overdue) triggers notifications and is written to an
+          immutable timestamped log, forming a complete legal audit trail exportable for regulatory review.
+        </ParagraphItem>
+      </ul>
+    </BoxLarge>
+
+    <LetsTalkCta />
+
+    <BoxLarge alignment="left" image="/images/cases/signetta_credits.png" title="Partner & Reseller Modules">
+      Signetta is designed from the ground up to be embedded and resold. Service providers, HR software vendors, staffing
+      agencies, and regional distributors can operate Signetta as a fully white-labeled product under their own brand,
+      with dedicated tooling to manage their client base at scale.
+      <ul>
+        <ParagraphItem title="Admin & Partner Portal">
+          Resellers manage sub-accounts, credit balances, custom branding, and client onboarding from a dedicated
+          portal, isolated from end-client environments. Partners have no direct access to client document content —
+          only to account and usage administration.
+        </ParagraphItem>
+        <ParagraphItem title="White-Label Configuration">
+          Branding, routing, and login experience are fully customizable per partner, allowing resellers to deliver a
+          seamless, on-brand signing experience to their customers without exposing the underlying platform.
+        </ParagraphItem>
+        <ParagraphItem title="Per-Client Usage Analytics">
+          Real-time dashboards give partners visibility into credit consumption, document volumes, and activity per
+          client — enabling margin management, renewal forecasting, and proactive support.
+        </ParagraphItem>
+        <ParagraphItem title="Credit Resale Model">
+          Partners purchase credits in bulk at volume pricing and allocate them to sub-accounts. The margin between bulk
+          purchase price and retail allocation is the partner's revenue mechanism — simple, transparent, and scalable.
+        </ParagraphItem>
+      </ul>
+    </BoxLarge>
+
+    <BoxLarge alignment="right" image="/images/cases/signetta_manager.png" title="Multi-tenant security">
+      As a platform handling legally binding records and sensitive employee data, security is foundational to Signetta's
+      architecture.
+      <ul>
+        <ParagraphItem title="Regulatory Compliance">
+          Signatures meet the <LinkStyled
+            href="https://digital-strategy.ec.europa.eu/en/policies/eidas-regulation"
+            {...external}>EU eIDAS regulation</LinkStyled
+          > with legally valid audit trails. All data processing follows <LinkStyled href="https://gdpr.eu" {...external}
+            >GDPR</LinkStyled
+          > principles (data minimization, purpose limitation, privacy by design). All data is stored and processed on
+          EU-based servers.
+        </ParagraphItem>
+        <ParagraphItem title="Identity & Authentication">
+          OTP verification gates every signing or approval action with a second factor, delivered via email or SMS
+          without requiring account creation. Role-based access control ensures no user can access data or perform
+          actions outside their assigned scope.
+        </ParagraphItem>
+        <ParagraphItem title="Document Integrity">
+          Every document carries an immutable, cryptographically timestamped audit trail covering creation, delivery,
+          opens, verifications, signatures, approvals, and downloads. Signed documents are sealed at completion,
+          preventing post-signature modification.
+        </ParagraphItem>
+        <ParagraphItem title="Multi-Tenancy & Tenant Separation">
+          Tenant isolation is enforced at the data layer. One organization's documents, users, credits, and workflows
+          are never accessible to another. Partner sub-accounts operate within strict data boundaries, and white-label
+          configurations create no shared data surfaces between clients.
+        </ParagraphItem>
+        <ParagraphItem title="Access Logging & Monitoring">
+          Every access event is logged with actor, action, and timestamp. Usage dashboards provide real-time visibility
+          into system activity for anomaly detection and audit preparation.
+        </ParagraphItem>
+        <ParagraphItem title="Partner Security">
+          The partner portal is isolated from end-client portals. Partners manage sub-accounts and credit balances
+          without direct access to client document content.
+        </ParagraphItem>
+      </ul>
+    </BoxLarge>
+
+    <PageText title="Highlights" />
+    <HighlightsBox>
+      <HighlightsColumn title="Project">
+        <p class="font-semibold">Sector: <span class="font-normal">E-signing</span></p>
+        <p class="font-semibold">Work: <span class="font-normal">Backend, Frontend, Devops</span></p>
+        <p class="font-semibold">Size: <span class="font-normal"> &gt; 3000 h</span></p>
+      </HighlightsColumn>
+      <HighlightsColumn title="Verticals">
+        <p><Icon name="hero-arrow-right" class="h-4 w-4" /> Document signing</p>
+        <p><Icon name="hero-arrow-right" class="h-4 w-4" /> Operational software</p>
+        <p><Icon name="hero-arrow-right" class="h-4 w-4" /> E-signing</p>
+      </HighlightsColumn>
+      <HighlightsColumn title="Technologies">
+        <p>
+          <Icon name="hero-arrow-right" class="h-4 w-4" />
+          <TechIcon name="elixir" /> Elixir / <TechIcon name="phoenix" /> Phoenix
+        </p>
+        <p><Icon name="hero-arrow-right" class="h-4 w-4" /> <TechIcon name="java" /> JAVA</p>
+        <p><Icon name="hero-arrow-right" class="h-4 w-4" /> <TechIcon name="docker" /> Docker</p>
+        <p>
+          <Icon name="hero-arrow-right" class="h-4 w-4" />
+          <TechIcon name="aws" />
+          <LinkStyled href="https://aws.amazon.com" {...external}>AWS</LinkStyled>
+        </p>
+        <p>
+          <Icon name="hero-arrow-right" class="h-4 w-4" />
+          <TechIcon name="azure" />
+          <LinkStyled href="https://azure.microsoft.com" {...external}>Azure</LinkStyled>
+        </p>
+        <p><Icon name="hero-arrow-right" class="h-4 w-4" /> <TechIcon name="terraform" /> Terraform</p>
+      </HighlightsColumn>
+    </HighlightsBox>
+  </PageCentered>
+</BaseLayout>

@@ -1,0 +1,210 @@
+---
+import Icon from "../../components/Icon.astro";
+import LetsTalkCta from "../../components/LetsTalkCta.astro";
+import LinkStyled from "../../components/LinkStyled.astro";
+import TechIcon from "../../components/TechIcon.astro";
+import PageCentered from "../../components/layout/PageCentered.astro";
+import BoxLarge from "../../components/page/BoxLarge.astro";
+import HeroImage from "../../components/page/HeroImage.astro";
+import HighlightsBox from "../../components/page/HighlightsBox.astro";
+import HighlightsColumn from "../../components/page/HighlightsColumn.astro";
+import PageHeading from "../../components/page/PageHeading.astro";
+import PageText from "../../components/page/PageText.astro";
+import Paragraph from "../../components/page/Paragraph.astro";
+import ParagraphItem from "../../components/page/ParagraphItem.astro";
+import SectionTitle from "../../components/page/SectionTitle.astro";
+import Stats from "../../components/page/Stats.astro";
+import Testimonial from "../../components/page/Testimonial.astro";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { pages } from "../../data/pages";
+
+const page = pages.burohelp;
+---
+
+<BaseLayout title={page.title} description={page.description} openGraph={page.openGraph}>
+  <PageCentered>
+    <PageHeading title="BUROHELP.COM" description="Circular Giving made easy" />
+    <HeroImage image="/images/cases/burohelp_home.png" />
+
+    <PageText title="The Company">
+      <Paragraph>
+        <LinkStyled href="https://burohelp.com">Burohelp</LinkStyled>
+        is an ANBI non-profit organisation registered in the Netherlands that operates a marketplace that connect non-profits
+        with commercial organisations.
+      </Paragraph>
+      <Paragraph>
+        Non-profits continously import the timesheets from their ongoing projects in the Burohelp timebank. Commercial
+        organisations donate money (as operational donations) for specific projects and chunks of hours worked.
+      </Paragraph>
+      <Paragraph>
+        These donations helps non-profits to pay salaries. Commercial organisations add these hours in their Corporate
+        Social Responsability reports.
+      </Paragraph>
+      <Paragraph>
+        The marketplace timebank keeps track of all work done by non-profits and ensures compliance for all the non-profit
+        reported hours. All reported hours have a clear legal and employment/payroll lineage(ie. KYC, etc.).
+      </Paragraph>
+      <Paragraph>
+        Since it's launch in 2024 Burohelp has onboarded 2000+ non-profits and commercial organisations. The Burohelp
+        timebank stores 1M+ worked hours.
+      </Paragraph>
+      <Paragraph>
+        Integration and reporting is the most important factors in the operational success of Burohelp.
+      </Paragraph>
+    </PageText>
+
+    <PageText title="The project">
+      <Paragraph>The Burohelp platform has been built from ground up as a two sided custom marketplace.</Paragraph>
+      <Paragraph>
+        The platform consist of two sides
+        <ul>
+          <ParagraphItem icon="hero-minus">the non-profit (time bank)</ParagraphItem>
+          <ParagraphItem icon="hero-minus">the commercial organisation (donor)</ParagraphItem>
+        </ul>
+      </Paragraph>
+      <Paragraph>
+        Burohelp brings these two sides together. Non-profits share their hours continously and offer them to all
+        interrested commercial organisations.
+      </Paragraph>
+      <Paragraph>
+        Each side has it's custom onboarding & verification process. After onboarding the platform checks the validity of
+        the organisations data in public governmental & commercial databases.
+      </Paragraph>
+      <Paragraph>
+        The platform is deployed in <LinkStyled href="https://aws.amazon.com/">AWS</LinkStyled>
+        (with a fully automated CI/CD) and operates across multiple countries and languages.
+      </Paragraph>
+      <Paragraph>
+        All payments processing is executed via <LinkStyled href="https://stripe.com/">Stripe</LinkStyled>.
+      </Paragraph>
+      <Paragraph>
+        Each country has specific local integrations to automate compliance checks and local reporting needs.
+      </Paragraph>
+    </PageText>
+
+    <Testimonial
+      description="Remote Reason’s tech expertise allowed Burohelp to scale quickly, turning the my vision into a functional platform. Paul’s background in AI and localisation ensured the tool could serve global nonprofits without bureaucratic barriers. Everything is on schedule and the engagement of Paul and the Remote Reason's team is on the dot all the time."
+      image="/images/cases/rael.jpeg"
+      name="Raël Martis Ozuna"
+      position="Founder & CEO, Burohelp"
+      linkedin="https://www.linkedin.com/in/israel-martis-ozuna/"
+      clutch="https://clutch.co/go-to-review/21913110-da3a-48cc-9200-43ae5de59e57/379549"
+    />
+
+    <SectionTitle class="mt-16">What we delivered</SectionTitle>
+
+    <BoxLarge alignment="right" image="/images/cases/burohelp_onboard.png" title="The non-profit side">
+      <ul>
+        <ParagraphItem>
+          Non-profits can self onboard and provide some basic information about themselves. The plaform validates the
+          data & escalates edge cases to the Burohelo backoffice team.
+        </ParagraphItem>
+        <ParagraphItem>
+          Once validated the non-profit can upload timesheets (excel, csv) or connect the Burohelp platform to their <LinkStyled
+            href="https://calendar.google.com/">Google</LinkStyled
+          >/<LinkStyled href="https://www.microsoft.com/en-us/microsoft-365/outlook/calendar-email-app"
+            >Microsoft</LinkStyled
+          > Calendar or project management tool.
+        </ParagraphItem>
+        <ParagraphItem>
+          Once integrated Burohelp keeps retrieving hours and stores them in the time bank for that specific non-profit.
+        </ParagraphItem>
+        <ParagraphItem>
+          When donations are received for specific hours the hours are tagged and allocated to the donor. One hour can be
+          sponsored by a single donor.
+        </ParagraphItem>
+      </ul>
+    </BoxLarge>
+
+    <LetsTalkCta />
+
+    <BoxLarge alignment="left" image="/images/cases/burohelp_donor.png" title="The donor side">
+      <ul>
+        <ParagraphItem>
+          Commercial organisations can self onboard and provide some basic information about themselves. The plaform
+          validates their incorporation information with an integration with the local commercial registry.
+        </ParagraphItem>
+        <ParagraphItem>
+          Once validated commercial organisations can search for available projects/hours in the time bank based on
+          various criterias: geo fence, location (ie. country, city, etc.), keywords and others.
+        </ParagraphItem>
+        <ParagraphItem>Once the system found the right hours the organisation donates and claim the hours.</ParagraphItem>
+        <ParagraphItem>
+          When donations are received for specific hours the hours are tagged and allocated to the donor. One hour can be
+          sponsored by a single donor.
+        </ParagraphItem>
+      </ul>
+    </BoxLarge>
+
+    <BoxLarge alignment="right" image="/images/cases/burohelp_marketplace.png" title="Marketplace backoffice">
+      <ul>
+        <ParagraphItem>
+          The Burohelp backoffice team has dedicated platform modules that help them validate and monitor the
+          organisations already onboarded on the platform.
+        </ParagraphItem>
+        <ParagraphItem>
+          The backoffice emteam can use specific integrations so that they can perform KYC operations fast and with
+          complete audit trails.
+        </ParagraphItem>
+        <ParagraphItem>
+          Additionally the platform integrates with external marketing & outreach tools so that the outreach team work
+          benefits from end to end automation (ie. import/export leads, neesletters, etc.)
+        </ParagraphItem>
+      </ul>
+    </BoxLarge>
+
+    <Stats
+      stats={[
+        { title: "2000+", subtitle: "organisations" },
+        { title: "1M+", subtitle: "registered hours" },
+        { title: "27", subtitle: "countries" },
+      ]}
+    />
+
+    <BoxLarge alignment="left" image="/images/cases/burohelp_mission.png" title="Marketing site">
+      <ul>
+        <ParagraphItem>
+          We wanted to make sure that the sales & marketing team can operate autonomously. As such we bought a
+          <LinkStyled href="https://www.hubspot.com/">Hubspot</LinkStyled>
+          template, customised it and prepared a Burohelp specific marketing site & blog at hub.burohelp.com
+        </ParagraphItem>
+        <ParagraphItem>
+          We wanted to make sure that the sales & marketing team can operate autonomously. As such we bought a
+          <LinkStyled href="https://www.hubspot.com/">Hubspot</LinkStyled>
+          template, customised it and prepared a Burohelp specific marketing site & blog at hub.burohelp.com
+        </ParagraphItem>
+        <ParagraphItem>
+          This integrates well with other tools used by the team like <LinkStyled href="https://www.intercom.com/"
+            >Intercom</LinkStyled
+          >, e-mail,
+          <LinkStyled href="https://slack.com/">Slack</LinkStyled>
+          and others.
+        </ParagraphItem>
+      </ul>
+    </BoxLarge>
+
+    <PageText title="Highlights" />
+    <HighlightsBox>
+      <HighlightsColumn title="Project">
+        <p class="font-semibold">Sector: <span class="font-normal">Non-Profit</span></p>
+        <p class="font-semibold">Work: <span class="font-normal">Backend, Frontend, Devops</span></p>
+        <p class="font-semibold">Size: <span class="font-normal"> &gt; 4 000 h</span></p>
+      </HighlightsColumn>
+      <HighlightsColumn title="Verticals">
+        <p><Icon name="hero-arrow-right" class="h-4 w-4" /> B2B marketplace</p>
+        <p><Icon name="hero-arrow-right" class="h-4 w-4" /> Non-profit / Charity</p>
+        <p><Icon name="hero-arrow-right" class="h-4 w-4" /> CSR Reporting</p>
+      </HighlightsColumn>
+      <HighlightsColumn title="Technologies">
+        <p>
+          <Icon name="hero-arrow-right" class="h-4 w-4" />
+          <TechIcon name="elixir" /> Elixir / <TechIcon name="phoenix" /> Phoenix
+        </p>
+        <p>
+          <Icon name="hero-arrow-right" class="h-4 w-4" />
+          <TechIcon name="aws" /> AWS / <TechIcon name="docker" /> Docker
+        </p>
+      </HighlightsColumn>
+    </HighlightsBox>
+  </PageCentered>
+</BaseLayout>

@@ -1,0 +1,10 @@
+---
+interface Props {
+  name: string;
+  class?: string;
+}
+
+const { name, class: className = "inline-block align-middle mb-0.5" } = Astro.props;
+---
+
+<img src={`/images/tech/${name}.svg`} class={className} alt="" aria-hidden="true" />

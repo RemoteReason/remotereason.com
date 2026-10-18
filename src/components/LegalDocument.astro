@@ -1,0 +1,18 @@
+---
+interface Props {
+  title: string;
+  updatedOn: string;
+}
+
+const { title, updatedOn } = Astro.props;
+---
+
+<div class="prose col-start-3 row-start-1 max-sm:col-span-full max-sm:col-start-1 px-2 pt-4 sm:px-2 sm:pt-8">
+  <h1 class="py-1 text-5xl tracking-tight sm:text-6xl text-pretty">{title}</h1>
+  <p class="mt-2 max-w-2xl py-1 text-lg/7 font-medium text-pretty text-gray-600">Last updated on {updatedOn}</p>
+  <div
+    class="max-w-2xl py-3 grid grid-cols-1 gap-2 text-sm/7 text-gray-600 [&_strong]:font-semibold [&_strong]:text-gray-950 [&_h2]:text-base/7 [&_h2]:font-semibold [&_h2]:text-gray-950 [&_h3]:font-semibold [&_h3]:text-gray-950 [&_a]:font-semibold [&_a]:text-gray-950 [&_a]:underline [&_a]:decoration-sky-400 [&_a]:underline-offset-4 [&_a]:hover:text-sky-500 [&_li]:relative [&_li]:before:absolute [&_li]:before:-top-0.5 [&_li]:before:-left-6 [&_li]:before:text-gray-300 [&_li]:before:content-['▪'] [&_ul]:pl-9"
+  >
+    <slot />
+  </div>
+</div>

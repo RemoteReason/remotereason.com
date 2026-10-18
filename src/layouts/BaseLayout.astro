@@ -1,0 +1,94 @@
+---
+import "../styles/global.css";
+import SiteFooter from "../components/SiteFooter.astro";
+import SiteHeader from "../components/SiteHeader.astro";
+import type { OpenGraph } from "../data/pages";
+
+interface Props {
+  title: string;
+  description: string;
+  openGraph: OpenGraph;
+  /** `blog` constrains the main column width, as used by blog posts. */
+  variant?: "app" | "blog";
+}
+
+const { title, description, openGraph, variant = "app" } = Astro.props;
+const { og, twitterX } = openGraph;
+const GTM_ID = "G-9XXND626J7";
+---
+
+<!doctype html>
+<html lang="en" class="[scrollbar-gutter:stable]">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <link rel="icon" href="/favicon.ico" />
+    <link rel="sitemap" href="/sitemap.xml" />
+
+    <meta property="og:url" content={og.url} />
+    <meta property="og:locale" content={og.locale} />
+    <meta property="og:title" content={og.title} />
+    <meta property="og:description" content={og.description} />
+    <meta property="og:type" content={og.type} />
+    <meta property="og:image:alt" content={og.imageAlt} />
+    <meta property="og:image" content={og.imageUrl} />
+
+    <meta name="twitter:title" content={twitterX.title} />
+    <meta name="twitter:description" content={twitterX.description} />
+    <meta name="twitter:image" content={twitterX.imageUrl} />
+    <meta name="twitter:image:alt" content={twitterX.imageAlt} />
+    <meta name="twitter:site" content={twitterX.site} />
+    <meta name="twitter:card" content={twitterX.card} />
+
+    <title>{title}</title>
+
+    {
+      import.meta.env.PROD && (
+        <script is:inline define:vars={{ GTM_ID }}>
+          (function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+            var f = d.getElementsByTagName(s)[0],
+              j = d.createElement(s),
+              dl = l != "dataLayer" ? "&l=" + l : "";
+            j.async = true;
+            j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+            f.parentNode.insertBefore(j, f);
+          })(window, document, "script", "dataLayer", GTM_ID);
+        </script>
+      )
+    }
+  </head>
+  <body class="bg-white">
+    {
+      import.meta.env.PROD && (
+        <noscript>
+          <iframe
+            src={`https://www.googletagmanager.com/ns.html?id=${GTM_ID}`}
+            height="0"
+            width="0"
+            style="display:none;visibility:hidden"
+          />
+        </noscript>
+      )
+    }
+    <SiteHeader />
+
+    <main class="px-4 py-10 sm:px-6 lg:px-8">
+      {
+        variant === "blog" ? (
+          <div class="mx-auto max-w-[84rem]">
+            <slot />
+          </div>
+        ) : (
+          <slot />
+        )
+      }
+    </main>
+
+    <SiteFooter />
+
+    <script is:inline src="https://widget.clutch.co/static/js/widget.js"></script>
+  </body>
+</html>

@@ -1,0 +1,387 @@
+export interface ServiceDeliveryActivity {
+  name: string;
+  description: string;
+  items: string[];
+}
+
+export interface ServiceDeliveryFeature {
+  name: string;
+  description: string;
+  iconName: string;
+}
+
+export interface ServiceDelivery {
+  name: string;
+  subtitle: string;
+  description: string;
+  image: string;
+  activities: ServiceDeliveryActivity[];
+  deliveryDescription: string;
+  deliveryFeatures: ServiceDeliveryFeature[];
+}
+
+export const site = {
+  title: "Remote Reason",
+  description:
+    "Remote Reason is a software development company that builds custom software solutions for businesses.",
+  url: "https://remotereason.com",
+};
+
+export const socialLinks = {
+  github: "https://github.com/RemoteReason",
+  twitter: "https://twitter.com/RemoteReason",
+  linkedin: "https://www.linkedin.com/company/remote-reason",
+  clutch: "https://www.clutch.co/profile/remote-reason",
+};
+
+export const serviceAiProductStrategy: ServiceDelivery = {
+  name: "AI Strategy",
+  subtitle: "Delight your customers with AI sparkles",
+  description:
+    "We strategically place AI features so that they help your customers and bring value to your business.",
+  image: "/home/ai_strategies.svg",
+  activities: [
+    {
+      name: "Product",
+      description: "Embedding AI directly into core product features to enhance product value.",
+      items: [
+        "Personalize interfaces, recommend content, or automate user tasks",
+        "Add predictive models or decision support into product workflows",
+        "Collect feedback to iteratively improve AI models in-product",
+      ],
+    },
+    {
+      name: "Data",
+      description:
+        "Leverage proprietary data assets as a foundation for differentiated AI models and insights.",
+      items: [
+        "Collect high-quality, unique user data to reinforce AI model performance",
+        "Augment limited datasets with synthetic examples, enhancing model robustness",
+        "Package insights, APIs, or analytics built on data assets into new revenue-generating offerings",
+      ],
+    },
+    {
+      name: "Platform",
+      description:
+        "Providing AI infrastructure, APIs, or tools to enable others to build AI-powered solutions.",
+      items: [
+        "Expose powerful models via APIs (e.g., image recognition, NLP) for developer and enterprise use",
+        "Build low code / no code platforms that allow non-technical users to create and deploy models",
+        "Develop third-party plugin ecosystems, SDKs, or marketplaces that expand your AI reach.",
+      ],
+    },
+  ],
+  deliveryDescription:
+    "A clear AI strategy and roadmap that is adapted to your existing product and future vision.",
+  deliveryFeatures: [
+    {
+      name: "Clear",
+      iconName: "hero-heart",
+      description:
+        "Clear goals, priorities, and the rationale behind choices. No jargon or ambiguity. Ensures alignment across teams and enables faster, more confident decision-making.",
+    },
+    {
+      name: "Actionable",
+      iconName: "hero-bolt",
+      description:
+        "Specific, achievable initiatives with clear owners, timelines, and priority levels. Translates vision into execution and helps allocate resources effectively",
+    },
+    {
+      name: "Grounded",
+      iconName: "hero-shield-check",
+      description:
+        "Based on an understanding of customer needs, market dynamics, and internal capabilities. Keeps you resilient, relevant, and more likely to give you a competitive advantage",
+    },
+  ],
+};
+
+export const serviceAiGoToMarket: ServiceDelivery = {
+  name: "AI GTM",
+  subtitle: "Growth driven by humans & bots",
+  description: "We amplify your growth team with AI integrations and automation.",
+  image: "/home/ai_gtm.svg",
+  activities: [
+    {
+      name: "Direct Customer Adoption",
+      description: "Reaching end-users or decision-makers directly to drive adoption and engagement.",
+      items: [
+        "Bottom-Up Product-Led Growth",
+        "Customer Education & Evangelism",
+        "Use-Case-Focused Positioning",
+      ],
+    },
+    {
+      name: "Channel & Partner-Led Growth",
+      description:
+        "Leveraging existing ecosystems and partners to scale faster and enter new markets.",
+      items: [
+        "OEM & Embedded AI Partnerships",
+        "Cloud & Marketplace Distribution",
+        "System Integrator Alliances",
+      ],
+    },
+    {
+      name: "Community & Ecosystem Building",
+      description:
+        "Building a strong network of users, developers, and influencers around your AI offering.",
+      items: ["Developer Engagement", "Developer Engagement", "Thought Leadership"],
+    },
+  ],
+  deliveryDescription:
+    "A comprehensive GTM strategy that leverages both human and AI-powered channels to drive growth.",
+  deliveryFeatures: [
+    {
+      name: "Targeting and Segmentation",
+      iconName: "hero-heart",
+      description:
+        "We identify and prioritize the right customer segments, buyer personas, and use cases",
+    },
+    {
+      name: "Cross-Functional Alignment",
+      iconName: "hero-bolt",
+      description:
+        "We coordinate roles and timing across product, marketing, sales, customer success, and partners",
+    },
+    {
+      name: "Metrics-Driven and Adaptive",
+      iconName: "hero-shield-check",
+      description:
+        "We focus on clear KPIs (e.g., CAC, conversion rate, retention) and mechanisms for feedback and iteration",
+    },
+  ],
+};
+
+export const serviceWebApps: ServiceDelivery = {
+  name: "Web Apps",
+  subtitle: "Frontend / Backend / DevOps",
+  description:
+    "We build webapps & platforms. We handle frontend, backend, devops, cloud and everything.",
+  image: "/expertise/web_apps.svg",
+  activities: [
+    {
+      name: "Web frontend",
+      description:
+        "We build frontends with Phoenix Liveview or React with JS/TS. Tailwind or similar for CSS. Visualisations with D3 & WebGL.",
+      items: ["Beautifull in all browsers", "Mobile & tablet ready", "Rich media experience"],
+    },
+    {
+      name: "Backend server",
+      description:
+        "We deliver with Phoenix/Elixir. Node with JS/TS. Scala/Java/Akka. Various SQL/noSQL databases.",
+      items: ["Scalable & secure", "Ready for integrations", "Easy to change"],
+    },
+    {
+      name: "DevOps",
+      description:
+        "We take care of CI/CD. We deploy on AWS or CGP but also on PaaS like Render or Fly. Kubernetes as well.",
+      items: ["Fully automated", "Fully automated", "Cost effective"],
+    },
+  ],
+  deliveryDescription: "Your web app is crafted with care for the overall business value.",
+  deliveryFeatures: [
+    {
+      name: "Look & feel",
+      iconName: "hero-heart",
+      description: "The web app looks great & feels right on all relevant screen sizes & devices.",
+    },
+    {
+      name: "Performance",
+      iconName: "hero-bolt",
+      description:
+        "The web app feels fast & smooth. Infrastructure automatically grows to handle the load.",
+    },
+    {
+      name: "Secure",
+      iconName: "hero-shield-check",
+      description:
+        "The user data & communication is secure. All data handling complies with relevant regulations.",
+    },
+  ],
+};
+
+export const serviceMobileApps: ServiceDelivery = {
+  name: "Mobile Apps",
+  subtitle: "Cross platform / iOS / Android",
+  description: "We build mobile apps that work on phones, tablets, wearables & more.",
+  image: "/expertise/mobile_apps.svg",
+  activities: [
+    {
+      name: "Cross platform",
+      description:
+        "Most of the code is reused when building the Android & IOS apps. Best value for most business cases.",
+      items: ["Coded with React Native", "> 50% cheaper vs. native", "Good performance"],
+    },
+    {
+      name: "iOS Native",
+      description:
+        "iOS specific code runs only on Apple devices. Best for advanced hardware & OS integration.",
+      items: ["Coded in Swift / Objective C", "Full OS / hardware access", "Maximum performance"],
+    },
+    {
+      name: "Android Native",
+      description:
+        "Android specific code runs only on Android devices. Best for advanced hardware & OS integration.",
+      items: ["Coded in Kotlin / Java", "Full OS / hardware access", "Maximum performance"],
+    },
+  ],
+  deliveryDescription: "Your mobile app is crafted with care for the overall customer experience.",
+  deliveryFeatures: [
+    {
+      name: "Look & feel",
+      iconName: "hero-heart",
+      description: "The app looks great & feels right on all relevant screen sizes & devices.",
+    },
+    {
+      name: "Performant",
+      iconName: "hero-bolt",
+      description: "The app feels fast & smooth. Uses the right amount battery & mobile data.",
+    },
+    {
+      name: "Secure",
+      iconName: "hero-shield-check",
+      description:
+        "The user data & communication is secure. All data handling complies with relevant regulations.",
+    },
+  ],
+};
+
+export const serviceAiEngineering: ServiceDelivery = {
+  name: "AI Engineering",
+  subtitle: "On premise / Cloud / Saas",
+  description: "We deploy, integrate & fine tune commercial and open source AI models",
+  image: "/expertise/ai_engineering.svg",
+  activities: [
+    {
+      name: "AI API integration",
+      description:
+        "We integrate your software with private AI deployments or AI service providers like OpenAI or Midjourney (and many others).",
+      items: ["AI API integration", "Integrate public & private data", "Prompt engineering"],
+    },
+    {
+      name: "AI deployment",
+      description:
+        "We deploy custom AI models alongside your software. You keep full control on your business data.",
+      items: [
+        "Custom AI model deployments",
+        "On premise & private clouds",
+        "Performance tuning & cost control",
+      ],
+    },
+    {
+      name: "AI finetuning",
+      description:
+        "We finetune custom or commerial AI models with your own business data. We make the AI system truly yours.",
+      items: [
+        "Training on private documents",
+        "Finetuning LLM's with human feedback",
+        "Business case specific finetuning",
+      ],
+    },
+  ],
+  deliveryDescription:
+    "Your AI system is crafted with care for your product strategy and is aligned with your organisational goals.",
+  deliveryFeatures: [
+    {
+      name: "Truly yours",
+      iconName: "hero-heart",
+      description:
+        "The AI system understands your own data & functions well for your specific business case.",
+    },
+    {
+      name: "Compliant",
+      iconName: "hero-check-badge",
+      description:
+        "The AI system is compliant with your company policies, brand guidelines & data protection regulations.",
+    },
+    {
+      name: "Secure",
+      iconName: "hero-shield-check",
+      description:
+        "The AI system & data is completely safe. Everything stays inside your company private infrastructure or within the boundaries of trusted suppliers.",
+    },
+  ],
+};
+
+export const clients = [
+  {
+    name: "Cast Magic",
+    image: "/clients/castmagic.webp",
+    description:
+      "AI platform for podcasters. Turn long form audio into ready to use content assets, instantly. 10x your content. Upload your Mp3 and download transcripts, notes, summaries, highlights and more.",
+    website: "castmagic.io",
+    countryCode: "US",
+    location: "Austin / TX",
+  },
+  {
+    name: "Burohelp",
+    image: "/clients/burohelp.webp",
+    description:
+      "B2B social network. Burohelp Corporate Responsability Communities connects non-profits with commercial companies that provide volunteer work on demand.",
+    website: "burohelp.com",
+    countryCode: "NL",
+    location: "The Hague",
+  },
+  {
+    name: "Prisma Net",
+    image: "/clients/prisma.webp",
+    description:
+      "PrismaNet provides care for 3 000+ people with disabilities. Services include assisted living, day activities, and family support focusing on helping people live as independently as possible.",
+    website: "prismanet.nl",
+    countryCode: "NL",
+    location: "Waalwijk",
+  },
+  {
+    name: "NativeDSD",
+    image: "/clients/nativedsd.webp",
+    description:
+      "Getting you closer to the original performance. NativeDSD is your best source for recorded music—Stereo, Binaural & 5 Channel Surround Sound DSD & DXD.",
+    website: "www.nativedsd.com/",
+    countryCode: "NL",
+    location: "Utrecht",
+  },
+  {
+    name: "Signetta",
+    image: "/clients/signetta.webp",
+    description:
+      "Signetta is an eIDAS and GDPR-compliant electronic signing platform tailored for industries with high workforce turnover and seasonality—such as cleaning, hospitality, security, contact centers, catering, landscaping, agriculture, and manufacturing.",
+    website: "www.signetta.eu",
+    countryCode: "FR",
+    location: "Paris",
+  },
+  {
+    name: "Font Due",
+    image: "/clients/fontdue.webp",
+    description:
+      "The ecommerce platform for independent type foundries - Build your website. Manage your content. Own distribution. Sell your fonts.",
+    website: "fontdue.com",
+    countryCode: "US",
+    location: "New York / NY",
+  },
+];
+
+export const cases = [
+  {
+    name: "NativeDSD",
+    image: "/cases/nativedsd_case.png",
+    industry: "Arts, entertainment & music",
+    casePage: "/page/nativedsd",
+  },
+  {
+    name: "Signetta",
+    image: "/cases/signetta_case.png",
+    industry: "E-commerce platform",
+    casePage: "/page/signetta",
+  },
+  {
+    name: "Font Due",
+    image: "/cases/fontdue_about.png",
+    industry: "E-commerce",
+    casePage: "/page/fontdue",
+  },
+  {
+    name: "Burohelp",
+    image: "/cases/burohelp_case.png",
+    industry: "Non-Profit, Public Benefit",
+    casePage: "/page/burohelp",
+  },
+];

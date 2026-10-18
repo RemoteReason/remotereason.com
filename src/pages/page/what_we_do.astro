@@ -1,0 +1,11 @@
+---
+import WhatWeDo from "../../components/WhatWeDo.astro";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { pages } from "../../data/pages";
+
+const page = pages.whatWeDo;
+---
+
+<BaseLayout title={page.title} description={page.description} openGraph={page.openGraph}>
+  <WhatWeDo />
+</BaseLayout>

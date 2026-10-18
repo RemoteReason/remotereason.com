@@ -1,0 +1,10 @@
+<div class="relative lg:col-span-2">
+  <div class="absolute inset-px rounded-lg bg-white lg:rounded-bl-[2rem]"></div>
+  <div
+    class="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)] lg:rounded-bl-[calc(2rem+1px)]"
+  >
+    <slot />
+  </div>
+  <div class="pointer-events-none absolute inset-px rounded-lg shadow-sm ring-1 ring-black/5 lg:rounded-bl-[2rem]">
+  </div>
+</div>

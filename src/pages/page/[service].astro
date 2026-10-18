@@ -1,0 +1,44 @@
+---
+import type { GetStaticPaths } from "astro";
+import LetsTalkCta from "../../components/LetsTalkCta.astro";
+import BentoBox from "../../components/layout/BentoBox.astro";
+import BentoBoxSmall from "../../components/layout/BentoBoxSmall.astro";
+import PageCentered from "../../components/layout/PageCentered.astro";
+import ContentListItems from "../../components/page/ContentListItems.astro";
+import ContentPageHeader from "../../components/page/ContentPageHeader.astro";
+import DetailsFeaturesCard from "../../components/page/DetailsFeaturesCard.astro";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { servicePages } from "../../data/pages";
+import { imagePath } from "../../lib/links";
+
+export const getStaticPaths = (() =>
+  servicePages.map(({ slug, service, page }) => ({
+    params: { service: slug },
+    props: { service, page },
+  }))) satisfies GetStaticPaths;
+
+const { service, page } = Astro.props;
+---
+
+<BaseLayout title={page.title} description={page.description} openGraph={page.openGraph}>
+  <PageCentered>
+    <ContentPageHeader title={service.name} description={service.description} />
+    <BentoBox>
+      {
+        service.activities.map((activity) => (
+          <BentoBoxSmall>
+            <ContentListItems title={activity.name} description={activity.description} items={activity.items} />
+          </BentoBoxSmall>
+        ))
+      }
+    </BentoBox>
+
+    <DetailsFeaturesCard
+      title="What do you get?"
+      image={imagePath(service.image)}
+      description={service.deliveryDescription}
+      features={service.deliveryFeatures}
+    />
+    <LetsTalkCta />
+  </PageCentered>
+</BaseLayout>

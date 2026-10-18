@@ -1,0 +1,49 @@
+---
+import DottedCard from "../DottedCard.astro";
+import LinkedInIcon from "../LinkedInIcon.astro";
+
+interface Props {
+  name: string;
+  position: string;
+  image: string;
+  description: string;
+  linkedin?: string;
+  clutch: string;
+}
+
+const { name, position, image, description, linkedin, clutch } = Astro.props;
+---
+
+<div class="container mx-auto p-6 mt-12 mb-20">
+  <div class="relative w-full space-y-6 rounded-lg">
+    <DottedCard class="flex flex-row items-start gap-4 sm:gap-6 p-6 sm:p-8">
+      <span aria-hidden="true" class="text-7xl sm:text-9xl leading-none font-serif text-gray-300 select-none -mt-2">
+        &ldquo;
+      </span>
+      <div class="flex-1 flex flex-col space-y-6">
+        <p class="text-lg md:text-2xl text-gray-600 font-light">{description}</p>
+        <div class="flex space-x-4">
+          <img class="w-12 h-12 rounded-full mt-2" src={image} alt={name} />
+          <div>
+            <h5 class="text-sm font-semibold">{name}</h5>
+            <p class="text-xs font-extralight">{position}</p>
+            <div class="flex flex-row space-x-4">
+              {
+                linkedin && (
+                  <a href={linkedin} target="_blank" rel="noopener" class="text-xs font-semibold block">
+                    <span class="sr-only">LinkedIn</span>
+                    <LinkedInIcon />
+                  </a>
+                )
+              }
+              <a href={clutch} target="_blank" rel="noopener">
+                <span class="sr-only">Clutch</span>
+                <img src="/images/clutch_logo.jpg" class="size-6" alt="" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </DottedCard>
+  </div>
+</div>

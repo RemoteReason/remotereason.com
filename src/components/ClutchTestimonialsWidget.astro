@@ -1,0 +1,54 @@
+---
+// The Clutch widget script is loaded once by the base layout.
+---
+
+<div class="clutch-responsive-wrapper overflow-hidden w-full">
+  <div
+    class="clutch-widget"
+    data-url="https://widget.clutch.co"
+    data-widget-type="8"
+    data-height="300"
+    data-nofollow="false"
+    data-expandifr="true"
+    data-scale="100"
+    data-primary-color="#1815e6"
+    data-secondary-color="#1815e6"
+    data-clutchcompany-id="2243402"
+  >
+  </div>
+</div>
+
+<script>
+  // Scale the fixed-width Clutch iframe down so it fits narrow screens.
+  function scaleClutch() {
+    const wrapper = document.querySelector<HTMLElement>(".clutch-responsive-wrapper");
+    const iframe = wrapper?.querySelector("iframe");
+    if (!wrapper || !iframe) return;
+
+    const wrapperWidth = wrapper.offsetWidth;
+    const iframeWidth = iframe.offsetWidth;
+    if (iframeWidth > 0 && iframeWidth > wrapperWidth) {
+      const scale = wrapperWidth / iframeWidth;
+      iframe.style.transform = `scale(${scale})`;
+      iframe.style.transformOrigin = "top left";
+      wrapper.style.height = `${iframe.offsetHeight * scale}px`;
+    } else {
+      iframe.style.transform = "";
+      iframe.style.transformOrigin = "";
+      wrapper.style.height = "";
+    }
+  }
+
+  function waitForIframe() {
+    const iframe = document.querySelector(".clutch-responsive-wrapper iframe");
+    if (iframe) {
+      scaleClutch();
+      iframe.addEventListener("load", scaleClutch);
+    } else {
+      setTimeout(waitForIframe, 200);
+    }
+  }
+
+  waitForIframe();
+  window.addEventListener("resize", scaleClutch);
+</script>

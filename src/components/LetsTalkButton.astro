@@ -1,0 +1,14 @@
+---
+import Icon from "./Icon.astro";
+import { pages } from "../data/pages";
+---
+
+<a
+  href={pages.letsTalk.url}
+  class="rounded-md bg-black px-8 py-4 text-sm font-semibold text-white shadow-xs font-mono"
+>
+  Let's talk
+  <span aria-hidden="true">
+    <Icon name="hero-chat-bubble-left-right" class="h-5 w-5 px-4" />
+  </span>
+</a>

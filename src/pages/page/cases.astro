@@ -1,0 +1,60 @@
+---
+import ClutchTestimonialsWidget from "../../components/ClutchTestimonialsWidget.astro";
+import LetsTalkCta from "../../components/LetsTalkCta.astro";
+import PageCentered from "../../components/layout/PageCentered.astro";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { pages } from "../../data/pages";
+import { cases } from "../../data/site";
+import { imagePath } from "../../lib/links";
+
+const page = pages.cases;
+---
+
+<BaseLayout title={page.title} description={page.description} openGraph={page.openGraph}>
+  <PageCentered>
+    <div class="mx-auto max-w-2xl pb-10 px-1 lg:mx-0">
+      <h1 class="text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">Case studies</h1>
+      <p class="mt-6 text-lg text-gray-600">A selection of recent client engagements</p>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 max-w-2xl gap-x-16 gap-y-10 lg:mx-0 lg:max-w-none">
+      {
+        cases.map((item) => (
+          <a href={item.casePage} class="block">
+            <div class="relative flex flex-col text-gray-900">
+              <div class="rounded-lg overflow-hidden group flex flex-col ring-1 ring-gray-300 shadow-lg">
+                <div class="h-40 overflow-hidden">
+                  <img
+                    src={imagePath(item.image)}
+                    alt=""
+                    class="object-cover object-left-top w-full h-full duration-200 group-hover:scale-110"
+                  />
+                </div>
+                <div class="flex flex-col md:flex-row md:justify-between shadow-lg p-3 md:p-6 bg-white">
+                  <div class="w-auto lg:w-1/2 font-sans tracking-tight text-2xl text-center md:text-left text-gray-900 uppercase md:text-4xl">
+                    {item.name}
+                  </div>
+                  <div class="w-auto lg:w-1/2 text-center md:text-right font-light text-sm md:text-xs tracking-tight md:pt-2">
+                    {item.industry}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        ))
+      }
+    </div>
+  </PageCentered>
+  <div class="mx-auto max-w-7xl px-6 lg:px-8">
+    <div class="mx-auto max-w-7xl lg:mx-0 mt-12 mb-12 pt-12">
+      <h2 class="text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl text-center">
+        People like working with us
+      </h2>
+    </div>
+    <div class="mx-auto max-w-7xl px-6 lg:px-8">
+      <ClutchTestimonialsWidget />
+    </div>
+  </div>
+  <div class="mt-16">
+    <LetsTalkCta />
+  </div>
+</BaseLayout>

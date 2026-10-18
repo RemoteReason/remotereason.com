@@ -1,0 +1,254 @@
+---
+import LetsTalkCta from "../../components/LetsTalkCta.astro";
+import LinkStyled from "../../components/LinkStyled.astro";
+import TechIcon from "../../components/TechIcon.astro";
+import PageCentered from "../../components/layout/PageCentered.astro";
+import BoxLarge from "../../components/page/BoxLarge.astro";
+import HeroImage from "../../components/page/HeroImage.astro";
+import HighlightsBox from "../../components/page/HighlightsBox.astro";
+import HighlightsColumn from "../../components/page/HighlightsColumn.astro";
+import PageHeading from "../../components/page/PageHeading.astro";
+import PageText from "../../components/page/PageText.astro";
+import Paragraph from "../../components/page/Paragraph.astro";
+import ParagraphItem from "../../components/page/ParagraphItem.astro";
+import SectionTitle from "../../components/page/SectionTitle.astro";
+import Stats from "../../components/page/Stats.astro";
+import Testimonial from "../../components/page/Testimonial.astro";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { pages } from "../../data/pages";
+
+const page = pages.nativedsd;
+---
+
+<BaseLayout title={page.title} description={page.description} openGraph={page.openGraph}>
+  <PageCentered>
+    <PageHeading title="NATIVEDSD.COM" description="Getting you closer to the original performance" />
+    <HeroImage image="/images/cases/nativedsd_home.png" />
+
+    <PageText title="The Company">
+      <Paragraph>
+        <LinkStyled href="https://nativedsd.com">NativeDSD</LinkStyled>
+        is a music platform for ultra high-end audiophiles — customers who invest tens of thousands of dollars in specialised
+        equipment to hear the difference. Content is sold via one-time purchases, subscriptions, and streaming.
+      </Paragraph>
+      <Paragraph>
+        Every file is delivered in lossless, multi-channel studio quality — 10–20x larger than a standard Spotify track.
+        The platform stores & delivers hundreds of TB of audio on a monthly basis.
+      </Paragraph>
+    </PageText>
+
+    <PageText title="The project">
+      <Paragraph>
+        NativeDSD 1.0 launched in the early 2010s and due to it's success it has outgrown their early tech stack &
+        infrastructure. Our work consisted in building NativeDSD 2.0 on a new tech & infra stack.
+      </Paragraph>
+    </PageText>
+
+    <BoxLarge alignment="right" image="/images/cases/nativedsd_about.png" title="Infra & tech stack">
+      <div>
+        <h3 class="font-semibold">Before</h3>
+        <ul>
+          <ParagraphItem icon="hero-minus">no CI/CD pipeline & no containers</ParagraphItem>
+          <ParagraphItem icon="hero-minus">self hosted Wordpress shop (heavily customised with plugins)</ParagraphItem>
+          <ParagraphItem icon="hero-minus">
+            a custom <LinkStyled href="https://www.php.net/">PHP</LinkStyled>
+            backoffice with legacy framework
+          </ParagraphItem>
+          <ParagraphItem icon="hero-minus">a desktop app written in JS / Atom Electron</ParagraphItem>
+        </ul>
+      </div>
+      <div>
+        <h3 class="font-semibold py-4">After</h3>
+        <ul>
+          <ParagraphItem icon="hero-check">
+            <LinkStyled href="https://www.docker.com/">Docker</LinkStyled>
+            containers & full automated CI/CD & test/prod envs
+          </ParagraphItem>
+          <ParagraphItem icon="hero-check">
+            <LinkStyled href="https://www.docker.com/">Docker</LinkStyled>
+            containers & full automated CI/CD & test/prod envs
+          </ParagraphItem>
+          <ParagraphItem icon="hero-check">Shopify based shop (customised with minimal plugins)</ParagraphItem>
+          <ParagraphItem icon="hero-check">
+            completely rewritten platform/backoffice in <LinkStyled href="https://www.php.net/">PHP</LinkStyled>/<LinkStyled href="https://laravel.com/"
+              >Laravel</LinkStyled
+            > with async first architecture
+          </ParagraphItem>
+          <ParagraphItem icon="hero-check">
+            completely rewritten desktop app with <LinkStyled href="https://www.php.net/">PHP</LinkStyled>/<LinkStyled href="https://laravel.com/"
+              >Laravel</LinkStyled
+            >
+          </ParagraphItem>
+        </ul>
+      </div>
+    </BoxLarge>
+
+    <Stats
+      stats={[
+        { title: "5x", subtitle: "less cost" },
+        { title: "2x", subtitle: "more albums" },
+        { title: "3x", subtitle: "speed increase" },
+      ]}
+    />
+
+    <BoxLarge
+      alignment="left"
+      image="/images/cases/nativedsd_albums_dashboard.png"
+      title="5x cheaper data strage & delivery"
+    >
+      <p>
+        The main operation cost for NativeDSD is data storage & traffic. We discovered that NativeDSD had very specific
+        storage and delivery needs and AWS forced us to pay a lot for many features we didn't actually use. A hybrid
+        approach (AWS, Hetzner, Bunny) was the right fit at much lower costs.
+      </p>
+      <div>
+        <h3 class="font-semibold py-4">Before</h3>
+        <ul>
+          <ParagraphItem icon="hero-minus">
+            <LinkStyled href="https://aws.amazon.com/">AWS</LinkStyled> compute & database
+          </ParagraphItem>
+          <ParagraphItem icon="hero-minus">
+            <LinkStyled href="https://aws.amazon.com/s3/">AWS S3</LinkStyled>
+            storage &
+            <LinkStyled href="https://aws.amazon.com/cloudfront/">Cloudfront</LinkStyled>
+            data delivery
+          </ParagraphItem>
+        </ul>
+      </div>
+      <div>
+        <h3 class="font-semibold py-4">After</h3>
+        <ul>
+          <ParagraphItem icon="hero-check">
+            <LinkStyled href="https://aws.amazon.com/">AWS</LinkStyled>
+            database +
+            <LinkStyled href="https://aws.amazon.com/outposts/">AWS Outpost</LinkStyled>
+            (managed dockers for bare metal)
+          </ParagraphItem>
+          <ParagraphItem icon="hero-check">
+            <LinkStyled href="https://www.hetzner.com/">Hetzner</LinkStyled> bare metal compute
+          </ParagraphItem>
+          <ParagraphItem icon="hero-check">
+            <LinkStyled href="https://www.hetzner.com/">Hetzner</LinkStyled>
+            bare bones data storage
+          </ParagraphItem>
+          <ParagraphItem icon="hero-check">
+            <LinkStyled href="https://aws.amazon.com/s3/storage-classes/glacier/">AWS Glacier</LinkStyled>
+            for long term backups
+          </ParagraphItem>
+          <ParagraphItem icon="hero-check">
+            <LinkStyled href="https://bunny.net/">Bunny CDN</LinkStyled> data delivery
+          </ParagraphItem>
+        </ul>
+      </div>
+    </BoxLarge>
+
+    <Testimonial
+      description="Remote Reason has improved the site's speed and backend functionality. The team has facilitated a structured and precise workflow, delivered weekly reports every Monday, and communicated via calls, chats, and meetings. They've also created steps to simplify the problem and craft a clear solution."
+      image="/images/cases/jonas.jpeg"
+      name="Jonas Sacks"
+      position="CEO, NativeDSD Music"
+      linkedin="https://nl.linkedin.com/in/jonas-sacks-7aa771271"
+      clutch="https://clutch.co/go-to-review/21913110-da3a-48cc-9200-43ae5de59e57/380383"
+    />
+
+    <SectionTitle class="mt-16">NativeDSD 2.0</SectionTitle>
+
+    <BoxLarge alignment="right" image="/images/cases/nativedsd_details.png" title="Shop 2.0 - Shopify">
+      <ul>
+        <ParagraphItem>
+          We migrated all the old shop data & integrations from
+          <LinkStyled href="https://wordpress.org/">Wordpress</LinkStyled>
+          (with <LinkStyled href="https://woocommerce.com/">Woocommerce</LinkStyled>) to <LinkStyled
+            href="https://www.shopify.com/">Shopify</LinkStyled
+          >. This included integrations like payment provider (<LinkStyled href="https://stripe.com/">Stripe</LinkStyled> & <LinkStyled
+            href="https://www.mollie.com/">Mollie</LinkStyled
+          >), <LinkStyled href="https://www.intercom.com/">Intercom</LinkStyled>,
+          <LinkStyled href="https://mailchimp.com/">Mailchimp</LinkStyled>
+          and others.
+        </ParagraphItem>
+        <ParagraphItem>The platform synchronises with Shopify (via webhooks and REST APIs).</ParagraphItem>
+        <ParagraphItem>Custom Shopify embedded apps (for customers & admins)</ParagraphItem>
+        <ParagraphItem>Search Engine Optimisations. Agentic Engine Optimisations.</ParagraphItem>
+      </ul>
+    </BoxLarge>
+
+    <LetsTalkCta />
+
+    <BoxLarge alignment="left" image="/images/cases/nativedsd_about.png" title="Platform 2.0 - Custom">
+      <ul>
+        <ParagraphItem>
+          The newly built NativeDSD platform keeps all it's master data (users, customers, purchases, albums,
+          subscriptions, etc) in it's core platform.
+        </ParagraphItem>
+        <ParagraphItem>
+          The platform exposes audio data (with signed urls) and metadata via REST APIs. These API endpoints are used by
+          external systems (Shopify, Desktop catalog app, Streaming brokers) to deliver services to the NativeDSD
+          customers.
+        </ParagraphItem>
+        <ParagraphItem>
+          Additionally the platform is responsible for audio data collection delivered via FTP by partner labels and also
+          automated long term backups at scale.
+        </ParagraphItem>
+      </ul>
+    </BoxLarge>
+
+    <BoxLarge alignment="right" image="/images/cases/nativedsd_labels_dashboard.png" title="Backoffice 2.0">
+      <ul>
+        <ParagraphItem>
+          The newly built backoffice is used by the NativeDSD team to automate the importing of data, manage products &
+          publish to Shopify.
+        </ParagraphItem>
+        <ParagraphItem>
+          Additionally the web portal has separate modules used by the partner labels (ie. organisations that record and
+          publish albums) to validate, fix and deliver their audio files to resell them via the NativeDSD main shop.
+        </ParagraphItem>
+        <ParagraphItem>Integration with Claude & ecosystem for agentic workflows.</ParagraphItem>
+      </ul>
+    </BoxLarge>
+
+    <BoxLarge alignment="left" image="/images/cases/nativedsd_search.png" title="Desktop app 2.0">
+      <ul>
+        <ParagraphItem>
+          <b>Cross-Platform</b>
+          Available on macOS, Windows, and Linux. Files are sorted into clean SKU → album → resolution folders, with full
+          catalog search by album, artist, or track.
+        </ParagraphItem>
+        <ParagraphItem>
+          <b>Reliable Download Management</b>
+          Downloads queue automatically with pause support. Network interruptions are detected and resumed, with bulk
+          "Resume All" and "Retry All Failed" actions.
+        </ParagraphItem>
+        <ParagraphItem>
+          <b>Multi-Format Downloads</b>
+          Download all your purchased DSD, FLAC, and WAV music. Choose quality per album, skip individual tracks, and
+          optionally include artwork and booklets.
+        </ParagraphItem>
+      </ul>
+    </BoxLarge>
+
+    <PageText title="Highlights" />
+    <HighlightsBox>
+      <HighlightsColumn title="Project">
+        <p class="font-semibold">Sector: <span class="font-normal">Arts, entertainment &amp; music</span></p>
+        <p class="font-semibold">Work: <span class="font-normal">Backend, Frontend, Devops</span></p>
+        <p class="font-semibold">Size: <span class="font-normal"> &gt; 2 000 h</span></p>
+      </HighlightsColumn>
+      <HighlightsColumn title="Verticals">
+        <p>- Streaming</p>
+        <p>- Big data</p>
+        <p>- E-commerce</p>
+      </HighlightsColumn>
+      <HighlightsColumn title="Technologies">
+        <p>
+          - <TechIcon name="php" /> PHP / <TechIcon name="laravel" /> Laravel /
+          <TechIcon name="js" /> JS
+        </p>
+        <p>
+          - <TechIcon name="aws" /> AWS / <TechIcon name="hetzner" /> Hetzner /
+          <TechIcon name="docker" /> Docker
+        </p>
+        <p>- <TechIcon name="shopify" /> Shopify / <TechIcon name="wordpress" /> Wordpress</p>
+      </HighlightsColumn>
+    </HighlightsBox>
+  </PageCentered>
+</BaseLayout>

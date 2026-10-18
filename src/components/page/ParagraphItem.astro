@@ -1,0 +1,20 @@
+---
+import Icon from "../Icon.astro";
+
+interface Props {
+  title?: string;
+  icon?: string;
+}
+
+const { title, icon = "hero-arrow-right" } = Astro.props;
+---
+
+<li class="group flex items-start gap-2 md:gap-4 my-1.5 text-base/7 text-gray-700">
+  <span class="inline-flex h-8 items-center">
+    <Icon name={icon} class="h-4 w-4 md:h-5" />
+  </span>
+  <div>
+    {title && <p class="font-semibold tracking-tight">{title}</p>}
+    <slot />
+  </div>
+</li>

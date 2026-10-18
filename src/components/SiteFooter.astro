@@ -1,0 +1,54 @@
+---
+import ClutchSquareWidget from "./ClutchSquareWidget.astro";
+import SiteSocials from "./SiteSocials.astro";
+import { footerNavigation, type PageCategory } from "../data/pages";
+
+const columns: { category: PageCategory; title: string }[] = [
+  { category: "services", title: "Services" },
+  { category: "company", title: "Company" },
+  { category: "legal", title: "Legal" },
+];
+const year = new Date().getUTCFullYear();
+---
+
+<footer class="bg-white">
+  <div class="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
+    <div class="xl:grid xl:grid-cols-3 xl:gap-8">
+      <div class="space-y-8 flex flex-col items-center">
+        <img class="h-9" src="/images/logo.svg" alt="Remote Reason" />
+        <p class="text-balance text-sm/6 text-white font-mono bg-black p-2">
+          we build software for humans and bots<span class="animate-pulse">_</span>
+        </p>
+        <SiteSocials />
+      </div>
+      <div class="mt-16 w-full xl:col-span-2 xl:mt-0">
+        <div class="md:grid md:grid-cols-4 md:gap-8">
+          {
+            columns.map(({ category, title }) => (
+              <div>
+                <h3 class="text-sm/6 font-semibold text-gray-900 mt-4">{title}</h3>
+                <ul role="list" class="mt-2 space-y-2">
+                  {footerNavigation
+                    .filter((item) => item.category === category)
+                    .map((item) => (
+                      <li>
+                        <a href={item.url} class="text-sm/6 text-gray-600 hover:text-gray-900">
+                          {item.name}
+                        </a>
+                      </li>
+                    ))}
+                </ul>
+              </div>
+            ))
+          }
+          <div class="flex justify-start md:justify-end items-start mt-2">
+            <ClutchSquareWidget />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="mt-16 border-t border-gray-900/10 pt-8 sm:mt-20 lg:mt-24">
+      <p class="text-sm/6 text-gray-600">&copy; {year} Remote Reason. All rights reserved.</p>
+    </div>
+  </div>
+</footer>

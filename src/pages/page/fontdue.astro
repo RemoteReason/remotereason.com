@@ -1,0 +1,188 @@
+---
+import LetsTalkCta from "../../components/LetsTalkCta.astro";
+import LinkStyled from "../../components/LinkStyled.astro";
+import TechIcon from "../../components/TechIcon.astro";
+import PageCentered from "../../components/layout/PageCentered.astro";
+import BoxLarge from "../../components/page/BoxLarge.astro";
+import HeroImage from "../../components/page/HeroImage.astro";
+import HighlightsBox from "../../components/page/HighlightsBox.astro";
+import HighlightsColumn from "../../components/page/HighlightsColumn.astro";
+import PageHeading from "../../components/page/PageHeading.astro";
+import PageText from "../../components/page/PageText.astro";
+import Paragraph from "../../components/page/Paragraph.astro";
+import ParagraphItem from "../../components/page/ParagraphItem.astro";
+import SectionTitle from "../../components/page/SectionTitle.astro";
+import Testimonial from "../../components/page/Testimonial.astro";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { pages } from "../../data/pages";
+
+const page = pages.fontdue;
+---
+
+<BaseLayout title={page.title} description={page.description} openGraph={page.openGraph}>
+  <PageCentered>
+    <PageHeading
+      title="FONTDUE.COM"
+      description="Reporting, preview and invoicing engines for 100+ independent type foundries"
+    />
+    <HeroImage image="/images/cases/fontdue_about.png" />
+
+    <PageText title="The Company">
+      <Paragraph>
+        <LinkStyled href="https://www.fontdue.com">Fontdue</LinkStyled>
+        is an ecommerce platform built exclusively for independent type foundries. Since 2018 it has powered 100+ foundries
+        worldwide — including ArrowType, Fort Foundry and Letterror — handling catalog management, font licensing, <LinkStyled
+          href="https://stripe.com/">Stripe</LinkStyled
+        > payments, webfont generation, and a JavaScript component library (Fontdue.js) for type testers, cart and checkout.
+      </Paragraph>
+      <Paragraph>
+        Fontdue is white-label by design — the foundry's brand stays front and centre. It is purpose-built where generic
+        platforms like <LinkStyled href="https://www.shopify.com/">Shopify</LinkStyled> fall short: variable fonts, OpenType
+        features, multi-variable licensing and trial fonts are all first-class concepts.
+      </Paragraph>
+    </PageText>
+
+    <PageText title="The project">
+      <Paragraph>
+        Fontdue is a mature platform with a global foundry customer base. Our engagement focused on <b
+          >quality-of-life improvements</b
+        > — features that move shop owners from "can I make this work?" to "this is exactly the data and tooling I need."
+      </Paragraph>
+      <Paragraph>
+        We delivered three workstreams with Fontdue's core team:
+        <ul>
+          <ParagraphItem icon="hero-check">
+            a <b>reporting & analytics system</b>
+            for shop income, sales velocity, top-performing fonts and license mix
+          </ParagraphItem>
+          <ParagraphItem icon="hero-check">
+            a <b>font preview mechanism</b>
+            for verifying how fonts and families present to customers before publishing
+          </ParagraphItem>
+          <ParagraphItem icon="hero-check">
+            <b>invoice generation improvements and data export</b>
+            for accounting, tax filing and customer support
+          </ParagraphItem>
+        </ul>
+      </Paragraph>
+      <Paragraph>
+        Each improvement slots into Fontdue's existing admin with no breaking changes and no disruption to foundries
+        already on the platform.
+      </Paragraph>
+    </PageText>
+
+    <Testimonial
+      description="Remote Reason's work has provided quality-of-life improvements and unlocked new sales potential for the client's end customers. The team has delivered on time, onboarded quickly, and communicated through texts and video calls. Their autonomy and problem-solving skills have impressed the client."
+      image="/images/cases/tom.jpeg"
+      name="Tom Conroy"
+      position="CEO & Founder, Fontdue"
+      clutch="https://clutch.co/profile/remote-reason#review-381654"
+    />
+
+    <SectionTitle>What we delivered</SectionTitle>
+
+    <BoxLarge alignment="left" image="/images/cases/fontdue_graph.png" title="Reporting system with Apache ECharts">
+      Foundries could see individual orders but had no way to ask higher-level questions about their business. We built a
+      reporting module powered by <LinkStyled href="https://echarts.apache.org/">Apache ECharts</LinkStyled>.
+      <ul>
+        <ParagraphItem title="Revenue dashboards">
+          Gross revenue, net of fees, by day, week, month or custom range with period comparisons.
+        </ParagraphItem>
+        <ParagraphItem title="Sales volume & velocity">
+          Orders per day, units sold per font, conversion across the catalog.
+        </ParagraphItem>
+        <ParagraphItem title="Top-performing fonts & families">
+          Ranked tables and charts of top collections, families and styles by revenue.
+        </ParagraphItem>
+        <ParagraphItem title="License mix analytics">
+          Distribution of license types, variable selections and average order value per tier.
+        </ParagraphItem>
+        <ParagraphItem title="Geographic & currency breakdown">
+          Sales by country and currency, including Purchasing Power Parity pricing.
+        </ParagraphItem>
+        <ParagraphItem title="Interactive filtering">
+          Filter by date, collection, license and currency, with CSV export.
+        </ParagraphItem>
+      </ul>
+    </BoxLarge>
+
+    <LetsTalkCta />
+
+    <BoxLarge alignment="right" image="/images/cases/fontdue_font.png" title="Font preview mechanism for shop owners">
+      Foundries upload fonts continuously and need to confirm what the customer will see before hitting publish. We built
+      an internal preview tool that renders the live catalog with full QA controls.
+      <ul>
+        <ParagraphItem title="Family- and collection-level previews">
+          Every style in a family side-by-side, with waterfall and per-style toggles.
+        </ParagraphItem>
+        <ParagraphItem title="Variable font axis controls">
+          Interactive sliders for every registered axis (weight, width, optical size, custom).
+        </ParagraphItem>
+        <ParagraphItem title="OpenType feature inspection">
+          Toggle stylistic sets, alternates, ligatures and numerals before publishing.
+        </ParagraphItem>
+        <ParagraphItem title="Glyph & character coverage view">
+          Visual confirmation of glyphs and Unicode ranges per file.
+        </ParagraphItem>
+        <ParagraphItem title="Side-by-side version comparison">
+          Preview updated files against the current published version to catch regressions.
+        </ParagraphItem>
+        <ParagraphItem title="Trial vs. retail comparison">
+          See how the trial font differs from the retail file customers receive.
+        </ParagraphItem>
+      </ul>
+    </BoxLarge>
+
+    <BoxLarge alignment="left" image="/images/cases/fontdue_doc.png" title="Invoice generation & data export">
+      Invoices connect Fontdue to a foundry's accounting and tax workflows. We rebuilt the invoice pipeline and added bulk
+      export to remove monthly copy-paste work.
+      <ul>
+        <ParagraphItem title="Redesigned PDF invoices">
+          Brand-consistent layout with foundry and customer details, license breakdown, currency, tax and <LinkStyled
+            href="https://stripe.com/">Stripe</LinkStyled
+          >
+          reference.
+        </ParagraphItem>
+        <ParagraphItem title="Multi-currency & tax-compliant">
+          VAT/sales tax line items via <LinkStyled href="https://stripe.com/tax">Stripe Tax</LinkStyled>, with
+          country-specific formatting for EU e-invoicing.
+        </ParagraphItem>
+        <ParagraphItem title="License-aware line items">
+          Each license appears with its variable selections (e.g. <em>Desktop, 11–50 employees, example.com</em>).
+        </ParagraphItem>
+        <ParagraphItem title="Bulk regeneration">
+          Reissue invoices in batch when foundry details change, without touching individual orders.
+        </ParagraphItem>
+        <ParagraphItem title="Data export for accounting">
+          One-click CSV/Excel export of orders, customers and revenue, ready for Xero / QuickBooks / accountants.
+        </ParagraphItem>
+        <ParagraphItem title="Customer-facing invoice retrieval">
+          Buyers can re-download invoices from the login form, eliminating inbound tickets.
+        </ParagraphItem>
+      </ul>
+    </BoxLarge>
+
+    <PageText title="Highlights" />
+    <HighlightsBox>
+      <HighlightsColumn title="Project">
+        <p class="font-semibold">Sector: <span class="font-normal">E-commerce / SaaS for type foundries</span></p>
+        <p class="font-semibold">Work: <span class="font-normal">Backend, Frontend, Data visualisation</span></p>
+        <p class="font-semibold">Size: <span class="font-normal"> &gt; 300h</span></p>
+      </HighlightsColumn>
+      <HighlightsColumn title="Verticals">
+        <p>- E-commerce</p>
+        <p>- Type design & font distribution</p>
+        <p>- Reporting & analytics</p>
+        <p>- Invoicing & financial operations</p>
+      </HighlightsColumn>
+      <HighlightsColumn title="Technologies">
+        <p>- <TechIcon name="js" /> JavaScript / <TechIcon name="react" /> React</p>
+        <p>- <TechIcon name="echarts" /> Apache ECharts</p>
+        <p>- <TechIcon name="graphql" /> GraphQL</p>
+        <p>- <TechIcon name="stripe" /> Stripe</p>
+        <p>- <TechIcon name="pdf" /> PDF</p>
+        <p>- <TechIcon name="csv" /> CSV / Excel</p>
+      </HighlightsColumn>
+    </HighlightsBox>
+  </PageCentered>
+</BaseLayout>
